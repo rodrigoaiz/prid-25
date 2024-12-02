@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  .menu > li span { opacity: 0.6; }
+.submenu {
+  display: none;
+}
+
+.group:hover .submenu {
+  display: block;
+}
+
+@media (min-width: 1280px) {
+  .submenu {
+    display: none;
+  }
+}
