@@ -11,15 +11,17 @@ include './menu.php';
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menú Dinámico</title>
+  <title>Prid</title>
   <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body class="bg-gray-100">
-  <nav class="p-4 bg-red-900 text-white relative">
-    <?php renderMenu($menu); ?>
-  </nav>
+
+  <?php renderMenu($menu); ?>
+
   <script src="js/bundle.js"></script>
+
+
 
 </body>
 

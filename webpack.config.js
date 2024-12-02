@@ -36,6 +36,14 @@ module.exports = {
           from: 'src/menu.json', // Copia el archivo menu.json
           to: '[path][name][ext]', // Mantiene la ubicación relativa
         },
+        {
+          from: 'src/assets/img/**/*.{jpg,jpeg,png,gif,svg,webp}', // Copia todas las imágenes
+          to: 'assets/img/[name][ext]', // Carpeta de destino en `dist`
+        },
+        {
+          from: 'src/assets/docs/**/*.{doc,docx,pdf,xls}', // Copia todas las imágenes
+          to: 'assets/docs/[name][ext]', // Carpeta de destino en `dist`
+        },
       ],
     }),
   ],

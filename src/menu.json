@@ -16,7 +16,7 @@
     },
     "Módulo 2": {
       "url": "/modulo-2",
-      "publicado": false
+      "publicado": true
     },
     "Módulo 3": {
       "url": "/modulo-3",
@@ -26,11 +26,11 @@
       "url": "/modulo-4",
       "publicado": false
     },
-    "Cronograma": {
+    "Cronográma": {
       "url": "/coronograma.pdf",
       "publicado": false
     },
-    "Lineamientos y criterios de acreditación": {
+    "Lineamientos": {
       "url": "/lineamientos.pdf",
       "publicado": false
     }
