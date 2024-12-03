@@ -5,7 +5,7 @@ include_once 'config.php';
 $menuData = json_decode(file_get_contents(BASE_PATH . '/menu.json'), true);
 $menu = $menuData['menu'];
 
-include './include/menu.php';
+include BASE_PATH . '/include/menu.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
