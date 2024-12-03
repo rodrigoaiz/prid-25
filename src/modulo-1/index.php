@@ -1,11 +1,11 @@
 <?php
-include_once 'config.php';
+include_once '../config.php';
 
 // Cargar el menú desde el JSON
 $menuData = json_decode(file_get_contents(BASE_PATH . '/menu.json'), true);
 $menu = $menuData['menu'];
 
-include './include/menu.php';
+include BASE_PATH . '/include/menu.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,10 +20,8 @@ include './include/menu.php';
 <body class="bg-gray-100">
 
   <?php renderMenu($menu); ?>
-  este es el iniciio
+  este es el modulo 1
   <script src="js/bundle.js"></script>
-
-
 
 </body>
 

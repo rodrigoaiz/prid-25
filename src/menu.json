@@ -1,7 +1,7 @@
 {
   "menu": {
     "Módulo 1": {
-      "url": "/modulo-1",
+      "url": "./modulo-1",
       "publicado": true,
       "paginas": [
         {"nombre": "Portada", "url": "/", "id": 0},
