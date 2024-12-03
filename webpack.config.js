@@ -19,6 +19,10 @@ module.exports = {
           'postcss-loader',
         ],
       },
+      {
+        test: /\.php$/,
+        type: 'asset/resource', // Maneja archivos PHP como recursos estáticos
+      },
     ],
   },
   plugins: [
@@ -30,7 +34,10 @@ module.exports = {
       patterns: [
         {
           from: 'src/**/*.php', // Copia todos los archivos PHP
-          to: '[name][ext]', // Respeta la estructura de carpetas
+          to: ({ context, absoluteFilename }) => {
+            const relativePath = path.relative(context, absoluteFilename);
+            return relativePath.replace('src/', ''); // Elimina 'src/' del path
+          },
         },
         {
           from: 'src/menu.json', // Copia el archivo menu.json
@@ -41,7 +48,7 @@ module.exports = {
           to: 'assets/img/[name][ext]', // Carpeta de destino en `dist`
         },
         {
-          from: 'src/assets/docs/**/*.{doc,docx,pdf,xls}', // Copia todas las imágenes
+          from: 'src/assets/docs/**/*.{doc,docx,pdf,xls}', // Copia todos los documentos
           to: 'assets/docs/[name][ext]', // Carpeta de destino en `dist`
         },
       ],

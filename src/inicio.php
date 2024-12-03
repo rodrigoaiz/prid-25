@@ -3,7 +3,7 @@
 $menuData = json_decode(file_get_contents('menu.json'), true);
 $menu = $menuData['menu'];
 
-include './menu.php';
+include './include/menu.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
