@@ -5,14 +5,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const links = document.querySelectorAll('nav ul li a');
     const pageNameElement = document.getElementById('page-name');
 
-    links.forEach(link => {
-        link.addEventListener('mouseover', function() {
-            const pageName = this.getAttribute('data-nombre');
-            pageNameElement.textContent = pageName;
-        });
+    if (pageNameElement) {
+        links.forEach(link => {
+            link.addEventListener('mouseover', function() {
+                const pageName = this.getAttribute('data-nombre');
+                pageNameElement.textContent = pageName;
+            });
 
-        link.addEventListener('mouseout', function() {
-            pageNameElement.textContent = '';
+            link.addEventListener('mouseout', function() {
+                pageNameElement.textContent = '';
+            });
         });
-    });
+    }
 });

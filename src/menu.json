@@ -3,6 +3,7 @@
     "Módulo 1": {
       "url": "./modulo-1",
       "publicado": true,
+      "nombre": "Módulo 1 el inicio del cch",
       "paginas": [
         {"nombre": "Portada", "url": "/", "id": 0},
         {"nombre": "El CCH en el contexto universitario y nacional", "url": "/modulo-1/1.php", "id": 1},

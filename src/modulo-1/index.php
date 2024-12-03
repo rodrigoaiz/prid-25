@@ -1,5 +1,7 @@
 <?php
 include_once '../config.php';
+include BASE_PATH . '/include/header1.php';
+include BASE_PATH . '/include/header2.php';
 
 // Cargar el menú desde el JSON
 $menuData = json_decode(file_get_contents(BASE_PATH . '/menu.json'), true);
@@ -11,14 +13,7 @@ include BASE_PATH . '/include/navegacion.php';
 // ID de la página actual (puedes obtenerlo de la URL o de otra fuente)
 $currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 ?>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prid</title>
-  <link href="css/styles.css" rel="stylesheet">
+<title>Inicio chido</title>
 </head>
 
 <body class="bg-gray-100">
@@ -29,3 +24,11 @@ $currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
   <script src="js/bundle.js"></script>
 
 </body>
+
+<?php
+require_once BASE_PATH . '/include/footer.php';
+?>
+
+<?php
+require_once BASE_PATH . '/include/footer2.php';
+?>
