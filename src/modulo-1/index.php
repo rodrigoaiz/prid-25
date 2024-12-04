@@ -38,7 +38,18 @@ include BASE_PATH . '/include/navegacion.php';
   <?php renderMenuMoodle(); ?>
   <main>
     <section class="max-w-screen-lg">
-      <h1>Este es el modulo 1</h1>
+      <h1>Módulo uno</h1>
+      <h2>Modelo Educativo del Colegio</h2>
+      <div class="grid grid-cols-2 items-center gap-5">
+        <img src="<?php echo BASE_PATH . '/img/modulo-1/bloque2.jpg' ?>" alt="">
+        <div class="bg-bluelightown">
+          <ul class="list-disc">
+            <li>Comprender los postulados del Modelo Educativo y el concepto de Cultura Básica.</li>
+            <li>Determinar la importancia de la ética en el ejercicio de la docencia en el CCH en el CCH e identificar los principales derechos y obligaciones de los profesores dentro de la UNAM y el CCH.</li>
+            <li>Reflexionar sobre la propia práctica docente con base en los postulados del Modelo Educativo del CCH.</li>
+          </ul>
+        </div>
+      </div>
 
     </section>
   </main>

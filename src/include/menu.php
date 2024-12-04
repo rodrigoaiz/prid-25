@@ -4,7 +4,7 @@
   {
     $currentUrl = $_SERVER['REQUEST_URI']; // URL actual
     echo '<nav id="nav-menu" class="items-center py-2 gap-y-2 flex flex-col lg:flex-row justify-between px-4 xl:py-5">';
-    echo '<div class="order-0"><img src="' . CSS_URL . '/img/logo.svg" alt="Logo" class="w-44 mx-auto"></div>';
+    echo '<div class="order-0"><img src="' . ASSET_URL . '/img/logo.svg" alt="Logo" class="w-44 mx-auto"></div>';
 
     echo '<ul class="grid grid-cols-2 sm:grid-cols-4 md:flex md:flex-row gap-3 text-light font-semibold uppercase">';
     foreach ($menu as $modulo => $detalles) {

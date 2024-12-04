@@ -15,7 +15,7 @@ $legalText = $menuData['legal'];
             <div class="text-center md:mb-0 md:text-left flex items-center">
                 <div class="flex items-center">
                     <a href="/">
-                        <img src="<?php echo CSS_URL . '/img/logo.svg' ?>" alt="">
+                        <img src="<?php echo ASSET_URL . '/img/logo.svg' ?>" alt="">
                     </a>
                 </div>
                 <div class="w-full flex gap-2 mt-7 items-center justify-between">
