@@ -41,7 +41,7 @@ include BASE_PATH . '/include/navegacion.php';
       <h1>Módulo uno</h1>
       <h2>Modelo Educativo del Colegio</h2>
       <div class="grid grid-cols-2 items-center gap-5">
-        <img src="<?php echo BASE_PATH . '/img/modulo-1/bloque2.jpg' ?>" alt="">
+        <img src="<?php echo ASSET_URL . 'img/modulo-1/bloque2.jpg' ?>" alt="">
         <div class="bg-bluelightown">
           <ul class="list-disc">
             <li>Comprender los postulados del Modelo Educativo y el concepto de Cultura Básica.</li>

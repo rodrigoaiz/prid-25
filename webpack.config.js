@@ -45,7 +45,10 @@ module.exports = {
         },
         {
           from: 'src/assets/img/**/*.{jpg,jpeg,png,gif,svg,webp}', // Copia todas las imágenes
-          to: 'assets/img/[name][ext]', // Carpeta de destino en `dist`
+          to: ({ context, absoluteFilename }) => {
+            const relativePath = path.relative(context, absoluteFilename);
+            return relativePath.replace('src/', ''); // Elimina 'src/' del path
+          },
         },
         {
           from: 'src/assets/icons/*.svg', // Copia todas las imágenes

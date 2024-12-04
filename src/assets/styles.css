@@ -32,13 +32,13 @@
 
 }
 @layer components {
-  main {
+  section {
     @apply mt-1 xl:mt-5 mx-auto;
     h1, h2, h3{
       @apply mb-1 xl:mb-3;
     }
     p {
-      @apply leading-relaxed text-base;
+      @apply leading-relaxed;
       &:not(:last-child) {
         @apply mb-2;
       }

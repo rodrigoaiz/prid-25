@@ -28,7 +28,7 @@ $currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
       <p>Para el Colegio de Ciencias y Humanidades es fundamental contar con una planta docente comprometida con el aprendizaje de las y los estudiantes, y que posea una sólida formación disciplinaria, pedagógica y didáctica.</p>
       <p>Por ello, pone a disposición de la comunidad docente de reciente ingreso el Programa De Regularización e Iniciación a la Docencia, el cual tiene como objetivo comprender el Modelo Educativo del CCH y, a partir de sus postulados, fortalecer la reflexión sobre el quehacer docente, la adquisición de conocimientos, habilidades disciplinarias, didácticas, pedagógicas y principios éticos para impartir alguna de las materias del Plan de Estudios vigente de las Áreas y Departamentos Académicos del CCH.</p>
       <h3 class="text-2xl">El Programa está conformado por cuatro módulos de trabajo:</h3>
-      <ul class="list-disc text-xl gap-3 flex flex-col">
+      <ul class="list-disc text-xl gap-3 flex flex-col mb-3">
         <li>Modelo Educativo del Colegio (30 h).</li>
         <li>La metodología didáctica en las áreas del Colegio (20 h).</li>
         <li>Taller de planeación didáctica (30 h).</li>
