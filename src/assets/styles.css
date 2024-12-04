@@ -3,31 +3,45 @@
 @tailwind utilities;
 
 :root {
-  --red: 230 57 70;
-  --light: 241 250 238;
-  --darkest-blue: 8 20 36;
-  --pink-own: 252 207 190;
-  --purple-own: 110 63 106;
-  --blue-own: 117 144 162;
-  --css-red-own: rgb(230 57 70);
-  --css-ownwhite: rgb(241 250 238);
-  --css-darkest-blue: rgb(8 20 36);
-  --css-pink: rgb(252, 207, 190);
-  --css-purple: rgb(110, 63, 106);
-  --css-blue: rgb(117, 144, 162);
+  --green-own: 73 177 135;
+  --purple-own: 79 52 75;
+  --purple-alt-own: 105 76 101;
+  --orange-own: 255 106 61;
+  --orange-alt-own: 223 86 45;
+  --yellow-own: 244 218 124;
+  --blue-own: 26 34 56;
+  --blue-light-own: 157 170 242;
+  --dark-own: 43 43 43;
+  --pink-own: 218 17 191;
   --headings-xxl: clamp(4rem, 3.5vw, 3rem);
   --headings-xl: clamp(1.7rem, 2.1vw, 2.2rem);
   --headings-lg: clamp(1.4rem, 1.7vw, 1.9rem);
   --font-titulos: "Quicksand", sans-serif;
   --font-cuerpo: "Open Sans", sans-serif;
   --transition-smooth: ease-in-out 0.5s all;
+  --css-green: rgb(73, 177, 135);
+  --css-purple: rgb(79, 52, 75);
+  --css-purple-alt: rgb(105, 76, 101);
+  --css-orange: rgb(255, 106, 61);
+  --css-orange-alt: rgb(223, 86, 45);
+  --css-yellow: rgb(244, 218, 124);
+  --css-blue: rgb(26, 34, 56);
+  --css-blue-light: rgb(157, 170, 242);
+  --css-dark: rgb(43, 43, 43);
+  --css-pink: rgb(218, 17, 191);
+
 }
 @layer components {
-  .seccion {
-    @apply py-4 xl:py-8;
-    h2 {
-      @apply text-white text-center text-3xl md:text-5xl;
-      font-family: var(--font-titulos);
+  section {
+    @apply mt-1 xl:mt-5 mx-auto;
+    h1, h2, h3{
+      @apply mb-1 xl:mb-3;
+    }
+    p {
+      @apply leading-relaxed text-base;
+      &:not(:last-child) {
+        @apply mb-2;
+      }
     }
   }
 }
@@ -50,6 +64,14 @@ body {
   margin: 0;
   padding: 0;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-titulos);
+  font-weight: 700;
+}
+
+section{
+
+}
 
 /* styles.css */
 nav ul {
@@ -58,7 +80,7 @@ nav ul {
 
 nav ul li a.active {
     font-weight: bold;
-    color: red;
+    color: var(--css-orange-alt)
 }
 
 .navigation-buttons {
@@ -79,6 +101,16 @@ nav ul li a.active {
 }
 
 #footer {
-   margin-top: auto;
-    width: 100%;
+  background-color: var(--css-orange-alt);
+  margin-top: auto;
+  width: 100%;
+}
+#nav-moodle{
+  background-color: var(--css-green);
+  color: var(--css-dark);
+}
+#nav-menu {
+  background-color: var(--css-blue);
+  color: var(--css-blue-light);
+  font-family: var(--font-titulos);
 }

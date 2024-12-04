@@ -9,7 +9,7 @@ $socialMenu = $menuData['social'];
 $legalText = $menuData['legal'];
 ?>
 
-<footer id="footer" class="bg-blue-800 mt-10 text-white">
+<footer id="footer" class="mt-10 text-white">
     <div class="container mx-auto text-darkblue">
         <div class="grid grid-cols-4 py-10">
             <div class="text-center md:mb-0 md:text-left flex items-center">
@@ -25,7 +25,7 @@ $legalText = $menuData['legal'];
                 <ul class=" flex gap-3 items-center ">
                     <?php foreach ($footerMenu as $menu): ?>
                         <li class="inline-block">
-                            <a class="hover:text-orange-500 transition-all" href="<?php echo $menu['url']; ?>">
+                            <a class="hover:text-yellowown transition-all" href="<?php echo $menu['url']; ?>">
                                 <?php echo $menu['nombre']; ?>
                             </a>
                         </li>

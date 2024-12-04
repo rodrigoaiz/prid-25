@@ -3,7 +3,7 @@
   function renderMenu($menu)
   {
     $currentUrl = $_SERVER['REQUEST_URI']; // URL actual
-    echo '<nav class="items-center py-2 gap-y-2 flex flex-col lg:flex-row justify-between bg-blue-900 text-white px-4 xl:py-5">';
+    echo '<nav id="nav-menu" class="items-center py-2 gap-y-2 flex flex-col lg:flex-row justify-between px-4 xl:py-5">';
     echo '<div class="order-0"><img src="' . CSS_URL . '/img/logo.svg" alt="Logo" class="w-44 mx-auto"></div>';
 
     echo '<ul class="grid grid-cols-2 sm:grid-cols-4 md:flex md:flex-row gap-3 text-light font-semibold uppercase">';
@@ -13,7 +13,7 @@
       echo '<li class="">';
       if ($detalles['publicado']) {
         // Si el módulo está publicado, genera un enlace
-        echo "<a href='{$detalles['url']}' class='menu-item " . ($isActiveModule ? "bg-blue-700 text-white" : "text-blue-100 items-center transition-all") . "'>{$modulo}</a>";
+        echo "<a href='{$detalles['url']}' class='menu-item " . ($isActiveModule ? "bg-red-500" : "hover:bg-orange-500 px-1 text-blue-100 items-center transition-all") . "'>{$modulo}</a>";
       } else {
         // Si no está publicado, muestra un texto no clicable
         echo "<span class='text-gray-400 cursor-not-allowed'>{$modulo}</span>";

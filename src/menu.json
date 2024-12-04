@@ -39,11 +39,11 @@
   "footer": {
     "aviso": {
       "nombre": "Aviso",
-      "url": "/aviso-legal.php"
+      "url": "https://portalacademico.cch.unam.mx/aviso-legal"
     },
     "creditos": {
       "nombre": "Créditos",
-      "url": "/creditos.php"
+      "url": "https://portalacademico.cch.unam.mx/creditos"
     },
     "calendario": {
       "nombre": "Calendario",
