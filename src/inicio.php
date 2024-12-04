@@ -8,7 +8,7 @@ $menuData = json_decode(file_get_contents(BASE_PATH . '/menu.json'), true);
 $menu = $menuData['menu'];
 
 include BASE_PATH . '/include/menu.php';
-include BASE_PATH . '/include/navegacion.php';
+
 
 // ID de la página actual (puedes obtenerlo de la URL o de otra fuente)
 $currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
@@ -22,6 +22,7 @@ $currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 <body class="bg-gray-100">
 
   <?php renderMenu($menu); ?>
+  <?php renderMenuMoodle(); ?>
   este es el iniciios
   <div class="row">
     <ol>

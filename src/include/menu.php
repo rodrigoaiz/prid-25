@@ -26,4 +26,9 @@
     echo '</nav>';
   }
   ?>
+  <?php
+    function renderMenuMoodle() {
+        require_once BASE_PATH . '/include/menuMoodle.php';
+    }
+  ?>
 </header>
