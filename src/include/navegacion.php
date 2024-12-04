@@ -20,15 +20,15 @@ function renderNavegacion($moduloId, $currentPageId) {
     // Generar navegación
     echo "<nav class='w-100 flex items-center justify-center'><ul class='flex flex-row items-center gap-1'>";
     if ($prevPage) {
-        echo "<a href='{$prevPage['url']}' class='btn prev'>Atrás</a>";
+        echo "<a href='{$prevPage['url']}'><img src='./assets/icons/chevron-compact-left.svg' /></a>";
     }
     foreach ($paginas as $pagina) {
         $activeClass = ($pagina['id'] == $currentPageId) ? 'class="active"' : '';
-        $linkText = ($pagina['id'] == 0) ? '<img src="./assets/img/home.svg" alt="Home">' : $pagina['id'];
+        $linkText = ($pagina['id'] == 0) ? '<img src="./assets/icons/house.svg" alt="Home">' : $pagina['id'];
         echo "<li><a href='{$pagina['url']}' alt='{$pagina['nombre']}' $activeClass data-nombre='{$pagina['nombre']}'>{$linkText}</a></li>";
     }
     if ($nextPage) {
-        echo "<a href='{$nextPage['url']}' class='bg-slate-300'><img src='./assets/img/next.svg' /></a>";
+        echo "<a href='{$nextPage['url']}'><img src='./assets/icons/chevron-compact-right.svg' /></a>";
     }
     echo "</ul></nav>";
 

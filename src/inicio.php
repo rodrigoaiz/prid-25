@@ -34,7 +34,7 @@ $currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
         <li>Taller de planeación didáctica (30 h).</li>
         <li>Aplicación y evaluación de la planeación de una clase (40 h).</li>
       </ul>
-      <div class="text-2xl my-5 text-center text-blueown font-bold bg-bluelightown px-2 py-3">
+      <div class="text-2xl xl:my-10 text-center text-blueown font-bold bg-bluelightown px-2 py-3 max-w-screen-md mx-auto shadow-xl">
         Te invitamos a conocer uno de los proyectos educativos de nivel medio superior más importantes del país; que, a lo largo de sus más de cincuenta años de existencia, ha formado ciudadanos y ciudadanas capaces de incidir en la transformación de su contexto.
       </div>
     </section>
