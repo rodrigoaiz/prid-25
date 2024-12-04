@@ -19,6 +19,7 @@ $currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 <body class="bg-gray-100">
 
   <?php renderMenu($menu); ?>
+  <?php renderMenuMoodle(); ?>
   <h1>Este es el modulo 1</h1>
   <?php renderNavegacion(1, $currentPageId); ?>
   <script src="js/bundle.js"></script>
