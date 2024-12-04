@@ -1,55 +1,53 @@
-﻿        <footer class="course__footer">
-            <div class="container">
-                <div class="row align-items-center justify-content-between m-0 p-0">
-                    <div class="col-lg-4">
-                        <div class="row align-items-center justify-content-between">
-                            <div class="col-6">
-                                <img class="img-fluid" src="../../../assets/images/logo-pel.svg">
-                            </div>
-                            <div class="col-3">
-                                <img class="img-fluid" src="../../../assets/images/logo-cch.svg">
-                            </div>
-                            <div class="col-3">
-                                <img class="img-fluid" src="../../../assets/images/logo-unam.svg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <p class="course__footer--text">Universidad Nacional Autónoma de México. Ciudad Universitaria, Delegación Coyoacán, C. P. 04510, México, Ciudad de México.</p>
-                        <p class="course__footer--text">Este sitio web puede ser utilizado con fines no lucrativos siempre que se cite la fuente de conformidad con el Aviso Legal.</p>
-                    </div>
-                </div>
-            </div>
-            <hr class="w-100 my-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        © 2023 | Escuela Nacional Colegio de Ciencias y Humanidades | Portal Académico
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="row align-items-center justify-content-between">
-                            <div class="col-lg-7 d-flex flex-row justify-content-around">
-                                <a href="#">Inicio</a>
-                                <a href="#">Asignaturas</a>
-                                <a href="#">Acerca de</a>
-                            </div>
-                            <div class="col-lg-4 d-flex flex-row justify-content-around">
-                                <a href="">
-                                    <i class="ri-facebook-line"></i>
-                                </a>
-                                <a href="">
-                                    <i class="ri-youtube-fill"></i>
-                                </a>
-                                <a href="">
-                                    <i class="ri-instagram-line"></i>
-                                </a>
-                                <a href="">
-                                    <i class="ri-twitter-x-line"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+﻿<?php
+// Ruta al archivo menu.json
+$menuPath = BASE_PATH . '/menu.json';
+$menuData = json_decode(file_get_contents($menuPath), true);
 
+// Obtener los arrays de footer, social y legal
+$footerMenu = $menuData['footer'];
+$socialMenu = $menuData['social'];
+$legalText = $menuData['legal'];
+?>
+
+<footer id="footer" class="bg-blue-800 mt-10 text-white">
+    <div class="container mx-auto text-darkblue">
+        <div class="grid grid-cols-4 py-10">
+            <div class="text-center md:mb-0 md:text-left flex items-center">
+                <div class="flex items-center">
+                    <a href="/">
+                        <img src="<?php echo CSS_URL . '/img/logo.svg' ?>" alt="">
+                    </a>
+                </div>
+                <div class="w-full flex gap-2 mt-7 items-center justify-between">
+                </div>
             </div>
-        </footer>
+            <div class="col-span-2 flex items-center md:mb-0 justify-center">
+                <ul class=" flex gap-3 items-center ">
+                    <?php foreach ($footerMenu as $menu): ?>
+                        <li class="inline-block">
+                            <a class="hover:text-orange-500 transition-all" href="<?php echo $menu['url']; ?>">
+                                <?php echo $menu['nombre']; ?>
+                            </a>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+            <div class="flex items-center lg:mb-0 lg:mt-0 justify-end">
+                <ul class="flex flex-row gap-4 ">
+                    <?php foreach ($socialMenu as $socialItem): ?>
+                        <li>
+                            <a class="transition-all" href="<?php echo $socialItem['link']; ?>" target="_blank" rel="noopener noreferrer">
+                                <img class="invert" src="<?php echo PATH_ICONS . '/' . $socialItem['icon']; ?>" alt="<?php echo $socialItem['icon']; ?>" />
+                            </a>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="border-t border-border py-7 border-dark">
+        <div class="container text-center text-dark mx-auto">
+            <p>&copy; <?php echo date('Y'); ?> <?php echo $legalText['texto']; ?></p>
+        </div>
+    </div>
+</footer>

@@ -31,6 +31,13 @@
     }
   }
 }
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 html {
   scroll-behavior: smooth;
   transition: ease-in-out 0.5s;
@@ -69,4 +76,9 @@ nav ul li a.active {
 
 .navigation-buttons .btn:hover {
     background-color: #0056b3;
+}
+
+#footer {
+   margin-top: auto;
+    width: 100%;
 }

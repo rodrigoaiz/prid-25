@@ -48,6 +48,10 @@ module.exports = {
           to: 'assets/img/[name][ext]', // Carpeta de destino en `dist`
         },
         {
+          from: 'src/assets/icons/*.svg', // Copia todas las imágenes
+          to: 'assets/icons/[name][ext]', // Carpeta de destino en `dist`
+        },
+        {
           from: 'src/assets/docs/**/*.{doc,docx,pdf,xls}', // Copia todos los documentos
           to: 'assets/docs/[name][ext]', // Carpeta de destino en `dist`
         },
