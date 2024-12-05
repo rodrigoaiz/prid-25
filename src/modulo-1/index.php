@@ -39,29 +39,64 @@ include BASE_PATH . '/include/navegacion.php';
   <main>
     <section class="max-w-screen-lg">
       <h1>Módulo uno</h1>
-      <h2>Modelo Educativo del Colegio</h2>
-      <div class="grid grid-cols-2 items-center gap-5">
+      <div class="grid grid-cols-2 items-center gap-10 my-10">
         <img src="<?php echo ASSET_URL . 'img/modulo-1/bloque2.jpg' ?>" alt="">
-        <div class="bg-bluelightown">
-          <ul class="list-disc">
-            <li>Comprender los postulados del Modelo Educativo y el concepto de Cultura Básica.</li>
-            <li>Determinar la importancia de la ética en el ejercicio de la docencia en el CCH en el CCH e identificar los principales derechos y obligaciones de los profesores dentro de la UNAM y el CCH.</li>
-            <li>Reflexionar sobre la propia práctica docente con base en los postulados del Modelo Educativo del CCH.</li>
-          </ul>
-        </div>
+        <article class="text-center bg-orangeown p-4">
+          <span class="text-3xl text-dark">Modelo Educativo del Colegio</span>
+        </article>
       </div>
-
+      <div class="grid grid-cols-2 gap-10">
+        <article>
+          <h3 class="text-orangeown">Objetivos</h3>
+          <div class="bg-bluelightown text-darkown p-5">
+            <ul class="list-disc ml-5 flex flex-col gap-3">
+              <li>Comprender los postulados del Modelo Educativo y el concepto de Cultura Básica.</li>
+              <li>Determinar la importancia de la ética en el ejercicio de la docencia en el CCH e identificar los principales derechos y obligaciones de los profesores dentro de la UNAM y el CCH.</li>
+              <li>Reflexionar sobre la propia práctica docente con base en los postulados del Modelo Educativo del CCH.</li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <h3 class="text-orangeown mt-2">Temáticas</h3>
+          <div class="bg-bluelightown text-darkown p-5">
+            <ul class="list-disc ml-5 flex flex-col gap-3">
+              <li>Postulados</li>
+              <li>Cultura Básica</li>
+              <li>Ética y marco normativo de la docencia en la UNAM y el CCH</li>
+              <li>Derechos y obligaciones (alumnado y profesorado)</li>
+              <li>Autorreconocimiento de la práctica docente</li>
+            </ul>
+          </div>
+        </article>
+      </div>
     </section>
   </main>
-  <?php renderNavegacion(1, $currentPageId); ?>
+  <?php
+  // Función para eliminar BOM
+  function removeBOM($text)
+  {
+    if (substr($text, 0, 3) === "\xEF\xBB\xBF") {
+      $text = substr($text, 3);
+    }
+    return $text;
+  }
+
+  // Capturar y limpiar la salida de renderNavegacion
+  ob_start();
+  renderNavegacion(1, $currentPageId);
+  $navegacionContent = ob_get_clean();
+  echo removeBOM($navegacionContent);
+  ?>
   <script src="js/bundle.js"></script>
+  <?php
+  // Incluir archivos sin BOM
+  ob_start();
+  require_once BASE_PATH . '/include/footer.php';
+  $footerContent = ob_get_clean();
+  echo removeBOM($footerContent);
 
-</body>
-
-<?php
-require_once BASE_PATH . '/include/footer.php';
-?>
-
-<?php
-require_once BASE_PATH . '/include/footer2.php';
-?>
+  ob_start();
+  require_once BASE_PATH . '/include/footer2.php';
+  $footer2Content = ob_get_clean();
+  echo removeBOM($footer2Content);
+  ?>

@@ -18,3 +18,23 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+// Eliminar BOM si está presente
+function removeBOM(text) {
+    if (text.charCodeAt(0) === 0xFEFF) {
+        return text.slice(1);
+    }
+    return text;
+}
+
+// Aplicar la eliminación del BOM a todos los elementos del DOM
+document.addEventListener('DOMContentLoaded', function() {
+    function removeBOMFromElement(element) {
+        if (element.nodeType === Node.TEXT_NODE) {
+            element.textContent = removeBOM(element.textContent);
+        } else {
+            element.childNodes.forEach(removeBOMFromElement);
+        }
+    }
+
+    removeBOMFromElement(document.body);
+});

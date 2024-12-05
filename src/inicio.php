@@ -44,11 +44,24 @@ $currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
     </div>
   </main>
   <script src="js/bundle.js"></script>
-
   <?php
+  // Función para eliminar BOM
+  function removeBOM($text)
+  {
+    if (substr($text, 0, 3) === "\xEF\xBB\xBF") {
+      $text = substr($text, 3);
+    }
+    return $text;
+  }
+
+  // Incluir archivos sin BOM
+  ob_start();
   require_once BASE_PATH . '/include/footer.php';
-  ?>
+  $footerContent = ob_get_clean();
+  echo removeBOM($footerContent);
 
-  <?php
+  ob_start();
   require_once BASE_PATH . '/include/footer2.php';
+  $footer2Content = ob_get_clean();
+  echo removeBOM($footer2Content);
   ?>

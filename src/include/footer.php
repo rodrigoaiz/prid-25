@@ -1,15 +1,11 @@
 ﻿<?php
-// Ruta al archivo menu.json
 $menuPath = BASE_PATH . '/menu.json';
 $menuData = json_decode(file_get_contents($menuPath), true);
-
-// Obtener los arrays de footer, social y legal
 $footerMenu = $menuData['footer'];
 $socialMenu = $menuData['social'];
 $legalText = $menuData['legal'];
 ?>
-
-<footer id="footer" class="mt-10 text-white">
+<footer id="footer" class="text-white">
     <div class="container mx-auto text-darkblue">
         <div class="grid grid-cols-4 py-10">
             <div class="text-center md:mb-0 md:text-left flex items-center">
