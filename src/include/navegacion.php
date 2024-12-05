@@ -1,5 +1,8 @@
 <?php
-function renderNavegacion($moduloId, $currentPageId) {
+include_once dirname(__DIR__) . '/config.php';
+
+function renderNavegacion($moduloId, $currentPageId)
+{
     // Ajustar la ruta al archivo menu.json
     $menuPath = dirname(__DIR__) . '/menu.json';
     $menuData = json_decode(file_get_contents($menuPath), true);
@@ -20,19 +23,12 @@ function renderNavegacion($moduloId, $currentPageId) {
     // Generar navegación
     echo "<nav class='mt-10 w-100 flex items-center justify-center bg-greenown relative'><ul class='flex flex-row items-center justify-center gap-x-2'>";
     if ($prevPage) {
-        echo "<a href='{$prevPage['url']}'><img src='./assets/icons/chevron-compact-left.svg' /></a>";
+        echo "<a href='" . BASE_URL . "{$prevPage['url']}'><img src='" . BASE_URL . "/assets/icons/chevron-compact-left.svg' /></a>";
     }
     foreach ($paginas as $pagina) {
         $activeClass = ($pagina['id'] == $currentPageId) ? 'class="active"' : '';
-        $linkText = ($pagina['id'] == 0) ? '<li class="flex items-center"><img src="./assets/icons/house.svg" alt="Home"></li>' : $pagina['id'];
-        echo "<li class='flex items-center'><a href='{$pagina['url']}' alt='{$pagina['nombre']}' $activeClass data-nombre='{$pagina['nombre']}'>{$linkText}</a></li>";
+        $linkText = ($pagina['id'] == 0) ? '<li class="flex items-center"><img src="' . BASE_URL . '/assets/icons/house.svg" alt="Home"></li>' : $pagina['id'];
+        echo "<li class='flex items-center'><a href='" . BASE_URL . "{$pagina['url']}' alt='{$pagina['nombre']}' $activeClass data-nombre='{$pagina['nombre']}'>{$linkText}</a></li>";
     }
-    if ($nextPage) {
-        echo "<a href='{$nextPage['url']}'><img src='./assets/icons/chevron-compact-right.svg' /></a>";
-    }
-    echo "</ul><div id='page-name' class='text-center pointer-events-none absolute -top-6 text-sm'></div></nav>";
-
-
-
+    echo "</ul></nav>";
 }
-?>
