@@ -33,7 +33,7 @@
 }
 @layer components {
   section {
-    @apply mt-1 xl:mt-5 mx-auto leading-relaxed;
+    @apply mt-1 xl:mt-5 mx-auto leading-relaxed px-1 md:px-0;
     h1, h2, h3{
       @apply mb-1 xl:mb-3 leading-none;
     }
@@ -50,7 +50,7 @@
       @apply text-base xl:text-lg;
     }
     p {
-      @apply leading-relaxed;
+      @apply leading-relaxed text-lg md:text-base;
       &:not(:last-child) {
         @apply mb-2;
       }
@@ -81,29 +81,41 @@ h1{
 
 /* styles.css */
 nav ul {
-    list-style-type: none;
+  list-style-type: none;
+}
+
+nav ul li a{
+  display: flex;
+  background-color: var(--css-dark);
+  color: white;
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 nav ul li a.active {
-    font-weight: bold;
-    color: var(--css-orange-alt)
+  font-weight: bold;
+  background-color: var(--css-orange);
+  color: #fff
 }
 
 .navigation-buttons {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .navigation-buttons .btn {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    margin: 5px;
-    border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 5px;
 }
 
 .navigation-buttons .btn:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 #footer {

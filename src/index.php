@@ -43,7 +43,7 @@ $currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
       <img class="block mx-auto" src="<?php echo ASSET_URL . '/img/comunidad.webp'; ?>" alt="comunidad cch">
     </div>
   </main>
-  <script src="js/bundle.js"></script>
+  <script src="<?php echo BASE_URL; ?>/js/bundle.js"></script>
   <?php
   // Función para eliminar BOM
   function removeBOM($text)

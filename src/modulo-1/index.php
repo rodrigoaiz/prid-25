@@ -39,13 +39,13 @@ include BASE_PATH . '/include/navegacion.php';
   <main>
     <section class="max-w-screen-lg">
       <h1>Módulo uno</h1>
-      <div class="grid grid-cols-2 items-center gap-10 my-10">
-        <img src="<?php echo ASSET_URL . 'img/modulo-1/bloque2.jpg' ?>" alt="">
-        <article class="text-center bg-yellowown p-4">
+      <div class="grid md:grid-cols-2 items-center gap-10 my-5 md:my-10">
+        <article class="text-center bg-yellowown p-4 md:order-2">
           <span class="text-3xl text-darkown uppercase">Modelo Educativo del Colegio</span>
         </article>
+        <img class="md:order-1" src="<?php echo ASSET_URL . 'img/modulo-1/bloque2.webp' ?>" alt="">
       </div>
-      <div class="grid grid-cols-2 gap-10">
+      <div class="grid md:grid-cols-2 gap-4 md:gap-10">
         <article>
           <h3 class="text-orangeown">Objetivos</h3>
           <div class="bg-bluelightown text-darkown p-5">
@@ -87,7 +87,7 @@ include BASE_PATH . '/include/navegacion.php';
   $navegacionContent = ob_get_clean();
   echo removeBOM($navegacionContent);
   ?>
-  <script src="js/bundle.js"></script>
+  <script src="<?php echo BASE_URL; ?>/js/bundle.js"></script>
   <?php
   // Incluir archivos sin BOM
   ob_start();

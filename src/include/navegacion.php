@@ -21,14 +21,22 @@ function renderNavegacion($moduloId, $currentPageId)
     $nextPage = $currentIndex < count($paginas) - 1 ? $paginas[$currentIndex + 1] : null;
 
     // Generar navegación
-    echo "<nav class='mt-10 w-100 flex items-center justify-center bg-greenown relative'><ul class='flex flex-row items-center justify-center gap-x-2'>";
+    echo "<nav class='mt-10 py-2 w-100 flex items-center justify-center bg-greenown relative'><ul class='flex flex-row items-center justify-center gap-x-1'>";
     if ($prevPage) {
-        echo "<a href='" . BASE_URL . "{$prevPage['url']}'><img src='" . BASE_URL . "/assets/icons/chevron-compact-left.svg' /></a>";
+        $prevUrl = ($prevPage['id'] == 0) ? BASE_URL . "/modulo-{$moduloId}/index.php" : BASE_URL . "{$prevPage['url']}";
+        echo "<a href='" . $prevUrl . "'><img src='" . BASE_URL . "/assets/icons/chevron-compact-left.svg' /></a>";
     }
     foreach ($paginas as $pagina) {
+        if ($pagina['id'] == 0 && $currentPageId == 0) {
+            continue; // Omitir el icono de "Home" si estamos en el índice 0
+        }
         $activeClass = ($pagina['id'] == $currentPageId) ? 'class="active"' : '';
-        $linkText = ($pagina['id'] == 0) ? '<li class="flex items-center"><img src="' . BASE_URL . '/assets/icons/house.svg" alt="Home"></li>' : $pagina['id'];
-        echo "<li class='flex items-center'><a href='" . BASE_URL . "{$pagina['url']}' alt='{$pagina['nombre']}' $activeClass data-nombre='{$pagina['nombre']}'>{$linkText}</a></li>";
+        $linkText = ($pagina['id'] == 0) ? '<img src="' . ASSET_URL . '/icons/house.svg" alt="Home" />' : $pagina['id'];
+        $linkUrl = ($pagina['id'] == 0) ? BASE_URL . "/modulo-{$moduloId}/index.php" : BASE_URL . "{$pagina['url']}";
+        echo "<li class='flex items-center'><a href='" . $linkUrl . "' alt='{$pagina['nombre']}' $activeClass data-nombre='{$pagina['nombre']}'>{$linkText}</a></li>";
     }
-    echo "</ul></nav>";
+    if ($nextPage) {
+        echo "<a href='" . BASE_URL . "{$nextPage['url']}'><img src='" . BASE_URL . "/assets/icons/chevron-compact-right.svg' /></a>";
+    }
+    echo "</ul><div id='page-name' class='absolute -translate-y-8 text-sm pointer-events-none'></div></nav>";
 }
