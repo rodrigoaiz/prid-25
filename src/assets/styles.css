@@ -18,7 +18,7 @@
   --headings-lg: clamp(1.4rem, 1.7vw, 1.9rem);
   --font-titulos: "Quicksand", sans-serif;
   --font-cuerpo: "Open Sans", sans-serif;
-  --transition-smooth: ease-in-out 0.5s all;
+  --transition-smooth: ease-in-out 0.35s all;
   --css-green: rgb(73, 177, 135);
   --css-purple: rgb(79, 52, 75);
   --css-purple-alt: rgb(105, 76, 101);
@@ -98,28 +98,18 @@ nav ul li a{
   justify-content: center;
 }
 
+nav ul li a:hover {
+  background-color: var(--css-blue-light);
+  color: var(--css-dark);
+  transition: var(--transition-smooth);
+}
+
 nav ul li a.active {
   font-weight: bold;
   background-color: var(--css-green);
   color: var(--css-dark);
 }
 
-.navigation-buttons {
-  margin-top: 20px;
-}
-
-.navigation-buttons .btn {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  text-decoration: none;
-  margin: 5px;
-  border-radius: 5px;
-}
-
-.navigation-buttons .btn:hover {
-  background-color: #0056b3;
-}
 
 #footer {
   background-color: var(--css-orange-alt);
