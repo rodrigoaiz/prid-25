@@ -32,10 +32,6 @@ include BASE_PATH . '/include/navegacion.php';
 
   <?php renderMenu($menu); ?>
   <?php renderMenuMoodle(); ?>
-  <main>
-    <h1><?php echo htmlspecialchars($titulo); ?></h1>
-    <?php echo $content; ?>
-  </main>
   <?php
   // Función para eliminar BOM
   function removeBOM($text)
@@ -52,6 +48,10 @@ include BASE_PATH . '/include/navegacion.php';
   $navegacionContent = ob_get_clean();
   echo removeBOM($navegacionContent);
   ?>
+  <main class="mb-10">
+    <h1><?php echo htmlspecialchars($titulo); ?></h1>
+    <?php echo $content; ?>
+  </main>
   <script src="<?php echo BASE_URL; ?>/js/bundle.js"></script>
   <?php
   // Incluir archivos sin BOM

@@ -21,7 +21,7 @@ function renderNavegacion($moduloId, $currentPageId)
     $nextPage = $currentIndex < count($paginas) - 1 ? $paginas[$currentIndex + 1] : null;
 
     // Generar navegación
-    echo "<nav class='mt-10 py-2 w-100 flex items-center justify-center bg-greenown relative'><ul class='flex flex-row items-center justify-center gap-x-1'>";
+    echo "<nav class='py-1 w-100 flex sticky top-[-1px] z-50 items-center justify-center bg-orangeown'><ul class='flex flex-row items-center justify-center gap-x-1'>";
     if ($prevPage) {
         $prevUrl = ($prevPage['id'] == 0) ? BASE_URL . "/modulo-{$moduloId}/index.php" : BASE_URL . "{$prevPage['url']}";
         echo "<a href='" . $prevUrl . "'><img src='" . BASE_URL . "/assets/icons/chevron-compact-left.svg' /></a>";
@@ -38,5 +38,5 @@ function renderNavegacion($moduloId, $currentPageId)
     if ($nextPage) {
         echo "<a href='" . BASE_URL . "{$nextPage['url']}'><img src='" . BASE_URL . "/assets/icons/chevron-compact-right.svg' /></a>";
     }
-    echo "</ul><div id='page-name' class='absolute -translate-y-8 text-sm pointer-events-none'></div></nav>";
+    echo "</ul><div id='page-name' class='absolute -translate-x-8 right-0 text-sm pointer-events-none'></div></nav>";
 }

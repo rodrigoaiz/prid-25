@@ -100,8 +100,8 @@ nav ul li a{
 
 nav ul li a.active {
   font-weight: bold;
-  background-color: var(--css-orange);
-  color: #fff
+  background-color: var(--css-green);
+  color: var(--css-dark);
 }
 
 .navigation-buttons {

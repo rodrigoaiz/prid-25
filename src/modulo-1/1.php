@@ -19,7 +19,7 @@ ob_start();
     <p class="text-2xl leading-relaxed">Por lo anterior, el CCH tiene una enorme responsabilidad educativa. La formación que los jóvenes reciben en el bachillerato es trascendental para su vida personal y para el desarrollo del país.</p>
   </div>
 </section>
-<div class="w-full my-10 relative">
+<div class="w-full my-10 relative z-0">
   <div class="w-full bg-greenown min-h-20 absolute translate-y-full origin-center z-0">
   </div>
   <img class="z-10 relative translate-x-24 max-w-72" src="<?php echo ASSET_URL . 'img/modulo-1/contxt2.webp' ?>" alt="">
