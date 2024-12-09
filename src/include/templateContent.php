@@ -1,7 +1,6 @@
 <?php
 include_once BASE_PATH . '/config.php';
 include BASE_PATH . '/include/header1.php';
-include BASE_PATH . '/include/header2.php';
 
 // Cargar el menú desde el JSON
 $menuData = json_decode(file_get_contents(BASE_PATH . '/menu.json'), true);
@@ -22,12 +21,14 @@ foreach ($menu as $modulo) {
   }
 }
 
-include BASE_PATH . '/include/menu.php';
-include BASE_PATH . '/include/navegacion.php';
+
 ?>
 <title><?php echo htmlspecialchars($titulo); ?></title>
 </head>
-
+<?php
+  include BASE_PATH . '/include/menu.php';
+  include BASE_PATH . '/include/navegacion.php';
+?>
 <body>
 
   <?php renderMenu($menu); ?>
@@ -49,7 +50,7 @@ include BASE_PATH . '/include/navegacion.php';
   echo removeBOM($navegacionContent);
   ?>
   <main class="mb-10">
-    <h1><?php echo htmlspecialchars($titulo); ?></h1>
+    <section><h1><?php echo htmlspecialchars($titulo); ?></h1></section>
     <?php echo $content; ?>
   </main>
   <script src="<?php echo BASE_URL; ?>/js/bundle.js"></script>

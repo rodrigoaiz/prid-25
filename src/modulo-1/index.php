@@ -3,7 +3,7 @@ include_once __DIR__ . '/../config.php';
 $currentPageId = 0; // Establecer el ID de la página aquí
 ob_start();
 ?>
-<section class="max-w-screen-lg">
+<section>
   <div class="grid md:grid-cols-2 items-center gap-10 my-5 md:my-10">
     <article class="text-center bg-yellowown p-4 md:order-2">
       <span class="text-3xl text-darkown uppercase">Modelo Educativo del Colegio</span>

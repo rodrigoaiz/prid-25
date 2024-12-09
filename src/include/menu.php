@@ -10,10 +10,10 @@
     foreach ($menu as $modulo => $detalles) {
       $isActiveModule = $currentUrl === $detalles['url'];
 
-      echo '<li class="">';
+      echo '<li>';
       if ($detalles['publicado']) {
         // Si el módulo está publicado, genera un enlace
-        echo "<a href='{$detalles['url']}' class='menu-item " . ($isActiveModule ? "bg-red-500" : "hover:bg-orange-500 px-1 text-blue-100 items-center transition-all") . "'>{$modulo}</a>";
+        echo "<a href='{$detalles['url']}' class='menu-item " . ($isActiveModule ? "" : "hover:bg-orange-500 px-1 text-blue-100 items-center transition-all") . "'>{$modulo}</a>";
       } else {
         // Si no está publicado, muestra un texto no clicable
         echo "<span class='text-gray-400 cursor-not-allowed'>{$modulo}</span>";

@@ -23,7 +23,7 @@ $currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
   <?php renderMenu($menu); ?>
   <?php renderMenuMoodle(); ?>
   <main>
-    <section class="max-w-screen-lg">
+    <section>
       <h1 class="text-3xl text-orangeown uppercase">Programa de Regularización e Iniciación a la Docencia</h1>
       <p>Para el Colegio de Ciencias y Humanidades es fundamental contar con una planta docente comprometida con el aprendizaje de las y los estudiantes, y que posea una sólida formación disciplinaria, pedagógica y didáctica.</p>
       <p>Por ello, pone a disposición de la comunidad docente de reciente ingreso el Programa De Regularización e Iniciación a la Docencia, el cual tiene como objetivo comprender el Modelo Educativo del CCH y, a partir de sus postulados, fortalecer la reflexión sobre el quehacer docente, la adquisición de conocimientos, habilidades disciplinarias, didácticas, pedagógicas y principios éticos para impartir alguna de las materias del Plan de Estudios vigente de las Áreas y Departamentos Académicos del CCH.</p>
