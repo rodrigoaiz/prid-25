@@ -20,13 +20,8 @@ ob_start();
   <div class="text-center mt-10">
     <p class="text-2xl leading-relaxed">Por lo anterior, el CCH tiene una enorme responsabilidad educativa. La formación que los jóvenes reciben en el bachillerato es trascendental para su vida personal y para el desarrollo del país.</p>
   </div>
-</section>
-<div class="w-full my-10 relative z-0">
-  <div class="w-full bg-greenown min-h-20 absolute translate-y-full origin-center z-0">
-  </div>
-  <img class="z-10 relative translate-x-24 max-w-72" src="<?php echo ASSET_URL . 'img/modulo-1/contxt2.webp' ?>" alt="">
-</div>
-<section>
+
+
   <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-10 my-5 items-center">
     <article class="col-span-2">
       <p>De acuerdo con estimaciones de la Comisión Económica para América Latina y el Caribe (CEPAL, 2010), la conclusión de este tipo educativo constituye el umbral necesario para estar fuera de la pobreza, pues permite acceder a mejores oportunidades de empleo. Asimismo, se ha demostrado que las personas que concluyen el bachillerato pueden acceder a una mejor calidad de vida pues desarrollan herramientas para participar en diversas esferas de la vida social y ejercer distintos derechos sociales (INEE, 2011). Por ejemplo, según datos del Instituto Nacional de Estadística y Geografía (INEGI), del total de estudiantes que concluyen su bachillerato, el 78.3% de ellos ha tenido cuando menos un trabajo (INEGI, 2019).</p>

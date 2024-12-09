@@ -7,17 +7,16 @@ $legalText = $menuData['legal'];
 ?>
 <footer id="footer" class="text-white">
     <div class="container mx-auto text-darkblue">
-        <div class="grid grid-cols-4 py-10">
-            <div class="text-center md:mb-0 md:text-left flex items-center">
-                <div class="flex items-center">
-                    <a href="/">
-                        <img src="<?php echo ASSET_URL . '/img/logo.svg' ?>" alt="">
-                    </a>
-                </div>
-                <div class="w-full flex gap-2 mt-7 items-center justify-between">
-                </div>
+        <div class="grid grid-cols-1 gap-4 md:gap-0 md:grid-cols-4 py-10">
+            <div class="text-center md:mb-0 md:text-left flex justify-center items-center">
+
+                <a href="/">
+                    <img class="max-w-280" src="<?php echo ASSET_URL . '/img/logo.svg' ?>" alt="">
+                </a>
+
+
             </div>
-            <div class="col-span-2 flex items-center md:mb-0 justify-center">
+            <div class="md:col-span-2 flex items-center md:mb-0 justify-center">
                 <ul class=" flex gap-3 items-center ">
                     <?php foreach ($footerMenu as $menu): ?>
                         <li class="inline-block">
@@ -28,7 +27,7 @@ $legalText = $menuData['legal'];
                     <?php endforeach; ?>
                 </ul>
             </div>
-            <div class="flex items-center lg:mb-0 lg:mt-0 justify-end">
+            <div class="flex items-center lg:mb-0 lg:mt-0 justify-center md:justify-end">
                 <ul class="flex flex-row gap-4 ">
                     <?php foreach ($socialMenu as $socialItem): ?>
                         <li>

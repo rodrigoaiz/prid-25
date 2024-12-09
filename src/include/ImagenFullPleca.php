@@ -1,13 +1,12 @@
 <?php
-function renderImageComponent($imageSrc, $justifyClass = 'md:justify-center')
+function renderImageComponent($imageSrc, $justifyClass = 'justify-center')
 {
-  $mdJustifyClass = 'md:' . $justifyClass;
 ?>
   </section>
-  <div class="w-full flex justify-center <?php echo $mdJustifyClass; ?> my-4 md:my-10 relative gap-14 z-0">
+  <div class="w-full hidden sm:flex <?php echo $justifyClass; ?> my-4 relative z-0">
     <div class="w-full bg-greenown min-h-20 absolute translate-y-full origin-center z-0">
     </div>
-    <img class="z-10 block max-w-xs xl:max-w-72 md:mx-10" src="<?php echo $imageSrc; ?>" alt="">
+    <img class="z-10 max-w-[22rem] mx-10" src="<?php echo $imageSrc; ?>" alt="">
   </div>
   <section>
   <?php
