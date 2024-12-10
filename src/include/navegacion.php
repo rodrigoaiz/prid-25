@@ -38,5 +38,5 @@ function renderNavegacion($moduloId, $currentPageId)
     if ($nextPage) {
         echo "<a href='" . BASE_URL . "{$nextPage['url']}'><img src='" . BASE_URL . "/assets/icons/chevron-compact-right.svg' /></a>";
     }
-    echo "</ul><div id='page-name' class='absolute -translate-x-8 right-0 text-sm pointer-events-none'></div></nav>";
+    echo "</ul><div id='page-name' class='absolute -translate-y-6 top-0 text-sm pointer-events-none text-darkown'></div></nav>";
 }

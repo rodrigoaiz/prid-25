@@ -10,7 +10,9 @@ module.exports = {
         greenown: 'rgb(var(--green-own) / <alpha-value>)',
         orangeown: 'rgb(var(--orange-own) / <alpha-value>)',
         yellowown: 'rgb(var(--yellow-own) / <alpha-value>)',
-        darkown: 'rgb(var(--dark-own) / <alpha-value>)'
+        darkown: 'rgb(var(--dark-own) / <alpha-value>)',
+        lightown: 'rgb(var(--light-own) / <alpha-value>)',
+        redown: 'rgb(var(--red-own) / <alpha-value>)',
       }
     },
   },

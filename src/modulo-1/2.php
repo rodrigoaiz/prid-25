@@ -14,24 +14,46 @@ ob_start();
   ?>
   <p>En aquellos años la creación del CCH coincide con la necesidad social de que un mayor número de jóvenes mexicanos, que vivían en el área metropolitana, tuvieran la oportunidad de contar con una educación a nivel medio superior.</p>
   <p>Al mismo tiempo, el Colegio surge como una opción educativa con una nueva perspectiva curricular y didáctica, que buscaba atender las dificultades del proceso de enseñanza-aprendizaje identificadas en aquél entonces.</p>
-  <div class="max-w-screen-md mx-auto">
-    <p class="text-xl">Para comprender lo que hoy se conoce como CCH, te presentamos algunos de los acontecimientos más relevantes de su historia:</p>
-  </div>
-  <div class="text-center mt-10">
-    <p class="text-2xl leading-relaxed">Por lo anterior, el CCH tiene una enorme responsabilidad educativa. La formación que los jóvenes reciben en el bachillerato es trascendental para su vida personal y para el desarrollo del país.</p>
-  </div>
-
-
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-10 my-5 items-center">
-    <article class="col-span-2">
-      <p>De acuerdo con estimaciones de la Comisión Económica para América Latina y el Caribe (CEPAL, 2010), la conclusión de este tipo educativo constituye el umbral necesario para estar fuera de la pobreza, pues permite acceder a mejores oportunidades de empleo. Asimismo, se ha demostrado que las personas que concluyen el bachillerato pueden acceder a una mejor calidad de vida pues desarrollan herramientas para participar en diversas esferas de la vida social y ejercer distintos derechos sociales (INEE, 2011). Por ejemplo, según datos del Instituto Nacional de Estadística y Geografía (INEGI), del total de estudiantes que concluyen su bachillerato, el 78.3% de ellos ha tenido cuando menos un trabajo (INEGI, 2019).</p>
-    </article>
-    <img src="<?php echo ASSET_URL . 'img/modulo-1/contxt3.webp' ?>" alt="">
-  </div>
-  <div class="text-center mt-10">
-    <p class="text-2xl leading-relaxed">Los retos y desafíos para lograr la tarea anterior son significativos y numerosos. No obstante, hoy, como hace 53 años, la tarea de “educar más y mejor a un mayor número de mexicanos” sigue vigente.</p>
+  <div class="my-10 text-center mx-auto text-2xl">
+    Para comprender lo que hoy se conoce como CCH, te presentamos algunos de los acontecimientos más relevantes de su historia:
   </div>
 </section>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-2 pl-2 pr-2 md:gap-x-7 md:pl-6 md:pr-6">
+  <div class="bg-slate-200 shadow-lg p-2 md:p-6">
+    <ul class="ul-disc">
+      <li>En el inicio Roger Díaz de Cossío, Coordinador de Ciencias de la UNAM, encabezó a 80 destacados universitarios para elaborar el Plan y los Programas de Estudio.</li>
+      <li>Con la participación de los coordinadores de Ciencias y Humanidades de la Universidad, Guillermo Soberón y Rubén Bonifaz Nuño; de los directores de las facultades de Filosofía y Letras, Ciencias, Química y Ciencias Políticas y Sociales, Ricardo Guerra Tejeda, Juan Manuel Lozano, José F. Herrán y Víctor Flores Olea y del director de la Escuela Nacional Preparatoria, Moisés Hurtado G. respectivamente; González Casanova elaboró un plan para crear un sistema innovador que se denominó Colegio de Ciencias y Humanidades.</li>
+      <li>El 12 de abril de 1971, abrieron sus puertas para recibir a las primeras generaciones de estudiantes, los planteles Azcapotzalco, Naucalpan y Vallejo, al siguiente año iniciaron actividades Oriente y Sur.</li>
+      <li>En 1992 se crea el Consejo Técnico, máximo órgano rector del Colegio.</li>
+      <li>En 1996 se actualiza el Plan de Estudios, con el objetivo de responder a las nuevas necesidades de adquisición de conocimientos y el desarrollo de habilidades acordes a los tiempos que se vivían.</li>
+    </ul>
+  </div>
+  <div class="bg-slate-200 shadow-lg p-2 md:p-6">
+    <ul class="ul-disc">
+      <li>En 1997 obtiene el rango de Escuela Nacional.</li>
+      <li>En 1998 se instala la Dirección General.</li>
+      <li>Entre 2002 y 2004 se realizó una revisión y ajuste de los Programas de Estudio.</li>
+      <li>Desde 2009 y hasta 2016, se desarrolló un proceso de actualización de los Programas de Estudio de sus 31 materias curriculares y de Educación Física.</li>
+      <li>Las Opciones Técnicas se convierten en Estudios Técnicos Especializados.</li>
+      <li>En el ciclo escolar 2023-2024 nuevamente se llevó a cabo un proceso de revisión y ajuste de los Programas de Estudio de las materias curriculares y Educación Física. Asimismo, el 18 junio de 2024 el Consejo Técnico aprobó la incorporación de la asignatura Igualdad de Género como requisito de egreso de su Plan de Estudios.</li>
+    </ul>
+  </div>
+</div>
+<?php ob_start(); ?>
+<div class="grid  md:grid-cols-3 md:gap-10">
+  <ul class="ul-disc text-xl md:col-span-2">
+    <li>¿Qué semejanzas y diferencias podemos identificar entre el contexto socioeconómico y político en el que surge el Colegio y el contexto actual?</li>
+    <li>¿De qué manera influye este contexto en la misión del Colegio?</li>
+  </ul>
+  <div class="md:col-span-1">
+    <img class="mx-auto" src="<?php echo ASSET_URL ?>img/modulo-1/b1p02i01.webp" alt="Instalaciones CCH">
+  </div>
+</div>
+<?php
+$SaberContent = ob_get_clean();
+include BASE_PATH . '/include/ParaSaber.php';
+renderSaberContent($SaberContent, "Para reflexionar");
+?>
 <?php
 $content = ob_get_clean();
 include BASE_PATH . '/include/templateContent.php';

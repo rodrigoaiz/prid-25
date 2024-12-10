@@ -11,7 +11,7 @@ $legalText = $menuData['legal'];
             <div class="text-center md:mb-0 md:text-left flex justify-center items-center">
 
                 <a href="/">
-                    <img class="max-w-280" src="<?php echo ASSET_URL . '/img/logo.svg' ?>" alt="">
+                    <img class="max-h-14" src="<?php echo ASSET_URL . '/img/logo.svg' ?>" alt="">
                 </a>
 
 

@@ -12,7 +12,9 @@
   --blue-own: 26 34 56;
   --blue-light-own: 157 170 242;
   --dark-own: 43 43 43;
+  --ligh-own: 245 245 248;
   --pink-own: 218 17 191;
+  --red-own: 230 30 80;
   --headings-xxl: clamp(4rem, 3.5vw, 3rem);
   --headings-xl: clamp(1.7rem, 2.1vw, 2.2rem);
   --headings-lg: clamp(1.4rem, 1.7vw, 1.9rem);
@@ -27,13 +29,15 @@
   --css-yellow: rgb(244, 218, 124);
   --css-blue: rgb(26, 34, 56);
   --css-blue-light: rgb(157, 170, 242);
+  --css-light: rgb(245, 245, 248);
   --css-dark: rgb(43, 43, 43);
   --css-pink: rgb(218, 17, 191);
+  --css-red: rgb(230, 30, 80);
 
 }
 @layer components {
   main {
-    @apply leading-relaxed ;
+    @apply leading-relaxed;
     h1, h2, h3{
       @apply mb-1 xl:mb-3 leading-none;
     }
@@ -50,7 +54,7 @@
       @apply text-base xl:text-lg;
     }
     section{
-      @apply mt-1 xl:mt-5 mx-auto px-6 lg:px-0 max-w-screen-lg;
+      @apply mt-1 xl:mt-5 mb-2 xl:mb-10 mx-auto px-6 lg:px-0 max-w-screen-lg;
     }
     p {
       @apply text-lg xl:text-base ;
@@ -89,7 +93,7 @@ nav ul {
 
 nav ul li a{
   display: flex;
-  color: white;
+  color: var(--css-light);
   min-height: 1.5rem;
   min-width: 1.5rem;
   text-align: center;
@@ -123,4 +127,69 @@ nav ul li a.active {
   background-color: var(--css-blue);
   color: var(--css-blue-light);
   font-family: var(--font-titulos);
+}
+.ol-alpha,
+.ol-number,
+.ul-disc {
+  list-style: none;
+  counter-reset: item;
+
+  >li {
+    position: relative;
+    counter-increment: item;
+    margin-bottom: 1.3rem;
+    align-items: center;
+    padding-left: 3rem;
+  }
+
+  >li:before {
+    position: absolute;
+    left: 0.2rem;
+    background: var(--css-red);
+    border-radius: 100%;
+    color: var(--css-light);
+    min-width: 2rem;
+    min-height: 2rem;
+    text-align: center;
+    font-weight: 900;
+    line-height: 2rem;
+    font-size: 1rem;
+
+  }
+}
+
+.ol-alpha {
+  >li:before {
+    margin-right: 1rem;
+    content: counter(item, lower-alpha);
+  }
+}
+
+.ol-number {
+  >li:before {
+    content: counter(item);
+  }
+}
+
+.ul-disc {
+  >li {
+    padding-left: 1.6rem;
+  }
+
+  >li:before {
+    top: 0.5rem;
+    content: "";
+    max-width: 0.8rem;
+    min-width: 0.8rem;
+    min-height: 0.8rem;
+    max-height: 0.8rem;
+  }
+}
+
+.ul {
+  list-style: disc;
+}
+
+.ol-letra {
+  list-style: lower-alpha;
 }

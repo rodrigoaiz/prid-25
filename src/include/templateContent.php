@@ -26,9 +26,10 @@ foreach ($menu as $modulo) {
 <title><?php echo htmlspecialchars($titulo); ?></title>
 </head>
 <?php
-  include BASE_PATH . '/include/menu.php';
-  include BASE_PATH . '/include/navegacion.php';
+include BASE_PATH . '/include/menu.php';
+include BASE_PATH . '/include/navegacion.php';
 ?>
+
 <body>
 
   <?php renderMenu($menu); ?>
@@ -49,20 +50,21 @@ foreach ($menu as $modulo) {
   $navegacionContent = ob_get_clean();
   echo removeBOM($navegacionContent);
   ?>
-  <main class="mb-10">
+  <main>
     <section><h1><?php echo htmlspecialchars($titulo); ?></h1></section>
     <?php echo $content; ?>
   </main>
-  <script src="<?php echo BASE_URL; ?>/js/bundle.js"></script>
-  <?php
-  // Incluir archivos sin BOM
-  ob_start();
-  require_once BASE_PATH . '/include/footer.php';
-  $footerContent = ob_get_clean();
-  echo removeBOM($footerContent);
+  <script src=" <?php echo BASE_URL; ?>/js/bundle.js">
+    </script>
+    <?php
+    // Incluir archivos sin BOM
+    ob_start();
+    require_once BASE_PATH . '/include/footer.php';
+    $footerContent = ob_get_clean();
+    echo removeBOM($footerContent);
 
-  ob_start();
-  require_once BASE_PATH . '/include/footer2.php';
-  $footer2Content = ob_get_clean();
-  echo removeBOM($footer2Content);
-  ?>
+    ob_start();
+    require_once BASE_PATH . '/include/footer2.php';
+    $footer2Content = ob_get_clean();
+    echo removeBOM($footer2Content);
+    ?>
