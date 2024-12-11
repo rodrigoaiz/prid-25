@@ -65,7 +65,7 @@ ob_start();
   <?php
   $ActividadContent = ob_get_clean();
   include BASE_PATH . '/include/Actividad.php';
-  renderActividad($ActividadContent, "Actividi 1");
+  renderActividad($ActividadContent, "Actividad 1 : Modelo Educativo del CCH");
   ?>
 </section>
 <?php

@@ -21,7 +21,7 @@ function renderNavegacion($moduloId, $currentPageId)
     $nextPage = $currentIndex < count($paginas) - 1 ? $paginas[$currentIndex + 1] : null;
 
     // Generar navegación
-    echo "<nav class='py-1 w-100 flex sticky top-[-1px] z-50 items-center justify-center bg-orangeown'><ul class='flex flex-row items-center justify-center gap-x-1'>";
+    echo "<nav id='nav' class='py-1 w-100 flex relative top-[-1px] z-50 items-center justify-center bg-orangeown'><ul class='flex flex-row items-center justify-center gap-x-1'>";
     if ($prevPage) {
         $prevUrl = ($prevPage['id'] == 0) ? BASE_URL . "/modulo-{$moduloId}/index.php" : BASE_URL . "{$prevPage['url']}";
         echo "<a href='" . $prevUrl . "'><img src='" . BASE_URL . "/assets/icons/chevron-compact-left.svg' /></a>";

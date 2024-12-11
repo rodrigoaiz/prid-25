@@ -193,3 +193,13 @@ nav ul li a.active {
 .ol-letra {
   list-style: lower-alpha;
 }
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+}
+
+.top-0 {
+  top: 0;
+}

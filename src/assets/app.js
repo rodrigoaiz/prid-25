@@ -38,3 +38,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     removeBOMFromElement(document.body);
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const nav = document.querySelector('#nav');
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 0) {
+            nav.classList.add('fixed', 'top-0');
+        } else {
+            nav.classList.remove('fixed', 'top-0');
+        }
+    });
+});
