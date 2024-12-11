@@ -19,7 +19,7 @@ $menuMoodle = $menuData['menuMoodle'];
   <div class="flex flex-cols justify-end gap-3 py-1">
     <?php foreach ($menuMoodle as $menuItem): ?>
       <a href="<?php echo $menuItem['url']; ?>">
-        <img class="h-5" src="<?php echo PATH_ICONS . '/' . $menuItem['icon']; ?>" alt="<?php echo $menuItem['alt']; ?>">
+        <img class="h-5" src="<?php echo PATH_ICONS . $menuItem['icon']; ?>" alt="<?php echo $menuItem['nombre']; ?>">
       </a>
     <?php endforeach; ?>
   </div>

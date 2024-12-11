@@ -1,7 +1,6 @@
 <?php
 include_once 'config.php';
 include BASE_PATH . '/include/header1.php';
-include BASE_PATH . '/include/header2.php';
 
 // Cargar el menú desde el JSON
 $menuData = json_decode(file_get_contents(BASE_PATH . '/menu.json'), true);
