@@ -41,6 +41,9 @@
     h1, h2, h3{
       @apply mb-1 xl:mb-3 leading-none;
     }
+    p > a, li > a {
+      @apply text-blue-800 underline underline-offset-4 hover:text-orangeown transition-all ease-in-out;
+    }
     h1 {
       @apply text-3xl xl:text-4xl font-bold max-w-screen-lg mt-3 mx-auto border-b-2 border-orangeown pb-2;
     }

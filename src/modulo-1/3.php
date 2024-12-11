@@ -21,7 +21,7 @@ ob_start();
   <div class="text-xl pl-3 lg:px-10 mx-auto border-l-4 border-l-greenown max-w-screen-md my-5 lg:my-10">
     …se buscará que al final de su formación sepa aprender, sepa informarse y estudiar sobre materias que aun ignora, recurriendo para ello a los libros, enciclopedias, periódicos, revistas, cursos extraordinarios que siga fuera de programa, sin pretender que la Unidad le dé una cultura enciclopédica, sino los métodos y técnicas necesarios y el hábito de aplicarlos a problemas concretos y de adquirir nuevos conocimientos (Gaceta amarilla, 1971: 4).
   </div>
-  <p>Se observa que desde su fundación, el Colegio plantea jóvenes capaces de “aprender a aprender” y su formación requiere de un rol distinto de parte del profesorado, que deberá ejercer el papel de guía, más que el de transmisor de conocimientos. En palabras del Dr. Pablo González (1990), se tenía que enfrentar la enseñanza de tipo memorístico para dar paso a la enseñanza dialogal; lo cual incidiría en el papel del estudiantado , que ya no sería “el que estudia para pasar, sino el que estudia para aprender”. Para enfrentar un tipo de enseñanza cargada de información inerte se propuso la relación entre teoría y práctica, es decir, la combinación entre trabajo académico en las aulas y adiestramiento práctico en talleres y laboratorios; propuesta que dio paso a una concepción en la que el aula debía ser también laboratorio o taller, dependiendo del área.   </p>
+  <p>Se observa que desde su fundación, el Colegio plantea jóvenes capaces de “aprender a aprender” y su formación requiere de un rol distinto de parte del profesorado, que deberá ejercer el papel de guía, más que el de transmisor de conocimientos. En palabras del Dr. Pablo González (1990), se tenía que enfrentar la enseñanza de tipo memorístico para dar paso a la enseñanza dialogal; lo cual incidiría en el papel del estudiantado , que ya no sería “el que estudia para pasar, sino el que estudia para aprender”. Para enfrentar un tipo de enseñanza cargada de información inerte se propuso la relación entre teoría y práctica, es decir, la combinación entre trabajo académico en las aulas y adiestramiento práctico en talleres y laboratorios; propuesta que dio paso a una concepción en la que el aula debía ser también laboratorio o taller, dependiendo del área.</p>
   <p>En la actualización de 1996 al Plan de Estudios, el Modelo Educativo continuó privilegiando la noción de “cultura básica” en la selección curricular y el papel de guía por parte del profesorado en la relación pedagógica. La cultura básica se configura a partir de tres componentes: la división en cuatro áreas básicas, la capacidad y hábito de lectura de libros clásicos y modernos, y el conocimiento del lenguaje para la redacción de escritos y ensayos:</p>
   <div class="text-xl pl-3 lg:px-10 mx-auto border-l-4 border-l-greenown max-w-screen-md my-5 lg:my-10">
     Este […] es un bachillerato de fuentes y no de comentarios, puesto que se propone dotar al alumno de los conocimientos y habilidades que le permitan acceder por sí mismo a las fuentes del conocimiento y, más en general, de la cultura; es decir, a la lectura de textos de todo tipo, a la experimentación y a la investigación de campo. Por ello, pone el acento en el trabajo intelectual del alumno y excluye concebirlo como repetidor del saber del profesor, con quien comparte, en cierta igualdad radical, la posibilidad de conocer, juzgar opinar y fundar intelectualmente (Plan de Estudios Actualizado, 1996: 36)
@@ -61,13 +61,79 @@ ob_start();
 </div>
 <section>
   <?php ob_start(); ?>
-  123
+  <ol class="ol-number">
+    <li>
+      <p>Desde su fundación hasta la actualidad, se han escrito y publicado una gran cantidad de documentos (reflexiones, ponencias, libros, tesis, entre otros) sobre los antecedentes históricos y los fundamentos del proyecto educativo del CCH. A continuación, te presentamos tres textos institucionales, publicados en distintos momentos históricos, en los cuales se plasman los elementos del Modelo Educativo del CCH. Realiza la lectura de las páginas que se te indican,</p>
+      <div class="grid md:grid-cols-3 gap-5 items-center mt-10">
+        <?php
+        include BASE_PATH . '/include/BloquePDF.php';
+
+        $documents = [
+          [
+            'filePath' => PATH_DOCS . 'gaceta-unam-1971.pdf',
+            'title' => 'Gaceta UNAM 1971 (Gaceta Amarilla)',
+            'content' => 'Este ejemplar del principal órgano informativo de la UNAM corresponde a un número extraordinario que fue publicado el 1o de febrero de 1971 y que contiene diversos textos relativos a la creación del Colegio de Ciencias y Humanidades. En el documento se notifica la aprobación del proyecto educativo del CCH en la sesión del Consejo Universitario celebrada el 26 de enero de 1971. Asimismo, se exponen los motivos y principales rasgos del proyecto educativo del CCH, así como sus reglas de operación y el plan de estudios a seguir.'
+          ],
+          [
+            'filePath' => PATH_DOCS . 'Este documento fue publicado en 1996, una vez concluidos los trabajos iniciados en 1991 para la actualización del Plan y de los Programas de Estudio con los que inició el Colegio en 1971. El documento está compuesto por siete apartados en los que se aborda la fundamentación del proceso de actualización y la metodología seguida; los criterios para la implantación, seguimiento y evaluación del PEA; el mapa curricular y los contenidos de los nuevos programas; el perfil del egresado; y se especifican las características didáctico-pedagógicas y filosóficas del proyecto educativo del Colegio..pdf',
+            'title' => 'Plan de Estudios Actualizado de 1996 (Páginas 35-45)',
+            'content' => 'Este documento fue publicado en 1996, una vez concluidos los trabajos iniciados en 1991 para la actualización del Plan y de los Programas de Estudio con los que inició el Colegio en 1971. El documento está compuesto por siete apartados en los que se aborda la fundamentación del proceso de actualización y la metodología seguida; los criterios para la implantación, seguimiento y evaluación del PEA; el mapa curricular y los contenidos de los nuevos programas; el perfil del egresado; y se especifican las características didáctico-pedagógicas y filosóficas del proyecto educativo del Colegio.'
+          ],
+          [
+            'filePath' => PATH_DOCS . 'B2_ELCCH_MODELO_PRACTICAS.pdf',
+            'title' => 'El Colegio de Ciencias y Humanidades: Modelo y Prácticas (Páginas 1-6)',
+            'content' => 'Se trata de un documento elaborado por la entonces Junta de directores del CCH, y publicado en 2001 en el Suplemento Especial de la Gaceta CCH. El texto corresponde a una ponencia presentada en el Coloquio Nacional sobre la Función de la Enseñanza Media Superior en el que se exponen los principios del Modelo Educativo del CCH y su concreción en dos niveles: el plan de estudios, y las políticas y programas para el desarrollo académico.'
+          ]
+        ];
+
+        foreach ($documents as $document) {
+          DocumentLinkComponent::render($document['filePath'], $document['title'], $document['content']);
+        }
+
+        ?>
+      </div>
+    </li>
+    <li>Elabora una infografía en la que sintetices los aspectos centrales del Modelo Educativo del CCH: a&#41; antecedentes históricos, b&#41; ejes organizativos y c&#41; orientaciones del quehacer educativo.</li>
+    <li>Consulta el material “<a target="_blank" href="<?php echo PATH_DOCS . 'infografia-canva.pdf'; ?>">Cómo hacer una infografía en Canva</a>”. </li>
+    <li>Guarda tu archivo bajo el siguiente formato: <em>Nombre_Apellido_Actividad1</em>. Ejemplo: <strong>Victoria_García_Actividad1</strong></li>
+    <li>
+      <p>Sube tu archivo para que pueda ser revisado por tu impartidor (en formato PDF o JPG; recuerda que el peso máximo debe ser de 10 MB).</p>
+      <ul class="ul-disc">
+        <li>Da clic en <strong>Adjuntar</strong> y arrástralo al campo que se solicita.</li>
+        <li>No olvides dar clic en <strong>Guardar</strong>, pues de otra manera tu archivo no se subirá correctamente.</li>
+        <li>Si quieres hacer cambios da clic en <strong>Editar envío</strong> y después en <strong>Guardar cambios</strong>.</li>
+      </ul>
+    </li>
+    <li>Descarga los <a target="_blank" href="<?php echo PATH_DOCS . 'actividad-1-criterios-evaluacion.docx'; ?>">criterios de evaluación</a>.</li>
+  </ol>
   <?php
   $ActividadContent = ob_get_clean();
   include BASE_PATH . '/include/Actividad.php';
   renderActividad($ActividadContent, "Actividad 1 : Modelo Educativo del CCH");
   ?>
 </section>
+<?php ob_start(); ?>
+<div class="grid  md:grid-cols-3 md:gap-10 items-center">
+  <p class="md:col-span-2 text-2xl">Te sugerimos que revises los siguientes documentos y videos para que conozcas más acerca del Modelo Educativo del Colegio:</p>
+
+  <div class="md:col-span-1">
+    <img class="mx-auto" src="<?php echo ASSET_URL ?>img/modulo-1/sabermas.webp" alt="Estudiantes CCH">
+  </div>
+</div>
+<ul class="ul-disc mt-5">
+  <li><a href="https://www.youtube.com/watch?v=T1f2pTSgJxw&ab_channel=PortalAcad%C3%A9micoCCH" target="_blank">Video del 40 aniversario del CCH</a>. Elaborado en el año 2011 a propósito del 40 aniversario del Colegio. En él se presenta una síntesis del contexto histórico de la creación del CCH y los fundamentos de su proyecto educativo.</li>
+  <li>
+    <a target="_blank" href="<?php echo PATH_DOCS . 'DocumentosytestimoniosdelahistoriadelCCH.pdf'; ?>">Documentos y testimonios de la Historia del CCH</a>. Libro publicado en el año 2013 en el cual se concentran documentos oficiales sobre la historia del Colegio y su Modelo Educativo, así como entrevistas y reflexiones de personalidades destacadas en la vida de la institución.
+  </li>
+  <li><a target="_blank" href="<?php echo PATH_DOCS . 'NumeroespecialdelaRevistaEutopia.pdf'; ?>">Número especial de la Revista Eutopía “45 años de la fundación del Colegio”</a>. Compilado de artículos elaborados por profesores del Colegio y exfuncionarios en el que se presentan reflexiones diversas sobre la importancia y los desafíos del proyecto educativo del CCH.</li>
+  <li><a target="_blank" href="http://memoria.cch.unam.mx/index.php/revista/28">Número 1 de la Revista Documenta</a>. Serie de artículos publicados en junio de 1979 relativos a la creación del CCH, las características de su proyecto educativo y su relevancia.</li>
+  <li><a target="_blank" href="<?php echo PATH_DOCS . 'Bachillerato_habilidades_basicas.pdf'; ?>">Un bachillerato de habilidades básicas</a>. Texto elaborado por José de Jesús Bazán Levy y publicado en 1988 en el que se profundiza la noción de “cultura básica” y se analizan las habilidades básicas que los estudiantes debieran desarrollar en el bachillerato.</li>
+</ul>
+<?php
+$SaberContent = ob_get_clean();
+include BASE_PATH . '/include/ParaSaber.php';
+renderSaberContent($SaberContent);
+?>
 <?php
 $content = ob_get_clean();
 include BASE_PATH . '/include/templateContent.php';
