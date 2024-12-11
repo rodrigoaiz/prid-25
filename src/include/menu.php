@@ -4,7 +4,7 @@
   {
     $currentUrl = $_SERVER['REQUEST_URI']; // URL actual
     echo '<nav id="nav-menu" class="items-center py-2 gap-y-2 flex flex-col lg:flex-row justify-between px-4 xl:py-5">';
-    echo '<div class="order-0"><img src="' . ASSET_URL . '/img/logo.svg" alt="Logo" class="w-44 mx-auto"></div>';
+    echo '<div class="order-0"><a href="' . BASE_URL . '"><img src="' . ASSET_URL . '/img/logo.svg" alt="Logo" class="w-44 mx-auto"></a></div>';
 
     echo '<ul class="grid grid-cols-2 sm:grid-cols-4 md:flex md:flex-row gap-3 text-light font-semibold uppercase">';
     foreach ($menu as $modulo => $detalles) {
@@ -13,7 +13,7 @@
       echo '<li>';
       if ($detalles['publicado']) {
         // Si el módulo está publicado, genera un enlace
-        echo "<a href='{$detalles['url']}' class='menu-item " . ($isActiveModule ? "" : "hover:bg-orange-500 px-1 text-blue-100 items-center transition-all") . "'>{$modulo}</a>";
+        echo "<a href='" . BASE_URL . $detalles['url'] . "' class='menu-item " . ($isActiveModule ? "" : "hover:bg-orange-500 px-1 text-blue-100 items-center transition-all") . "'>{$modulo}</a>";
       } else {
         // Si no está publicado, muestra un texto no clicable
         echo "<span class='text-gray-400 cursor-not-allowed'>{$modulo}</span>";

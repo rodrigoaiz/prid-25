@@ -1,7 +1,7 @@
 {
   "menu": {
     "Módulo 1": {
-      "url": "./modulo-1",
+      "url": "/modulo-1",
       "publicado": true,
       "nombre": "Módulo 1 el inicio del cch",
       "paginas": [
