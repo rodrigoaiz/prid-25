@@ -42,7 +42,7 @@
       @apply mb-1 xl:mb-3 leading-none;
     }
     p > a, li > a {
-      @apply text-blue-800 underline underline-offset-4 hover:text-orangeown transition-all ease-in-out;
+      @apply text-blue-700 underline underline-offset-4 hover:text-orangeown transition-all ease-in-out;
     }
     h1 {
       @apply text-darkown text-3xl xl:text-4xl font-bold max-w-screen-lg mt-3 mx-auto border-b-2 border-orangeown pb-2;
@@ -197,12 +197,12 @@ nav ul li a.active {
   list-style: lower-alpha;
 }
 
-.fixed {
+.fixed-nav {
   position: fixed;
   width: 100%;
   z-index: 50;
 }
 
-.top-0 {
+.top-0-nav {
   top: 0;
 }
