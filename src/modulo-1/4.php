@@ -10,20 +10,19 @@ ob_start();
   <p>Después de la pandemia por COVID-19 se han sumado retos que implican no solamente preparar clases en formato presencial, sino también prepararse para la virtualidad en caso de requerirse. De igual modo, la incorporación de la Inteligencia Artificial en la vida cotidiana, y el incremento de los problemas de salud mental en las juventudes suponen un replanteamiento y adaptación de las labores educativas.</p>
   <p>Estas situaciones han provocado que la comunidad docente se ubique entre los grupos profesionales con mayor riesgo de sufrir el Síndrome de Bornout o desgaste profesional, el cual se caracteriza por la presencia de (Maslach y Jackson, 1981):</p>
 
-<div class="w-full grid sm:grid-cols-1 xl:grid-cols-3 gap-5 px-5 my-10">
-  <div class="p-4 shadow-xl bg-yellowown">
-    <strong>Cansancio emocional:</strong> pérdida progresiva de energía, desgaste, agotamiento y fatiga; 
+  <div class="w-full grid sm:grid-cols-1 xl:grid-cols-3 gap-5 px-5 my-10">
+    <div class="p-4 shadow-xl bg-yellowown">
+      <strong>Cansancio emocional:</strong> pérdida progresiva de energía, desgaste, agotamiento y fatiga; 
+    </div>
+    <div class="p-4 shadow-xl bg-yellowown">
+      <strong>Despersonalización:</strong> desarrollo de actitudes negativas y sentimientos fríos e impersonales hacia el alumnado;
+    </div>
+    <div class="p-4 shadow-xl bg-yellowown">
+      <strong>Falta de realización personal:</strong> tendencia a evaluarse negativamente, lo que afecta la realización del trabajo y la relación con las personas a las que atienden.
+    </div>
   </div>
-  <div class="p-4 shadow-xl bg-yellowown">
-    <strong>Despersonalización:</strong> desarrollo de actitudes negativas y sentimientos fríos e impersonales hacia el alumnado;
-  </div>
-  <div class="p-4 shadow-xl bg-yellowown">
-    <strong>Falta de realización personal:</strong> tendencia a evaluarse negativamente, lo que afecta la realización del trabajo y la relación con las personas a las que atienden.
-  </div>
-</div>
-
-  La investigación educativa ha demostrado que el grado de satisfacción que tiene un docente con su quehacer es un factor protector frente al desgaste profesional. Los maestros y maestras que consideran que su trabajo es importante y que marcan una diferencia en la vida de sus alumnos son capaces de tolerar una mayor cantidad de estrés inherente a la docencia (Arón y Milicic, 2000, citado en Matus, 2013). Contrariamente, la práctica docente alienada genera respuestas negativas en los estudiantes, lo que a su vez refuerza el sentido de ineficiencia por parte del profesorado, convirtiéndose así en un círculo vicioso.
-  De este modo, es fundamental que las instituciones educativas proporcionen los docentes condiciones más favorables para la realización de sus labores. Al mismo tiempo, quienes eligen el camino de la docencia, necesitan desarrollar distintas estrategias de afrontamiento al estrés y “[un] compromiso que va más allá del logro del sustento diario y requiere por ello, de la construcción de un proceso identitario que otorgue a su práctica cotidiana significatividad y trascendencia” (Matus, 2013: 79).
+  <p>La investigación educativa ha demostrado que el grado de satisfacción que tiene un docente con su quehacer es un factor protector frente al desgaste profesional. Los maestros y maestras que consideran que su trabajo es importante y que marcan una diferencia en la vida de sus alumnos son capaces de tolerar una mayor cantidad de estrés inherente a la docencia (Arón y Milicic, 2000, citado en Matus, 2013). Contrariamente, la práctica docente alienada genera respuestas negativas en los estudiantes, lo que a su vez refuerza el sentido de ineficiencia por parte del profesorado, convirtiéndose así en un círculo vicioso.</p>
+  <p>De este modo, es fundamental que las instituciones educativas proporcionen los docentes condiciones más favorables para la realización de sus labores. Al mismo tiempo, quienes eligen el camino de la docencia, necesitan desarrollar distintas estrategias de afrontamiento al estrés y “[un] compromiso que va más allá del logro del sustento diario y requiere por ello, de la construcción de un proceso identitario que otorgue a su práctica cotidiana significatividad y trascendencia” (Matus, 2013: 79).</p>
 </section>
 <?php ob_start(); ?>
 <div class="grid  md:grid-cols-3 md:gap-10 items-center">

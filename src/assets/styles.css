@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 :root {
   --green-own: 73 177 135;
   --purple-own: 79 52 75;
@@ -72,11 +71,16 @@ html, body {
     margin: 0;
     display: flex;
     flex-direction: column;
+
 }
 
 html {
   scroll-behavior: smooth;
   transition: ease-in-out 0.5s;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overscroll-behavior-y: none;
 }
 body {
   font-family: var(--font-cuerpo);
