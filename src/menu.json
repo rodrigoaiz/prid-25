@@ -11,8 +11,8 @@
         {"nombre": "El modelo Educativo del CCH", "url": "/modulo-1/3.php", "id": 3},
         {"nombre": "El ejercicio de la docencia en el contexto actual", "url": "/modulo-1/4.php", "id": 4 },
         {"nombre": "La docencia en el CCH", "url": "/modulo-1/5.php", "id": 5},
-        {"nombre": "Ética y marco normativo de la docencia en la UNAM", "url": "/modulo-1/7.php", "id": 7},
-        {"nombre": "Fuentes de consulta ", "url": "/modulo-1/8.php", "id": 8}
+        {"nombre": "Ética y marco normativo de la docencia en la UNAM", "url": "/modulo-1/6.php", "id": 6},
+        {"nombre": "Fuentes de consulta ", "url": "/modulo-1/7.php", "id": 7}
       ]
     },
     "Módulo 2": {
