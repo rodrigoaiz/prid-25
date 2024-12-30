@@ -104,7 +104,7 @@ ob_start();
         <li>Si quieres hacer cambios da clic en <strong>Editar envío</strong> y después en <strong>Guardar cambios</strong>.</li>
       </ul>
     </li>
-    <li>Descarga los <a target="_blank" href="<?php echo PATH_DOCS . 'actividad-1-criterios-evaluacion.docx'; ?>">criterios de evaluación</a>.</li>
+    <li>Descarga los <a target="_blank" href="<?php echo PATH_DOCS . 'actividad-1-criterios-evaluacion.pdf'; ?>">criterios de evaluación</a>.</li>
   </ol>
   <?php
   $ActividadContent = ob_get_clean();

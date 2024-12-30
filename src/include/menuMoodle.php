@@ -11,10 +11,7 @@ $menuMoodle = $menuData['menuMoodle'];
     ¡Hola <span>
       <?php //echo $USER->firstname ." ". $USER->lastname;
       ?>!
-    </span> <span class="size-xs">(<a href="/../../login/logout.php?sesskey=
-    <?php //print sesskey();
-    ?>&alt=logout" class="menimg  over">
-        salir</a>)</span>
+    </span>
   </div>
   <div class="flex flex-cols justify-end gap-3 py-1">
     <?php foreach ($menuMoodle as $menuItem): ?>

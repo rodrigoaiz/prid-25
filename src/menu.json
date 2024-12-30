@@ -28,12 +28,12 @@
       "publicado": false
     },
     "Cronográma": {
-      "url": "/coronograma.pdf",
-      "publicado": false
+      "url": "/assets/docs/cronograma-modulo-1-25.pdf",
+      "publicado": true
     },
     "Lineamientos": {
-      "url": "/lineamientos.pdf",
-      "publicado": false
+      "url": "/assets/docs/acreditacion-programa-25.pdf",
+      "publicado": true
     }
   },
   "footer": {
