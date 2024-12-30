@@ -10,7 +10,7 @@ ob_start();
     </article>
     <img class="md:order-1" src="<?php echo ASSET_URL . 'img/modulo-1/bloque2.webp' ?>" alt="">
   </div>
-  <div class="grid md:grid-cols-2 gap-x-4 md:gap-x-10">
+  <div class="grid md:grid-cols-2 gap-x-4 md:gap-x-10 pb-10">
     <article>
       <h3 class="text-orangeown">Objetivos</h3>
       <div class="bg-greenown/70 h-full text-darkown p-5">
