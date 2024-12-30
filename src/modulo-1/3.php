@@ -111,6 +111,10 @@ ob_start();
   include BASE_PATH . '/include/Actividad.php';
   renderActividad($ActividadContent, "Actividad 1 : Modelo Educativo del CCH");
   ?>
+  <?php
+    include BASE_PATH . '/include/ActividadIframe.php';
+    renderActividadIframe('b1act1');
+  ?>
 </section>
 <?php ob_start(); ?>
 <div class="grid  md:grid-cols-3 md:gap-10 items-center">

@@ -1,4 +1,12 @@
 <?php
+    $ruta = dirname(__FILE__) . '/../../config.php';
+    if (file_exists($ruta)) {
+      require_once($ruta);
+      require_login();
+    } else {
+      echo "Invitado";
+    }
+
 // Ruta al archivo menu.json
 $menuPath = BASE_PATH . '/menu.json';
 $menuData = json_decode(file_get_contents($menuPath), true);
@@ -8,10 +16,13 @@ $menuMoodle = $menuData['menuMoodle'];
 ?>
 <nav id="nav-moodle" class="w-100 justify-between flex px-2">
   <div>
-    ¡Hola <span>
-      <?php //echo $USER->firstname ." ". $USER->lastname;
-      ?>!
-    </span>
+    ¡Hola <span class="font-bold">
+      <?php
+      if (isset($USER->firstname) && isset($USER->lastname)) {
+        echo $USER->firstname . " " . $USER->lastname;
+      }
+      ?>
+    </span>!
   </div>
   <div class="flex flex-cols justify-end gap-3 py-1">
     <?php foreach ($menuMoodle as $menuItem): ?>

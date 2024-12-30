@@ -1,4 +1,9 @@
 {
+ "actividades": {
+    "b1act1": 231,
+    "b1act2": 232,
+    "b1act3": 248
+  },
   "menu": {
     "Módulo 1": {
       "url": "/modulo-1",
