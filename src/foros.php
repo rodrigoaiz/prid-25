@@ -1,67 +1,54 @@
 <?php
-	require_once("include/header1.php");
+include_once 'config.php';
+include BASE_PATH . '/include/header1.php';
+
+// Cargar el menú desde el JSON
+$menuData = json_decode(file_get_contents(BASE_PATH . '/menu.json'), true);
+$menu = $menuData['menu'];
+
+include BASE_PATH . '/include/menu.php';
+
+
+// ID de la página actual (puedes obtenerlo de la URL o de otra fuente)
+$currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 ?>
-<link rel="stylesheet" href="css/general.css">
-<link rel="stylesheet" href="css/menuverde.css">
-<link rel="stylesheet" href="css/login.css">
-<title>Foros</title>
-<?php
-	require_once("include/header2.php");
-?>
-
-<!-- Inicia Contenido -->
-
-	<iframe id="actividad" src="https://moodle.portalacademico.cch.unam.mx/modelo-educativo/mod/forum/view.php?id=204&theme=photo" width="95%" height="500px"></iframe>
+<title>Programa de Regularización e Iniciación a la Docencia - Foros</title>
+</head>
 
 
-   <!--
-    <ul id="select_foros" class="unstyled  vertical20">
-      <li id="bloq0"><span class="b0"><a href="#fb0">Foro General</a></span></li>
-      </ul>
 
-     <li id="bloq1"><span class="b1"><a href="#fb1">Foro Bloque 1</a></span></li>
-      <li id="bloq2"><span class="b2"><a href="#fb2">Foro Bloque 2</a></span></li>
-      <li id="bloq3"><span class="b3"><a href="#fb3">Foro Bloque 3</a></span></li>
-      <li id="bloq4"><span class="b4"><a href="#fb4">Foro Bloque 4</a></span></li>
-      <li id="bloq5"><span class="b5"><a href="#fb5">Foro Bloque 5</a></span></li>
-      <li id="bloq6"><span class="b6"><a href="#fb6">Foro Bloque 6</a></span></li>
-    </ul>
-  </div>
-</div>
- <iframe id="fb1" src="/modeloeducativo/mod/forum/view.php?id=51&theme=induccion" width="100%" height="500px"></iframe>
-<iframe id="fb2" src="/modeloeducativo/mod/forum/view.php?id=48&theme=induccion" width="100%" height="500px"></iframe>
-<iframe id="fb3" src="/modeloeducativo/mod/forum/view.php?id=70&theme=induccion" width="100%" height="500px"></iframe>
-<iframe id="fb4" src="/modeloeducativo/mod/forum/view.php?id=54&theme=induccion" width="100%" height="500px"></iframe>
-<iframe id="fb5" src="/modeloeducativo/mod/forum/view.php?id=57&theme=induccion" width="100%" height="500px"></iframe>
-<iframe id="fb6" src="/modeloeducativo/mod/forum/view.php?id=65&theme=induccion" width="100%" height="500px"></iframe>-->
+<body>
 
-</div>
-<!-- Termina Contenido -->
+  <?php renderMenu($menu); ?>
+  <?php renderMenuMoodle(); ?>
+  <main>
+    <section>
+      <h1 class="text-3xl text-orangeown uppercase">Foro general</h1>
+      <?php
+      include BASE_PATH . '/include/ActividadIframe.php';
+      renderActividadIframe('foro', 'forum');
+      ?>
+    </section>
+  </main>
+  <script src="<?php echo BASE_URL; ?>/js/bundle.js"></script>
+  <?php
+  // Función para eliminar BOM
+  function removeBOM($text)
+  {
+    if (substr($text, 0, 3) === "\xEF\xBB\xBF") {
+      $text = substr($text, 3);
+    }
+    return $text;
+  }
 
-<!-- Inicia Footer -->
-<?php
-	require_once("include/footer.php");
-?>
-<!--
-<script type="text/javascript">
-	$(document).ready(function(){
-		$("iframe").hide();
-		$("ul#select_foros li a").click(function(e){
-			e.preventDefault();
-			id = $(this).attr("href");
-			$(id).show();
-			$("#select_foros").hide();
-		});
-	$('#fb0').iframeAutoHeight({heightOffset: 20,minHeight: 300});
-	$('#fb1').iframeAutoHeight({heightOffset: 20,minHeight: 300});
-        $('#fb2').iframeAutoHeight({heightOffset: 20,minHeight: 300});
-        $('#fb3').iframeAutoHeight({heightOffset: 20,minHeight: 450});
-        $('#fb4').iframeAutoHeight({heightOffset: 20,minHeight: 300});
-        $('#fb5').iframeAutoHeight({heightOffset: 20,minHeight: 300});
+  // Incluir archivos sin BOM
+  ob_start();
+  require_once BASE_PATH . '/include/footer.php';
+  $footerContent = ob_get_clean();
+  echo removeBOM($footerContent);
 
-	});
-
-</script> -->
-<?php
-	require_once("include/footer2.php");
-?>
+  ob_start();
+  require_once BASE_PATH . '/include/footer2.php';
+  $footer2Content = ob_get_clean();
+  echo removeBOM($footer2Content);
+  ?>

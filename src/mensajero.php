@@ -1,31 +1,51 @@
 <?php
-	require_once("include/header1.php");
+include_once 'config.php';
+include BASE_PATH . '/include/header1.php';
+
+// Cargar el menú desde el JSON
+$menuData = json_decode(file_get_contents(BASE_PATH . '/menu.json'), true);
+$menu = $menuData['menu'];
+
+include BASE_PATH . '/include/menu.php';
+
+
+// ID de la página actual (puedes obtenerlo de la URL o de otra fuente)
+$currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 ?>
-
-	<link rel="stylesheet" href="css/general.css">
-	<link rel="stylesheet" href="css/menuverde.css">
-	<title>Mensajero</title>
-
-<?php
-	require_once("include/header2.php");
-?>
-<!-- Inicia Contenido -->
+<title>Programa de Regularización e Iniciación a la Docencia - Mensajero</title>
+</head>
 
 
-<div class="container">
-	<iframe id="actividad" src="https://moodle.portalacademico.cch.unam.mx/modelo-educativo/message/?theme=photo" width="100%" height="400px"></iframe>
-</div>
 
+<body>
 
-<!-- Termina Contenido -->
+	<?php renderMenu($menu); ?>
+	<?php renderMenuMoodle(); ?>
+	<main>
+		<section>
+			<h1 class="text-3xl text-orangeown uppercase">Mensajero</h1>
+			<iframe class="actividadmoodle w-full" src="https://moodle.portalacademico.cch.unam.mx/modelo-educativo/message/?theme=photo"></iframe>
+		</section>
+	</main>
+	<script src="<?php echo BASE_URL; ?>/js/bundle.js"></script>
+	<?php
+	// Función para eliminar BOM
+	function removeBOM($text)
+	{
+		if (substr($text, 0, 3) === "\xEF\xBB\xBF") {
+			$text = substr($text, 3);
+		}
+		return $text;
+	}
 
-<!-- Inicia Footer -->
-<?php
-	require_once("include/footer.php");
-?>
-  <script type="text/javascript">
-    $('#actividad').iframeAutoHeight({heightOffset: 20,minHeight: 500});
-  </script>
-<?php
-	require_once("include/footer2.php");
-?>
+	// Incluir archivos sin BOM
+	ob_start();
+	require_once BASE_PATH . '/include/footer.php';
+	$footerContent = ob_get_clean();
+	echo removeBOM($footerContent);
+
+	ob_start();
+	require_once BASE_PATH . '/include/footer2.php';
+	$footer2Content = ob_get_clean();
+	echo removeBOM($footer2Content);
+	?>

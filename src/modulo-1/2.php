@@ -12,7 +12,7 @@ ob_start();
   $imageSrc = ASSET_URL . 'img/modulo-1/b1p02i05.webp';
   renderImageComponent($imageSrc, 'justify-end');
   ?>
-  <p>En aquellos años la creación del CCH coincide con la necesidad social de que un mayor número de jóvenes mexicanos, que vivían en el área metropolitana, tuvieran la oportunidad de contar con una educación a nivel medio superior.</p>
+  <p>En aquellos años la creación del CCH coincide con la necesidad social de que un mayor número de jóvenes mexicanos, que vivían en el área metropolitana, tuvieran la oportunidad de contar con una educación de nivel medio superior.</p>
   <p>Al mismo tiempo, el Colegio surge como una opción educativa con una nueva perspectiva curricular y didáctica, que buscaba atender las dificultades del proceso de enseñanza-aprendizaje identificadas en aquél entonces.</p>
   <div class="my-10 text-center mx-auto text-2xl">
     Para comprender lo que hoy se conoce como CCH, te presentamos algunos de los acontecimientos más relevantes de su historia:

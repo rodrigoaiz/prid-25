@@ -1,5 +1,7 @@
 {
+ "curso" : "12",
  "actividades": {
+    "foro" : 229,
     "b1act1": 231,
     "b1act2": 232,
     "b1act3": 248
@@ -8,6 +10,7 @@
     "Módulo 1": {
       "url": "/modulo-1",
       "publicado": true,
+      "target": "_self",
       "nombre": "Módulo 1 el inicio del cch",
       "paginas": [
         {"nombre": "Módulo 1", "url": "/", "id": 0},
@@ -22,23 +25,28 @@
     },
     "Módulo 2": {
       "url": "/modulo-2",
-      "publicado": false
+      "publicado": false,
+      "target": "_self"
     },
     "Módulo 3": {
       "url": "/modulo-3",
-      "publicado": false
+      "publicado": false,
+      "target": "_self"
     },
     "Módulo 4": {
       "url": "/modulo-4",
-      "publicado": false
+      "publicado": false,
+      "target": "_self"
     },
     "Cronográma": {
       "url": "/assets/docs/cronograma-modulo-1-25.pdf",
-      "publicado": true
+      "publicado": true,
+      "target": "_blank"
     },
     "Lineamientos": {
       "url": "/assets/docs/acreditacion-programa-25.pdf",
-      "publicado": true
+      "publicado": true,
+      "target": "_blank"
     }
   },
   "footer": {
@@ -63,22 +71,22 @@
     "moodle": {
       "nombre": "Moodle",
       "icon": "moodle.svg",
-      "url": "https://moodle.portalacademico.cch.unam.mx/modelo-educativo/course/view.php?id=11&theme=boost"
+      "url": "https://moodle.portalacademico.cch.unam.mx/modelo-educativo/course/view.php?id=12&theme=boost"
     },
     "calificaciones": {
       "nombre": "Calificaciones",
       "icon": "check2-circle.svg",
-      "url": "https://moodle.portalacademico.cch.unam.mx/modelo-educativo/modelo/calificaciones.php"
+      "url": "https://moodle.portalacademico.cch.unam.mx/modelo-educativo/dist/calificaciones.php"
     },
     "foros": {
       "nombre": "Foros",
       "icon": "people.svg",
-      "url": "https://moodle.portalacademico.cch.unam.mx/modelo-educativo/modelo/foros.php"
+      "url": "https://moodle.portalacademico.cch.unam.mx/modelo-educativo/dist/foros.php"
     },
     "mensajes": {
       "nombre": "Mensajes",
       "icon": "menu-up.svg",
-      "url": "https://moodle.portalacademico.cch.unam.mx/modelo-educativo/modelo/mensajero.php"
+      "url": "https://moodle.portalacademico.cch.unam.mx/modelo-educativo/dist/mensajero.php"
     },
     "salir": {
       "nombre": "Salir",

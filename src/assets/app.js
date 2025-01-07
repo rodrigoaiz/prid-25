@@ -42,13 +42,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     const nav = document.querySelector('#nav');
-    window.addEventListener('scroll', function() {
-        if (window.scrollY > 0) {
-            nav.classList.add('fixed-nav', 'top-0-nav');
-        } else {
-            nav.classList.remove('fixed-nav', 'top-0-nav');
-        }
-    });
+    if (nav) {
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 0) {
+                nav.classList.add('fixed-nav', 'top-0-nav');
+            } else {
+                nav.classList.remove('fixed-nav', 'top-0-nav');
+            }
+        });
+    }
 });
 
 

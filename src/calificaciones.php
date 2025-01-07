@@ -1,29 +1,52 @@
 <?php
-	require_once("include/header1.php");
+include_once 'config.php';
+include BASE_PATH . '/include/header1.php';
+
+// Cargar el menú desde el JSON
+$menuData = json_decode(file_get_contents(BASE_PATH . '/menu.json'), true);
+$menu = $menuData['menu'];
+
+include BASE_PATH . '/include/menu.php';
+
+
+// ID de la página actual (puedes obtenerlo de la URL o de otra fuente)
+$currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 ?>
-
-	<link rel="stylesheet" href="css/general.css">
-	<link rel="stylesheet" href="css/menuverde.css">
-	<title>Calificaciones</title>
+<title>Programa de Regularización e Iniciación a la Docencia - Calificaciones</title>
+</head>
 
 
-<?php
-	require_once("include/header2.php");
-?>
-<!-- Inicia Contenido -->
 
+<body>
 
-	<iframe id="actividad" src="https://moodle.portalacademico.cch.unam.mx/modelo-educativo/grade/report/grader/index.php?id=11&theme=photo" width="95%" height="400px"></iframe>
+	<?php renderMenu($menu); ?>
+	<?php renderMenuMoodle(); ?>
+	<main>
+		<section>
+			<h1 class="text-3xl text-orangeown uppercase">Calificaciones</h1>
+			<iframe class="actividadmoodle w-full" src="https://moodle.portalacademico.cch.unam.mx/modelo-educativo/grade/report/grader/index.php?id=11&theme=photo"></iframe>
 
+		</section>
+	</main>
+	<script src="<?php echo BASE_URL; ?>/js/bundle.js"></script>
+	<?php
+	// Función para eliminar BOM
+	function removeBOM($text)
+	{
+		if (substr($text, 0, 3) === "\xEF\xBB\xBF") {
+			$text = substr($text, 3);
+		}
+		return $text;
+	}
 
-<div class="vertical30"></div>
-<!-- Termina Contenido -->
+	// Incluir archivos sin BOM
+	ob_start();
+	require_once BASE_PATH . '/include/footer.php';
+	$footerContent = ob_get_clean();
+	echo removeBOM($footerContent);
 
-<!-- Inicia Footer -->
-<?php
-	require_once("include/footer.php");
-?>
-
-<?php
-	require_once("include/footer2.php");
-?>
+	ob_start();
+	require_once BASE_PATH . '/include/footer2.php';
+	$footer2Content = ob_get_clean();
+	echo removeBOM($footer2Content);
+	?>

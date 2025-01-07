@@ -4,7 +4,7 @@ $currentPageId = 7;
 ob_start();
 ?>
 <section>
-  <ul class="ul-disc">
+  <ul id="biblio" class="ul-disc">
     <li>(1979). <em>Documenta, No. 1</em>. Colegio de Ciencias y Humanidades. http://memoria.cch.unam.mx/index.php/revista/28</li>
     <li>(2016). <em>45 años de la fundación del Colegio</em>. Eutopía. Revista del Colegio de Ciencias y Humanidades para el bachillerato. Número especial.</li>
     <li>AAPAUNAM (2021). <em>Contrato colectivo de trabajo 2021-2023</em>. https://www.personal.unam.mx/Docs/Contratos/aapaunam-2021_2023.pdf</li>
@@ -43,6 +43,13 @@ ob_start();
     <li>UNAM (2021) <em>Sitio de la Coordinación para la igualdad de género</em>. https://coordinaciongenero.unam.mx/quienes-somos/</li>
   </ul>
 </section>
+<style>
+  #biblio li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+</style>
 <?php
 $content = ob_get_clean();
 include BASE_PATH . '/include/templateContent.php';

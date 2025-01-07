@@ -26,14 +26,14 @@ ob_start();
   <div class="text-xl pl-3 lg:px-10 mx-auto border-l-4 border-l-greenown max-w-screen-md my-5 lg:my-10">
     Este […] es un bachillerato de fuentes y no de comentarios, puesto que se propone dotar al alumno de los conocimientos y habilidades que le permitan acceder por sí mismo a las fuentes del conocimiento y, más en general, de la cultura; es decir, a la lectura de textos de todo tipo, a la experimentación y a la investigación de campo. Por ello, pone el acento en el trabajo intelectual del alumno y excluye concebirlo como repetidor del saber del profesor, con quien comparte, en cierta igualdad radical, la posibilidad de conocer, juzgar opinar y fundar intelectualmente (Plan de Estudios Actualizado, 1996: 36)
   </div>
-  <p>Durante las modificaciones curriculares que se realizaron en el periodo de 2002 a 2005 a los Programas de Estudio, se colocó en el centro del debate el concepto de “aprendizaje relevante”, como “el criterio central para repensar y enseñar los temas y contenidos de las diferentes materias” (García, 2004: 7). Esto es, poner en primer orden, antes que los contenidos temáticos, el conocimiento esperado, ya no en forma de datos sino de un saber integral que incluyera el manejo de conocimientos, el desarrollo de habilidades, y la expresión de actitudes (DGCCH/UNAM, 2012).</p>
+  <p>Durante las modificaciones curriculares que se realizaron en el periodo 2002-2005 a los Programas de Estudio, se colocó en el centro del debate el concepto de “aprendizaje relevante”, como “el criterio central para repensar y enseñar los temas y contenidos de las diferentes materias” (García, 2004: 7). Esto es, poner en primer orden, antes que los contenidos temáticos, el conocimiento esperado, ya no en forma de datos sino de un saber integral que incluyera el manejo de conocimientos, el desarrollo de habilidades, y la expresión de actitudes (DGCCH/UNAM, 2012).</p>
   <p>El Modelo Educativo se configura así, a partir de una dimensión político-pedagógica en la relación profesor-alumno, por un n lado, y por otro, en una propuesta curricular que pone el acento en la selección de lo básico en varios niveles: desde la noción de cultura básica, hasta la concepción del logro de aprendizajes.</p>
   <p>En síntesis, de acuerdo con lo planteado en el número extraordinario 4 de la Gaceta del CCH del 10 de octubre de 2001, los <strong>ejes organizativos</strong> que caracterizan el Modelo Educativo del CCH son los siguientes:</p>
   <ul class="ul-disc mx-auto w-1/2 my-5 md:my-6 text-lg">
     <li>Cultura básica</li>
     <li>Organización académica por áreas</li>
-    <li>El alumando como sujeto de la cultura y actor primero de su formación</li>
-    <li>El profesor como orientador en el aprendizaje</li>
+    <li>El alumnado como sujeto de la cultura y actor primero de su formación</li>
+    <li>El profesorado como guía y orientador en el aprendizaje</li>
   </ul>
   <div class="grid lg:grid-cols-2 gap-10">
     <p>Estos cuatro ejes rectores se concretan en los propósitos educativos que tiene esta institución y las formas pedagógicas para alcanzarlos, lo que implica que las actividades de enseñanza y aprendizaje se deberán organizar conforme al modelo. Para adquirir el conocimiento y la formación de actitudes, el Modelo Educativo del Colegio plantea una metodología en la que el estudiantado tiene un papel activo en el proceso educativo (en el salón de clases y en la realización de trabajos de investigación y prácticas de laboratorio) bajo la guía del profesorado, sin que necesariamente éste pierda su autoridad académica en el salón de clase, ya que cuenta con el respaldo de sus experiencias, habilidades intelectuales y conocimientos.</p>
@@ -112,8 +112,8 @@ ob_start();
   renderActividad($ActividadContent, "Actividad 1 : Modelo Educativo del CCH");
   ?>
   <?php
-    include BASE_PATH . '/include/ActividadIframe.php';
-    renderActividadIframe('b1act1');
+  include BASE_PATH . '/include/ActividadIframe.php';
+  renderActividadIframe('b1act1');
   ?>
 </section>
 <?php ob_start(); ?>
