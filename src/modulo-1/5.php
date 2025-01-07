@@ -34,7 +34,7 @@ ob_start();
   <li>¿Le gusta dar clases o no ha encontrado otra actividad mejor para llevar a cabo?</li>
 </ul>
 <section>
-  <p class="text-lg font-black text-center mb-10">Éstas y otras preguntas son respondidas por las y los docentes, incluso sin proponérselo, porque la ética guía el accionar humano y, basado en su ética, el profesorado decide qué decir y cómo comportarse frente a al alumnado.</p>
+  <p class="text-lg font-black text-center mb-10">Éstas y otras preguntas son respondidas por las y los docentes, incluso sin proponérselo, porque la ética guía el accionar humano y, basado en su ética, el profesorado decide qué decir y cómo comportarse frente al alumnado.</p>
   <p class="mt-10">En este sentido, es trascendental que la planta docente se reconozca como ejemplo a seguir (o no) en su accionar diario. El profesorado puede enseñar matemáticas, biología, filosofía, inglés o redacción, no obstante, igualmente muestra y hace que los y las estudiantes aprendan valores como: la solidaridad, la tolerancia, la inclusión, el respeto, la autonomía, el amor y la responsabilidad.</p>
   <div class="text-2xl pl-3 lg:px-10 mx-auto border-l-4 border-l-greenown max-w-screen-lg my-5 lg:my-10">
     <span class="block mb-10 font-bold">En palabras de Freire (1996, p.99; citado en Matus, 2013):</span>

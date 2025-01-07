@@ -33,7 +33,7 @@ $currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
         <li>Taller de planeación didáctica (30 h).</li>
         <li>Aplicación y evaluación de la planeación de una clase (40 h).</li>
       </ul>
-      <p>Durante este tiempo tendrás el acompañamiento y apoyo de los impartidores, profesores de amplia experiencia en el Colegio. Para evaluarte se tomarán en cuenta tu participación y presencia virtual en las sesiones sincrónicas, así como haber realizado en su totalidad las actividades en línea.</p>
+      <p>Durante este tiempo tendrás el acompañamiento y apoyo de las y los impartidores, profesores de amplia experiencia en el Colegio. Para evaluarte se tomarán en cuenta tu participación y presencia virtual en las sesiones sincrónicas, así como haber realizado en su totalidad las actividades en línea.</p>
       <div class="text-2xl xl:my-10 text-center text-blueown font-bold bg-bluelightown px-2 py-3 max-w-screen-md mx-auto shadow-xl">
         Te invitamos a conocer uno de los proyectos educativos de nivel medio superior más importantes del país; que, a lo largo de sus más de cincuenta años de existencia, ha formado ciudadanos y ciudadanas capaces de incidir en la transformación de su contexto.
       </div>
