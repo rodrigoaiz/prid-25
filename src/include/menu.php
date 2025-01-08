@@ -10,7 +10,7 @@
     foreach ($menu as $modulo => $elemento) {
       $isActiveModule = $currentUrl === $elemento['url'];
 
-      echo '<li>';
+      echo '<li class="text-center">';
       if ($elemento['publicado']) {
         // Si el módulo está publicado, genera un enlace
         $target = isset($elemento['target']) ? $elemento['target'] : '_self';
