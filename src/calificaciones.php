@@ -24,7 +24,7 @@ $currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 	<main>
 		<section>
 			<h1 class="text-3xl text-orangeown uppercase">Calificaciones</h1>
-			<iframe class="actividadmoodle w-full" src="https://moodle.portalacademico.cch.unam.mx/modelo-educativo/grade/report/grader/index.php?id=11&theme=photo"></iframe>
+			<iframe class="actividadmoodle w-full" src="https://moodle.portalacademico.cch.unam.mx/modelo-educativo/grade/report/grader/index.php?id=12&theme=photo"></iframe>
 
 		</section>
 	</main>
