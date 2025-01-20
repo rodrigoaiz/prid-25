@@ -81,7 +81,7 @@ ob_start();
 </section>
 <?php ob_start(); ?>
 <div class="grid  md:grid-cols-3 md:gap-10 items-center">
-  <p class="md:col-span-2 text-2xl"> Para saber más Revisa los siguientes textos que contienen información sobre la normatividad y la ética del quehacer docente:</p>
+  <p class="md:col-span-2 text-2xl">Revisa los siguientes textos que contienen información sobre la normatividad y la ética del quehacer docente:</p>
   <div class="md:col-span-1">
     <img class="mx-auto" src="<?php echo ASSET_URL ?>img/modulo-1/sabermas.webp" alt="Estudiantes CCH">
   </div>

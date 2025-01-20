@@ -38,7 +38,7 @@ $currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
           <p class="font-bold">Secretaría Auxiliar del Área Histórico-Social</p>
           <p class="font-bold">Secretaría Auxiliar del Área de Talles de Lenguaje y Comunicación</p>
           <p class="font-bold">Departamento de Inglés</p>
-          <p class="font-bold">Departamento de Fracés</p>
+          <p class="font-bold">Departamento de Francés</p>
         </article>
         <article class="bg-slate-300 shadow shadow-darkown/50 p-4">
           <h3>Secretaría de Servicios de Apoyo al Aprendizaje</h3>
@@ -47,7 +47,7 @@ $currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
           <p>Claudia Durán Olmos</p>
           <h3>Diseño instruccional</h3>
           <p>Yadira Jannet Jiménez Taboada</p>
-          <h3>Desarrollo Web y Administración Platafomra Moodle</h3>
+          <h3>Desarrollo Web y Administración Plataforma Moodle</h3>
           <p>Jesús Rodrigo Aizpuru Parra</p>
           <p>Karla Gabriela Moreno Vega</p>
         </article>
