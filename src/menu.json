@@ -56,7 +56,7 @@
     },
     "creditos": {
       "nombre": "Créditos",
-      "url": "https://portalacademico.cch.unam.mx/creditos"
+      "url": "https://moodle.portalacademico.cch.unam.mx/modelo-educativo/dist/creditos.php"
     },
     "calendario": {
       "nombre": "Calendario",

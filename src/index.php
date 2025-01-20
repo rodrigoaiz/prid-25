@@ -37,6 +37,9 @@ $currentPageId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
       <div class="text-2xl xl:my-10 text-center text-blueown font-bold bg-bluelightown px-2 py-3 max-w-screen-md mx-auto shadow-xl">
         Te invitamos a conocer uno de los proyectos educativos de nivel medio superior más importantes del país; que, a lo largo de sus más de cincuenta años de existencia, ha formado ciudadanos y ciudadanas capaces de incidir en la transformación de su contexto.
       </div>
+      <div class="w-full text-center">
+        <div class="hover:-translate-y-1 transform transition-all duration-100 block"><a href="<?php echo BASE_URL . '/modulo-1'; ?>" class="bg-orangeown px-4 py-3 text-xl font-black uppercase text-white rounded-xl shadow-md shadow-darkown/50 ">Iniciar Programa</a></div>
+      </div>
     </section>
     <div class="w-full xl:mt-10">
       <img class="block mx-auto" src="<?php echo ASSET_URL . '/img/comunidad.webp'; ?>" alt="comunidad cch">
