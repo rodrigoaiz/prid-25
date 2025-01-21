@@ -22,7 +22,6 @@ ob_start();
     <li><a target="_blank" href="<?php echo PATH_DOCS . 'EstatutodelPersonalAcademico.pdf'; ?>">Estatuto del Personal Académico (EPA)</a> artículos 6, 55 y 56.</li>
     <li><a target="_blank" href="<?php echo PATH_DOCS . 'MarcoInstitucionaldeDocencia.pdf'; ?>">Marco Institucional de Docencia.</a> principios 4, 7, 13, 14.</li>
     <li><a target="_blank" href="<?php echo PATH_DOCS . 'codigo-etica-unam.pdf" '; ?>">Código de ética de la UNAM.</a> : documento completo.</li>
-    <li><strong>Contrato colectivo de trabajo 2023-2025.</strong> Es el convenio que regula las relaciones laborales entre la Universidad y el sindicato de su personal académico (AAPAUNAM). Incluye regulaciones relativas a los salarios, días de descanso y vacaciones, prestaciones, licencias, incapacidades, entre otros.</li>
     <li><a target="_blank" href="<?php echo PATH_DOCS . 'CIGU-Herramientas-docentes.pdf'; ?>">Herramientas para una docencia igualitaria, incluyente y libre de violencias</a> apartados correspondientes a “1. Buenas prácticas docentes” y “2. Uso de lenguaje incluyente y no sexista”. </li>
     <li><a target="_blank" href="<?php echo PATH_DOCS . 'cartillaLGBTIQ.pdf'; ?>">Cartilla universitaria de buenas prácticas enfocadas a poblaciones LGBTIQ+:</a> páginas 11 a 23, correspondientes a las “Buenas prácticas”.</li>
   </ul>
@@ -68,7 +67,7 @@ ob_start();
   <?php ob_start(); ?>
   <ol class="ol-number">
     <li>Realiza la lectura del texto “<a target="_blank" href="<?php echo PATH_DOCS . 'Pasion_por_ensenar.pdf'; ?>">Pasión por el propio aprendizaje y por el desarrollo profesional (p.119-137)</a>”, y de los textos “<a href="https://medium.com/@netza/los-hijos-que-no-tendr%C3%A9-8a546bae7bdf" target="_blank">Los hijos que no tendré</a>” y “<a href="https://iisue.unam.mx/nosotros/historias-y-huellas-en-mi-andar-docente/?fbclid=IwY2xjawF_pTRleHRuA2FlbQIxMAABHe3NZuk2-XcZ2mQUNdN7JcWLCrg32bknSjoXLE1mt5dluX9N3i-0OKSd0g_aem_pOg5E9x9Li6_ndCXRIhLaw" target="_blank">Una experiencia positiva</a>”.</li>
-    <li>A partir de las lecturas, así como de tus propias reflexiones y vivencias, participa, durante la sesión sincrónica, en el padlet indicado por tus impartidores, Foro contestando las siguientes preguntas: ¿Cuáles consideras que son tus principales retos/desafíos como docente del CCH y en qué medida coinciden o no con los presentados en las lecturas? ¿Con qué alternativas cuentas para afrontar dichas dificultades?</li>
+    <li>A partir de las lecturas, así como de tus propias reflexiones y vivencias, participa durante la sesión sincrónica en el padlet indicado por tus impartidores contestando las siguientes preguntas: ¿Cuáles consideras que son tus principales retos/desafíos como docente del CCH y en qué medida coinciden o no con los presentados en las lecturas?, ¿Con qué alternativas cuentas para afrontar dichas dificultades?</li>
     <li>Para conocer sobre el uso de la herramienta Padlet consulta el siguiente <a href="https://www.youtube.com/watch?v=4Kil6gspE9w" target="_blank">video</a>.</li>
     <li>Descarga los <a target="_blank" href="<?php echo PATH_DOCS . 'actividad-3-criterios-evaluacion.pdf'; ?>">criterios de evaluación</a>.</li>
   </ol>
