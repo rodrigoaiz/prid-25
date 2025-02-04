@@ -181,6 +181,17 @@ nav ul li a.active {
 .ul-disc {
   >li {
     padding-left: 1.6rem;
+    ul{
+      list-style: disc;
+      margin-top: 0.5rem;
+      margin-left: 1rem;
+      li {
+        padding-bottom: 1rem;
+      }
+      li:last-child {
+        padding-bottom: 0;
+      }
+    }
   }
 
   >li:before {
