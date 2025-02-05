@@ -2,10 +2,7 @@
 include_once __DIR__ . '/../config.php';
 // Establecer el ID de la página aquí
 $currentPageId = 8;
-$moduloId = 2;
 ob_start();
-echo "<pre>Detectado Módulo: " . htmlspecialchars($moduloId) . "</pre>";
-
 ?>
 <section class="pb-10">
   <div class="grid md:grid-cols-2 items-center gap-10 my-5 md:my-10">
