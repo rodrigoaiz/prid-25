@@ -25,7 +25,7 @@ function renderNavegacion($moduloId, $currentPageId)
     }
     foreach ($paginas as $index => $pagina) {
         $activeClass = ($pagina['id'] == $currentPageId) ? 'class="active"' : '';
-        $linkText = $index + 1;
+        $linkText = $index === 0 ? "<img src='" . BASE_URL . "/assets/icons/house.svg' alt='Home' />" : $index;
         $linkUrl = BASE_URL . "{$pagina['url']}";
         echo "<li class='flex items-center'><a href='" . $linkUrl . "' alt='{$pagina['nombre']}' $activeClass data-nombre='{$pagina['nombre']}'>{$linkText}</a></li>";
     }

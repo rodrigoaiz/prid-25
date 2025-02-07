@@ -1,10 +1,16 @@
 <?php
 include_once __DIR__ . '/../config.php';
-$currentPageId = 10;
+$currentPageId = 11;
 ob_start();
 ?>
 <section>
   <p>La noción de <a class="tooltip-multiline tooltip-bottom-left" data-tooltip="Conjunto de conocimientos, habilidades y actitudes indispensables que permiten a un bachiller comprender los principales fenómenos de la sociedad y la naturaleza, y adquirir nuevos aprendizajes.">cultura básica</a> <span class="sm:hidden">(conjunto de conocimientos, habilidades y actitudes indispensables que permiten a un bachiller comprender los principales fenómenos de la sociedad y la naturaleza, y adquirir nuevos aprendizajes)</span> es un componente fundamental del Modelo Educativo del Colegio y hace referencia al conjunto de conocimientos, habilidades y actitudes indispensables que permiten a un bachiller comprender los principales fenómenos sociales y naturales, así como adquirir nuevos aprendizajes. </p>
+  <?php
+  include BASE_PATH . '/include/ImagenFullPleca.php';
+
+  $imageSrc = ASSET_URL . 'img/modulo-2/b2p2e6.webp';
+  renderImageComponent($imageSrc, 'justify-start');
+  ?>
   <p class="text-xl">La concepción del Colegio como un bachillerato de cultura básica ofrece dos ventajas importantes: </p>
   <ol class="ol-number">
     <li><strong>Permite centrarse en los contenidos esenciales de la enseñanza y trascender el enciclopedismo</strong>. Se reconoce como absurda la “pretensión de abarcar en la enseñanza, aunque sea en forma de introducción y esbozo, todo el conocimiento logrado por la cultura occidental” (DGCCH, 2006; p.7). Contrariamente, se propone realizar una selección de los contenidos que resulten esenciales.</li>
@@ -36,8 +42,14 @@ ob_start();
 </div>
 <section>
   <h3>Orientación y Sentido de las Áreas</h3>
-  <p>Como su nombre lo indica, el documento <em>Orientación y Sentido de las Áreas del Plan de Estudios Actualizado</em>, publicado en 2006, describe ampliamente la orientación disciplinaria de las Áreas y su sentido educativo.</p>
-  <p>La intención del documento fue dotar a las áreas académicas de los aspectos teórico-metodológicos que las articulan como grandes campos del saber científico y humanístico, así como proveer de elementos conceptuales y epistemológicos a las distintas disciplinas que representan las materias del mapa curricular. También se pretendió revisar los métodos y las formas de trabajo para incidir en el mejoramiento de los aprendizajes de los alumnos.</p>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full items-center my-10">
+    <div class="md:col-span-2">
+      <p>Como su nombre lo indica, el documento <em>Orientación y Sentido de las Áreas del Plan de Estudios Actualizado</em>, publicado en 2006, describe ampliamente la orientación disciplinaria de las Áreas y su sentido educativo.</p>
+      <p>La intención del documento fue dotar a las áreas académicas de los aspectos teórico-metodológicos que las articulan como grandes campos del saber científico y humanístico, así como proveer de elementos conceptuales y epistemológicos a las distintas disciplinas que representan las materias del mapa curricular. También se pretendió revisar los métodos y las formas de trabajo para incidir en el mejoramiento de los aprendizajes de los alumnos.</p>
+
+    </div>
+    <img src="<?php echo ASSET_URL; ?>img/modulo-2/b2p2e5.webp" alt="Profesores CCH" />
+  </div>
   <p>Cabe aclarar que desde el año 2020, profesoras y profesores organizados en Seminarios centrales por área, han trabajado en la actualización del documento OSA. No obstante, hasta el momento la nueva versión del documento no ha sido aprobada por las instancias correspondientes.</p>
 </section>
 
