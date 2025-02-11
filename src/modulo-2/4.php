@@ -10,18 +10,62 @@ ob_start();
   <div class="w-full bg-greenown min-h-20 absolute translate-y-full origin-center z-0">
   </div>
   <div class="max-w-screen-xl grid grid-cols-3 gap-5 relative z-10 mx-auto">
-    <div class="bg-orangeown/35 text-slate-900 p-5 hover:scale-105 group ease-in-out transition-all">
+    <div class="bg-greenown brightness-125  shadow-lg text-slate-900 p-5 hover:scale-105 group ease-in-out transition-all">
       <h3 class="uppercase text-xl">Departamento de Difusión Cultural</h3>
       <p>Proporciona a las y los alumnos formación cultural por medio de dos vías: la participación en talleres y/o la asistencia a eventos de distintas manifestaciones artísticas (música, danza, teatro, entre otras). </p>
     </div>
-    <div class="bg-orangeown/35 text-slate-900 p-5 hover:scale-105 group ease-in-out transition-all">
+    <div class="bg-greenown brightness-125	 shadow-lg text-slate-900 p-5 hover:scale-105 group ease-in-out transition-all">
       <h3 class="uppercase text-xl">Departamento de Educación Física</h3>
       <p>Tiene como objetivo promover entre la comunidad educativa en general, y el alumnado en particular, estilos de vida saludable. Para ello, se ofrece la clase de Educación Física cuatro horas a la semana, durante un semestre, al estudiantado del primer año. Además, quienes así lo decidan, tienen la posibilidad de practicar, a lo largo de su estancia en el Colegio, distintas disciplinas deportivas (fútbol, baloncesto, voleibol, entre otras). De igual modo, las personas de la comunidad pueden participar en alguna de las actividades complementarias ofrecidas (carreras, concursos, acondicionamiento físico integral, entre otras).</p>
     </div>
-    <div class="bg-orangeown/35 text-slate-900 p-5 hover:scale-105 group ease-in-out transition-all">
+    <div class="bg-greenown brightness-125	 shadow-lg text-slate-900 p-5 hover:scale-105 group ease-in-out transition-all">
       <h3 class="uppercase text-xl">Departamento de Opciones Técnicas</h3>
-      <p>Su objetivo es ofrecer al estudiantado que así lo desee, una capacitación y formación específica para el trabajo. Actualmente se cuenta con una oferta de 20 programas de Estudios Técnicos Especializados (ETE). /p>
+      <p>Su objetivo es ofrecer al estudiantado que así lo desee, una capacitación y formación específica para el trabajo. Actualmente se cuenta con una oferta de 20 programas de Estudios Técnicos Especializados (ETE). </p>
     </div>
+  </div>
+</div>
+<section>
+  <div class="my-5">
+    <img src="<?php echo ASSET_URL; ?>img/modulo-2/b4p04i01.webp" alt="Alumnos CCH" />
+  </div>
+  <h2>Mapa curricular </h2>
+  <p>Es el conjunto de materias agrupadas por líneas de formación o áreas de estudio, en orden al perfil de egreso y distribuidas en el tiempo o duración del plan de estudios (Gil, 2007). Las características que distinguen al mapa curricular del Colegio son las siguientes (CCH 1996): </p>
+  <p>Puedes consultar en línea el <a href="http://cch.unam.mx/programasestudio" target="_blank">mapa curricular</a> del Colegio.</p>
+</section>
+<div class="w-full my-4 relative z-0">
+  <div class="w-full bg-orangeown min-h-20 absolute translate-y-full origin-center z-0">
+  </div>
+  <div class="max-w-screen-xl grid grid-cols-3 gap-5 relative z-10 mx-auto group/item">
+    <article class="col-span-1 bg-orangeown brightness-125 flex items-center shadow-lg text-slate-900 p-5 group-hover/item:scale-105 group ease-in-out transition-all">
+      <span class="text-xl font-bold">Los cursos están organizados por semestres (seis en total).</span>
+    </article>
+    <article class="col-span-2 bg-orangeown brightness-150 flex items-center shadow-lg text-slate-900 p-5 group-hover/item:scale-105 group ease-in-out transition-all">
+      <p>Esto tiene como propósito lograr una adecuada dosificación y gradación de los propósitos y los aprendizajes. En consecuencia, se obtienen evaluaciones semestrales, si bien la inscripción es anual con el mismo profesor por materia. </p>
+    </article>
+  </div>
+  <div class="max-w-screen-xl grid grid-cols-3 gap-5 relative z-10 mx-auto mt-10 group/item">
+    <article class="col-span-1 bg-orangeown brightness-125 shadow-lg flex items-center text-slate-900 p-5 group-hover/item:scale-105 group ease-in-out transition-all">
+      <span class="text-xl font-bold">Distinción entre la formación de los primeros cuatro semestres y la de los dos últimos.</span>
+    </article>
+    <article class="col-span-2 bg-orangeown brightness-150 shadow-lg flex items-center text-slate-900 p-5 group-hover/item:scale-105 group ease-in-out transition-all">
+      <p>En el primer caso, el estudiantado cursa en promedio seis asignaturas, cuyo carácter es obligatorio pues se consideran universalmente indispensables. Por su parte, las materias de quinto y sexto semestre tienen como objetivo proporcionar una formación propedéutica que permita a las y los jóvenes iniciar de manera óptima sus estudios profesionales. Durante los últimos dos semestres, el alumnado cursa siete asignaturas, de las cuales una es obligatoria (Filosofía) y el resto son seleccionadas, de manera regulada, según sus preferencias y aspiraciones profesionales. </p>
+    </article>
+  </div>
+  <div class="max-w-screen-xl grid grid-cols-3 gap-5 relative z-10 mx-auto mt-10 group/item">
+    <article class="col-span-1 bg-orangeown brightness-125 shadow-lg flex items-center text-slate-900 p-5 group-hover/item:scale-105 group ease-in-out transition-all">
+      <span class="text-xl font-bold">Horarios de trabajo en clase de seis horas diarias en promedio.</span>
+    </article>
+    <article class="col-span-2 bg-orangeown brightness-150 shadow-lg flex items-center text-slate-900 p-5 group-hover/item:scale-105 group ease-in-out transition-all">
+      <p>Este tiempo equivale a un total de tres clases por día, en general. </p>
+    </article>
+  </div>
+  <div class="max-w-screen-xl grid grid-cols-3 gap-5 relative z-10 mx-auto mt-10 group/item">
+    <article class="col-span-1 bg-orangeown brightness-125 shadow-lg flex items-center text-slate-900 p-5 group-hover/item:scale-105 group ease-in-out transition-all">
+      <span class="text-xl font-bold">Sesiones de trabajo en clase con duración de dos horas (en la mayoría de los casos).</span>
+    </article>
+    <article class="col-span-2 bg-orangeown brightness-150 shadow-lg flex items-center text-slate-900 p-5 group-hover/item:scale-105 group ease-in-out transition-all">
+      <p>Se considera que este tiempo es ideal para facilitar el trabajo en la modalidad de curso-taller, y con esto promover la adquisición de conocimientos, el desarrollo de habilidades y la participación activa de las y los alumnos. </p>
+    </article>
   </div>
 </div>
 <?php

@@ -67,6 +67,20 @@
     .areas-iconos{
       @apply font-bold leading-snug text-lg text-slate-900;
     }
+    .lista-programas {
+      > li, > p {
+        @apply hover:bg-blue-500 px-2 py-1;
+      }
+      >ol li{
+        @apply hover:bg-blue-300 px-2 py-1;
+      }
+      ul {
+        @apply list-disc;
+        li {
+          @apply ml-4 hover:bg-blue-300 px-1;
+        }
+      }
+    }
   }
 }
 html, body {
@@ -365,4 +379,24 @@ dialog {
 }
 .areas-iconos{
   font-family: var(--font-titulos);
+}
+.lista-programas {
+  list-style-type: upper-roman;
+  margin-left: 1rem;
+
+  >li,
+  >p {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  >ol {
+    list-style-type: lower-alpha;
+
+    >li {
+      font-weight: normal;
+      font-size: 1rem;
+      margin-left: 1rem;
+    }
+  }
 }
