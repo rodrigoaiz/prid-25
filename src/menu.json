@@ -36,7 +36,7 @@
         {"nombre": "Módulo 2", "url": "/modulo-2", "id": 8},
         {"nombre": "Presentación", "url": "/modulo-2/1.php", "id": 9},
         {"nombre": "Plan de Estudios", "url": "/modulo-2/2.php", "id": 10},
-        {"nombre": "La Cultura básica", "url": "/modulo-2/3.php", "id": 11},
+        {"nombre": "La cultura básica", "url": "/modulo-2/3.php", "id": 11},
         {"nombre": "Formación extracurricular", "url": "/modulo-2/4.php", "id": 12},
         {"nombre": "Programas de estudio", "url": "/modulo-2/5.php", "id": 13},
         {"nombre": "El enfoque constructivista en la educación y el Modelo Educativo del CCH", "url": "/modulo-2/6.php", "id": 14},

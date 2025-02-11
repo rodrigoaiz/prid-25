@@ -30,7 +30,7 @@ ob_start();
   </div>
   <h2>Mapa curricular </h2>
   <p>Es el conjunto de materias agrupadas por líneas de formación o áreas de estudio, en orden al perfil de egreso y distribuidas en el tiempo o duración del plan de estudios (Gil, 2007). Las características que distinguen al mapa curricular del Colegio son las siguientes (CCH 1996): </p>
-  <p>Puedes consultar en línea el <a href="http://cch.unam.mx/programasestudio" target="_blank">mapa curricular</a> del Colegio.</p>
+  <p>Puedes consultar en línea el <a href="https://www.cch.unam.mx/programasestudio2024" target="_blank">mapa curricular</a> del Colegio.</p>
 </section>
 <div class="w-full my-4 relative z-0">
   <div class="w-full bg-orangeown min-h-20 absolute translate-y-full origin-center z-0">

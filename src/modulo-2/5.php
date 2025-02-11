@@ -59,7 +59,7 @@ ob_start();
   <ol class="ol-number">
     <li>Descarga el documento <a href="https://www.cch.unam.mx/sites/default/files/planestudios/S_O_Areas_y_Deptos_2006.pdf" target="_blank">Orientación y Sentido de las Áreas del Plan de Estudios Actualizado</a> y <strong>lee</strong> el apartado referente al área a la que corresponde la materia que inscribiste.</li>
     <li>Lee el <a href="https://www.cch.unam.mx/programasestudio2024" target="_blank">Programa de Estudios</a> de la materia que inscribiste.</li>
-    <li>A partir de tus lecturas, completa el siguiente Cuadro Comparativo. Descarga el <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad1_formato_2024.docx'; ?>">formato</a> en el que deberás realizar tu actividad.</li>
+    <li>A partir de tus lecturas, completa el siguiente Cuadro Comparativo. Descarga el <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad1_formato_2025.docx'; ?>">formato</a> en el que deberás realizar tu actividad.</li>
     <li>Guarda tu archivo (.doc o .pdf) bajo el siguiente formato: Nombre_Apellido_Actividad01. Ejemplo: <strong>Victoria_García_Actividad01</strong></li>
     <li>
       <p>Sube tu archivo para que pueda ser revisado por tu impartidor (en formato PDF o JPG; recuerda que el peso máximo debe ser de 10 MB).</p>
