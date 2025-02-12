@@ -82,6 +82,9 @@
       }
     }
   }
+  #biblio li{
+    @apply text-ellipsis overflow-hidden;
+  }
 }
 html, body {
     height: 100%;

@@ -36,7 +36,7 @@ ob_start();
 <section>
   <?php ob_start(); ?>
   <ol class="ol-number">
-    <li>Realiza la planeación didáctica general de una Unidad de tu Programa de Estudio de la materia que inscribiste; para ello, descarga el formato en el que deberás realizar tu actividad y consulta el ejemplo que se te proporciona.</li>
+    <li>Realiza la planeación didáctica general de una Unidad de tu Programa de Estudio de la materia que inscribiste; para ello, descarga el <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad4_formato_2025.docx'; ?>">formato</a> en el que deberás realizar tu actividad y consulta el ejemplo que se te proporciona.</li>
     <li>Guarda tu archivo (.doc o .pdf) bajo el siguiente formato: Nombre_Apellido_Actividad01. Ejemplo: <strong>Victoria_García_Actividad04</strong></li>
     <li>
       <p>Sube tu archivo para que pueda ser revisado por tu impartidor (en formato PDF o JPG; recuerda que el peso máximo debe ser de 10 MB).</p>
@@ -46,7 +46,7 @@ ob_start();
         <li>Si quieres hacer cambios da clic en <strong>Editar envío</strong> y después en <strong>Guardar cambios</strong>.</li>
       </ul>
     </li>
-    <li>Consulta los criterios de evaluación de la actividad</li>
+    <li>Consulta los <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad4_Rubrica.pdf'; ?>">criterios de evaluación</a> de la actividad.</li>
   </ol>
   <?php
   $ActividadContent = ob_get_clean();

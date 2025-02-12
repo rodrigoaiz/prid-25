@@ -48,7 +48,7 @@ ob_start();
         <li>Si quieres hacer cambios da clic en <strong>Editar envío</strong> y después en <strong>Guardar cambios</strong>.</li>
       </ul>
     </li>
-    <li>Consulta los criterios de evaluación de la actividad</li>
+    <li>Consulta los <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad3_Rubrica.pdf'; ?>">criterios de evaluación</a> de la actividad.</li>
   </ol>
   <?php
   $ActividadContent = ob_get_clean();
