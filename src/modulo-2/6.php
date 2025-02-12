@@ -42,10 +42,10 @@ ob_start();
     <li>Organizados en equipos, según lo indicado por tus impartidores, elaboren de manera colaborativa una reflexión escrita acerca de la relación entre el Constructivismo y el Modelo Educativo del CCH.</li>
     <li>
       <p>Para la elaboración de la reflexión consideren la siguiente estructura:</p>
-      <ol class="ol-lower-alpha">
-        <li>Inicio: orígenes y definición del Constructivismo.</li>
-        <li>Desarrollo: principales postulados del enfoque constructivista y su relación con el Modelo Educativo del Colegio.</li>
-        <li>Conclusión: explicar brevemente de qué manera aplica los postulados del enfoque constructivista en su práctica docente.</li>
+      <ol class="ol-alpha">
+        <li><strong>Inicio</strong>: orígenes y definición del Constructivismo.</li>
+        <li><strong>Desarrollo</strong>: principales postulados del enfoque constructivista y su relación con el Modelo Educativo del Colegio.</li>
+        <li><strong>Conclusión</strong>: explicar brevemente de qué manera aplica los postulados del enfoque constructivista en su práctica docente.</li>
       </ol>
       <p>El documento debe considerar un título, elaborarse a renglón seguido, sin subtítulos. La extensión mínima debe ser de cuatro párrafos y máxima de una cuartilla (letra Arial 12, interlineado sencillo). </p>
     </li>
