@@ -41,7 +41,7 @@ ob_start();
   </div>
 </div>
 <section>
-  <h3>Orientación y Sentido de las Áreas</h3>
+  <h3 class="font-bold">Orientación y Sentido de las Áreas</h3>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full items-center my-10">
     <div class="md:col-span-2">
       <p>Como su nombre lo indica, el documento <em>Orientación y Sentido de las Áreas del Plan de Estudios Actualizado</em>, publicado en 2006, describe ampliamente la orientación disciplinaria de las Áreas y su sentido educativo.</p>

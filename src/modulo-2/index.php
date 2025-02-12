@@ -34,7 +34,7 @@ ob_start();
               <li>Enfoque disciplinario y didáctico de la materia.</li>
             </ul>
           </li>
-          <li>El constructivismo en la educación y el Modelo Educativo del CCH</li>
+          <li>El Constructivismo en la educación y el Modelo Educativo del CCH.</li>
         </ul>
       </div>
     </article>

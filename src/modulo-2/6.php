@@ -6,6 +6,8 @@ ob_start();
 <section>
   <p>La teoría constructivista pretende explicar cómo se forma el conocimiento “en el interior del sujeto”, quien construye el conocimiento de la realidad y la transforma al interactuar con situaciones y objetos, ya que ésta no se construye por sí misma (Araya, Alfaro y Andonegui, 2007; p. 77). El constructivismo tiene sus orígenes en la filosofía griega (sofistas), así como en las ideas de Descartes, Galileo y Kant, entre otros.</p>
   <p>En el ámbito educativo, el enfoque constructivista es el más acorde al Modelo Educativo del Colegio, pues tiene como centro del aprendizaje al estudiantado, en contraposición con una visión transmisionista de información por parte del docente.</p>
+  <p>Concibe a las y los estudiantes como un aprendices activos y autónomos, que construyen conocimiento a partir de sus experiencias previas. A su vez, el profesorado tiene una función mediadora; utiliza metodologías educativas activas y por descubrimiento en las que el alumnado transforma la información y construye significados nuevos al modificar sus esquemas de conocimiento previos.</p>
+  <p>Por lo anterior, es importante reconocer el papel del aprendiz activo y del docente-guía en ese proceso conjunto de construcción de significados para ir más allá del entorno escolar y lograr aprendizajes significativos para toda la vida.</p>
   <?php
   include BASE_PATH . '/include/ImagenFullPleca.php';
 
@@ -16,7 +18,6 @@ ob_start();
 
   <?php ob_start(); ?>
   <ol class="ol-number">
-    <li>Toma las notas que consideres necesarias acerca de las lecturas y posteriormente responde el siguiente cuestionario de opción múltiple.</li>
     <li>
       <p>A continuación, descarga los siguientes documentos y realiza su lectura crítica:</p>
       <ul class="ul-disc">
@@ -24,6 +25,7 @@ ob_start();
         <li><a href="https://moodle.portalacademico.cch.unam.mx/modelo-educativo/modelo/bloque2/docs/2024/Constructivismo_aprendizaje_signficativo.pdf " target="_blank">Constructivismo y aprendizaje significativo (págs. 22-28).</a></li>
       </ul>
     </li>
+    <li>Toma las notas que consideres necesarias acerca de las lecturas y posteriormente responde el siguiente cuestionario de opción múltiple.</li>
   </ol>
   <?php
   $ActividadContent = ob_get_clean();
@@ -37,8 +39,16 @@ ob_start();
 
   <?php ob_start(); ?>
   <ol class="ol-number">
-    <li>Organizados en equipos, según lo indicado por tus impartidores, elaboren de manera colaborativa un mapa mental acerca del texto “El constructivismo: orígenes y perspectivas”.</li>
-    <li>Para conocer en qué consiste un mapa mental, consulta el siguiente <a href="https://www.youtube.com/watch?v=L5LLjFnjXco" target="_blank">link</a>. NOTA: se sugiere utilizar Canva, con su cuenta institucional, para elaborar la actividad.</li>
+    <li>Organizados en equipos, según lo indicado por tus impartidores, elaboren de manera colaborativa una reflexión escrita acerca de la relación entre el Constructivismo y el Modelo Educativo del CCH.</li>
+    <li>
+      <p>Para la elaboración de la reflexión consideren la siguiente estructura:</p>
+      <ol class="ol-lower-alpha">
+        <li>Inicio: orígenes y definición del Constructivismo.</li>
+        <li>Desarrollo: principales postulados del enfoque constructivista y su relación con el Modelo Educativo del Colegio.</li>
+        <li>Conclusión: explicar brevemente de qué manera aplica los postulados del enfoque constructivista en su práctica docente.</li>
+      </ol>
+      <p>El documento debe considerar un título, elaborarse a renglón seguido, sin subtítulos. La extensión mínima debe ser de cuatro párrafos y máxima de una cuartilla (letra Arial 12, interlineado sencillo). </p>
+    </li>
     <li>Guarda tu archivo (.doc o .pdf) bajo el siguiente formato: Nombre_Apellido_Actividad01. Ejemplo: <strong>Victoria_García_Actividad03</strong></li>
     <li>
       <p>Sube tu archivo para que pueda ser revisado por tu impartidor (en formato PDF o JPG; recuerda que el peso máximo debe ser de 10 MB).</p>
