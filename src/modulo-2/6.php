@@ -62,7 +62,7 @@ ob_start();
   </ol>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad($ActividadContent, "Actividad 3 : Mapa mental del constructivismo (sesión sincrónica)");
+  renderActividad($ActividadContent, "Actividad 3 : Reflexión sobre la relación entre el Constructivismo y el Modelo Educativo (sesión sincrónica)");
   renderActividadIframe('b2act3');
   ?>
 </section>
