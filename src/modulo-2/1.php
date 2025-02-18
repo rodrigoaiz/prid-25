@@ -8,7 +8,7 @@ ob_start();
     <article>
       Para que el proyecto curricular de cualquier sistema o institución educativa se materialice, es preciso que sea plasmado en distintos niveles, que van de lo macro a lo micro, y son conocidos como niveles de concreción curricular. En el caso del Colegio, el primer nivel de concreción está constituido por el Modelo Educativo, el cual fue descrito en el primer módulo. En el segundo nivel de concreción se ubican el Plan y los Programas de Estudio; y en el tercero, la planeación de clase que el profesorado realiza para llevar a cabo con el estudiantado (programación de aula).
     </article>
-    <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/6rm0h3t8ad0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/ICFZHRgaxHg?si=1Em0cCOfRa5r-fCq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <p>El Plan de Estudios establece la organización y secuenciación de las materias obligatorias y optativas que el estudiantado debe cursar para acreditar el bachillerato.</p>
   <p>Por su parte, los Programas de Estudio especifican los propósitos, los aprendizajes, los contenidos temáticos y la metodología de trabajo a seguir en cada materia, por lo que constituyen una guía imprescindible para la planeación, desarrollo y evaluación de los cursos.</p>
