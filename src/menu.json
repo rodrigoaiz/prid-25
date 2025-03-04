@@ -8,7 +8,17 @@
     "b2act1": 234,
     "b2act2": 249,
     "b2act3": 235,
-    "b2act4": 236
+    "b2act4": 236,
+    "b3act1": 237,
+    "b3act2": 238,
+    "b3act3": 250,
+    "b3act4": 240,
+    "b3act5": 241,
+    "b4act1": 251,
+    "b4act2": 243,
+    "b4act3": 246,
+    "b4act4": 244,
+    "b4act5": 247
   },
   "menu": {
     "Módulo 1": {
@@ -46,8 +56,16 @@
     },
     "Módulo 3": {
       "url": "/modulo-3",
-      "publicado": false,
-      "target": "_self"
+      "publicado": true,
+      "target": "_self",
+      "nombre": "Módulo 3. Taller de planeación didáctica",
+      "paginas": [
+        {"nombre": "Módulo 3", "url": "/modulo-3", "id": 17},
+        {"nombre": "Introducción", "url": "/modulo-3/1.php", "id": 18},
+        {"nombre": "Actividad 1, 2 y 3", "url": "/modulo-3/2.php", "id": 19},
+        {"nombre": "Actividad 4 y 5", "url": "/modulo-3/3.php", "id": 20},
+        {"nombre": "Fuentes de Consulta", "url": "/modulo-3/4.php", "id": 21}
+      ]
     },
     "Módulo 4": {
       "url": "/modulo-4",
