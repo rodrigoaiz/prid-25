@@ -16,7 +16,7 @@ ob_start();
       <p>Consulta el siguiente material y realiza la lectura del <a target="_blank" href="<?php echo PATH_DOCS . 'actividad3_01_constructivismo_evaluacion_educativa.pdf'; ?>">Capítulo 8. Constructivismo y evaluación educativa</a> de Frida Díaz-Barriga Arceo y Gerardo Hernández Rojas (pp. 305-373).</p>
       <p class="text-sm">*Lectura optativa: <a target="_blank" href="<?php echo PATH_DOCS . 'actividad3_02_la_evaluacion.pdf'; ?>">Capítulo 8. Evaluación</a> de Antoni Zabala Vidiella (pp. 203-230).</p>
     </li>
-    <li>Con base en la información consultada de los materiales elabora un mapa mental; considera en su diseño los elementos señalados en la siguiente rúbrica de evaluación.</li>
+    <li>Con base en la información consultada de los materiales elabora un mapa mental; considera en su diseño los elementos señalados en la siguiente <a target="_blank" href="<?php echo PATH_DOCS . 'actividad4_01_rubrica_Mapa_ConstructivyEvaluac.pdf'; ?>">rúbrica de evaluación</a>.</li>
     <li>Para conocer en qué consiste y cómo se elabora un mapa mental, revisa el siguiente <a href="https://www.youtube.com/watch?v=L5LLjFnjXco" target="_blank">video</a>. </li>
     <li>Nombra tu archivo de la siguiente manera: <em>Nombre_Apellido_Actividad04M3</em>.</li>
     <li>Adjunta tu archivo para que pueda ser revisado por tu asesor, como imagen o PDF conun máximo de 10 MB.</li>
@@ -49,8 +49,8 @@ ob_start();
         <li>Reflexión sobre la forma en la que se aplican los principios del Constructivismo y el Modelo Educativo en la secuencia didáctica planteada (mínimo tres párrafos y máximo una cuartilla).</li>
       </ol>
     </li>
-    <li>Para la elaboración de tu trabajo utiliza el siguiente formato de secuencia didáctica(versión final).</li>
-    <li>En el diseño de tu secuencia considera los elementos señalados en la lista de cotejo de secuencia didáctica (versión final).</li>
+    <li>Para la elaboración de tu trabajo utiliza el siguiente <a target="_blank" href="<?php echo PATH_DOCS . 'actividad5_02_formato_secuencia_didactica.docx'; ?>">formato de secuencia didáctica(versión final)</a>.</li>
+    <li>En el diseño de tu secuencia considera los elementos señalados en la <a target="_blank" href="<?php echo PATH_DOCS . 'actividad5_01_lista_cotejo_secuencia_didactica_EntregaFinal.pdf'; ?>">lista de cotejo</a> de secuencia didáctica (versión final).</li>
     <li>Si tienes alguna duda, no dudes en consultar a tus impartidores.</li>
     <li>Nombra tu archivo de la siguiente manera: <em>Nombre_Apellido_Actividad05M3</em>.</li>
     <li>Adjunta tu archivo para que pueda ser revisado por tu asesor, como imagen o PDF con un máximo de 10 MB.</li>
@@ -67,8 +67,8 @@ ob_start();
 <div class="w-full my-4 relative z-0">
   <div class="w-full bg-slate-100 min-h-20 absolute translate-y-full origin-center z-0">
   </div>
-  <div class="max-w-screen-xl grid grid-cols-3 gap-5 relative z-10 mx-auto">
-    <div class="bg-slate-100 brightness-125  shadow-lg text-slate-900 p-5 hover:scale-105 group ease-in-out transition-all">
+  <div class="max-w-screen-xl md:grid grid-cols-3 gap-5 relative z-10 mx-auto">
+    <div class="bg-slate-100 brightness-125  shadow-lg text-slate-900 p-5 md:hover:scale-105 group ease-in-out transition-all">
       <h3 class="uppercase text-xl">Área de Matemáticas:</h3>
       <ul class="ul-disc">
         <li><a target="_blank" href="<?php echo PATH_DOCS . 'mate01_ideas_de_pollya.pdf'; ?>">Las ideas de Póllya en la resolución de problemas.</a></li>
@@ -89,7 +89,7 @@ ob_start();
         <li><a target="_blank" href="<?php echo PATH_DOCS . 'talleres01_competencias_comunicativas.pdf'; ?>">El aprendizaje escolar de competencias comunicativas.</a></li>
       </ul>
     </div>
-    <div class="bg-slate-100 brightness-125  shadow-lg text-slate-900 p-5 hover:scale-105 group ease-in-out transition-all">
+    <div class="bg-slate-100 brightness-125  shadow-lg text-slate-900 p-5 md:hover:scale-105 group ease-in-out transition-all">
       <h3 class="uppercase text-xl">Departamento de Idiomas:</h3>
       <ul class="ul-disc">
         <li><a target="_blank" href="<?php echo PATH_DOCS . 'idiomas01_communicative_teaching.pdf'; ?>">Chapter 9 Communicative Language Teaching</a></li>
@@ -100,7 +100,7 @@ ob_start();
         <li><a target="_blank" href="<?php echo PATH_DOCS . 'idiomas2_02_teaching_reading.pdf'; ?>">Chapter 17 Teaching Reading: pp. 389-425.</a></li>
       </ul>
     </div>
-    <div class="bg-slate-100 brightness-125  shadow-lg text-slate-900 p-5 hover:scale-105 group ease-in-out transition-all">
+    <div class="bg-slate-100 brightness-125  shadow-lg text-slate-900 p-5 md:hover:scale-105 group ease-in-out transition-all">
       <h3 class="uppercase text-xl">Departamento de Opciones Técnicas:</h3>
       <ol class="ul-disc">
         <li><a target="_blank" href="<?php echo PATH_DOCS . 'tecnicas01_unidades_didacticas_integrales.pdf'; ?>">Elaboración de unidades didácticas integrales</a></li>
