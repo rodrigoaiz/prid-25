@@ -22,10 +22,11 @@ ob_start();
     <li>Adjunta tu archivo para que pueda ser revisado por tu asesor, como imagen o PDF conun máximo de 10 MB.</li>
     <li>No olvides dar clic en el botón de “entregar” o “guardar” para que lo pueda visualizar el impartidor.</li>
   </ol>
+  <p><strong>NOTA:</strong> Lectura optativa: <a target="_blank" href="<?php echo PATH_DOCS . 'actividad2_03_practica_educativa.pdf'; ?>">Capítulo 3. Las secuencias didácticas y las secuencias de contenido</a> de Antoni Zavala Vidiella (pp. 53-89).</p>
   <?php
   $ActividadContent = ob_get_clean();
   include BASE_PATH . '/include/Actividad.php';
-  renderActividad($ActividadContent, "Actividad 4 : Mapa mental sobre evaluación");
+  renderActividad($ActividadContent, "Actividad 4 : Mapa mental sobre Constructivismo y evaluación");
   ?>
   <?php
   include BASE_PATH . '/include/ActividadIframe.php';
@@ -51,7 +52,7 @@ ob_start();
     </li>
     <li>Para la elaboración de tu trabajo utiliza el siguiente <a target="_blank" href="<?php echo PATH_DOCS . 'actividad5_02_formato_secuencia_didactica.docx'; ?>">formato de secuencia didáctica(versión final)</a>.</li>
     <li>En el diseño de tu secuencia considera los elementos señalados en la <a target="_blank" href="<?php echo PATH_DOCS . 'actividad5_01_lista_cotejo_secuencia_didactica_EntregaFinal.pdf'; ?>">lista de cotejo</a> de secuencia didáctica (versión final).</li>
-    <li>Si tienes alguna duda, no dudes en consultar a tus impartidores.</li>
+    <li>Si tienes alguna duda, consulta a tus impartidores.</li>
     <li>Nombra tu archivo de la siguiente manera: <em>Nombre_Apellido_Actividad05M3</em>.</li>
     <li>Adjunta tu archivo para que pueda ser revisado por tu asesor, como imagen o PDF con un máximo de 10 MB.</li>
     <li>No olvides dar clic en el botón de “entregar” o “guardar” para que lo pueda visualizar el impartidor.</li>
@@ -72,7 +73,7 @@ ob_start();
       <h3 class="uppercase text-xl">Área de Matemáticas:</h3>
       <ul class="ul-disc">
         <li><a target="_blank" href="<?php echo PATH_DOCS . 'mate01_ideas_de_pollya.pdf'; ?>">Las ideas de Póllya en la resolución de problemas.</a></li>
-      </ul>
+        <li><a target="_blank" href="https://diposit.ub.edu/dspace/bitstream/2445/174473/1/0037_970-18-1739-7_Matmaticas_Chevallard.pdf">Estudiar matemáticas. El eslabón entre enseñanza y aprendizaje.</a></li> </ul>
       <h3 class="uppercase text-xl">Área de Ciencias Experimentales:</h3>
       <ul class="ul-disc">
         <li><a target="_blank" href="<?php echo PATH_DOCS . 'experimentales01_ensenanza_metodologia_ciencia.pdf'; ?>">Enseñanza de la Metodología de la ciencia en el Bachillerato.</a></li>

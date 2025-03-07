@@ -16,7 +16,7 @@ ob_start();
     <article>
       <h3 class="text-orangeown">Objetivo</h3>
       <div class="bg-greenown/70 object-center h-full text-darkown p-5 flex items-center">
-        <p class="text-2xl leading-relaxed">Diseñar una secuencia didáctica de uno de los aprendizajes establecidos en una Unidad del programa de su asignatura (la inscrita en el Programa), acorde con los enfoques didáctico y disciplinario correspondientes, teniendo como referencia el Modelo Educativo del CCH, con la finalidad de mejorar la práctica docente.</p>
+        <p class="text-2xl leading-relaxed">Diseñar una secuencia didáctica de uno de los aprendizajes establecidos en una Unidad del programa de su materia (la inscrita en el PRID), acorde con los enfoques didáctico y disciplinario correspondientes, teniendo como referencia el Modelo Educativo del CCH, con la finalidad de mejorar la práctica docente.</p>
       </div>
     </article>
     <article>

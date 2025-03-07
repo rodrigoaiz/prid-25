@@ -33,7 +33,6 @@ ob_start();
   <ol class="ol-number">
     <li>
       <p>Consulta el siguiente material y realiza la lectura de la presentación sobre <a target="_blank" href="<?php echo PATH_DOCS . 'actividad2_01_presentacion_secuencia_didactica.pdf'; ?>">Secuencia Didáctica</a> y el texto <a target="_blank" href="<?php echo PATH_DOCS . 'actividad2_02_guia_secuencias.pdf'; ?>">Guía para la elaboración de una secuencia didáctica</a> de Ángel Díaz-Barriga.</p>
-      <p class="text-sm">*Lectura optativa: <a target="_blank" href="<?php echo PATH_DOCS . 'actividad2_03_practica_educativa.pdf'; ?>">Capítulo 3. Las secuencias didácticas y las secuencias de contenido</a> de Antoni Zavala Vidiella (pp. 53-89).</p>
     </li>
     <li>Con base en el material consultado, elabora un <strong>resumen</strong> con una <strong>extensión mínima de dos y máxima de tres cuartillas</strong>, letra Arial 12, interlineado sencillo.</li>
     <li>Para la elaboración de tu trabajo considera los elementos señalados en la <a target="_blank" href="<?php echo PATH_DOCS . 'actividad2_05_lista_cotejo_resumen.pdf'; ?>">lista de cotejo</a>, así como el texto <a target="_blank" href="<?php echo PATH_DOCS . 'actividad2_04_Como_Resumir_un_Texto_Fin.pdf'; ?>">¿Cómo realizar un resumen?</a> </li>
@@ -41,6 +40,7 @@ ob_start();
     <li>Adjunta tu archivo para que pueda ser revisado por tus impartidores en formato Word como PDF con un máximo de 10 MB.</li>
     <li>No olvides dar clic en el botón de “entregar” o “guardar” para que lo pueda visualizar el impartidor.</li>
   </ol>
+  <p><strong>NOTA:</strong> Lectura optativa: <a target="_blank" href="<?php echo PATH_DOCS . 'actividad2_03_practica_educativa.pdf'; ?>">Capítulo 3. Las secuencias didácticas y las secuencias de contenido</a> de Antoni Zavala Vidiella (pp. 53-89).</p>
   <?php
   $ActividadContent = ob_get_clean();
   renderActividad($ActividadContent, "Actividad 2 : Resumen secuencia didáctica");
@@ -59,7 +59,7 @@ ob_start();
   <?php ob_start(); ?>
   <ol class="ol-number">
     <li>
-      <p>Con base en los materiales revisados a lo largo de este módulo, así como de los dos previos; <strong>diseña una secuencia didáctica</strong> para lograr uno de los aprendizajes de una Unidad didáctica del programa de estudios de tu asignatura. Tu diseño debe incluir:</p>
+      <p>Con base en los materiales revisados a lo largo de este módulo, así como de los dos previos, <strong>diseña una secuencia didáctica</strong> para lograr uno de los aprendizajes de una Unidad didáctica del programa de estudios de tu asignatura. Tu diseño debe incluir:</p>
       <ol class="ol-alpha">
         <li>Datos generales (Título de la Secuencia didáctica, Profesor(a), Asignatura, Semestre escolar, Plantel, número de sesiones, número de alumnos y fecha de elaboración).</li>
         <li>Programa (Unidad, propósito(s), aprendizajes, contenidos temáticos).</li>
@@ -69,7 +69,7 @@ ob_start();
       </ol>
     </li>
     <li>Para la elaboración de tu secuencia, ocupa el siguiente formato: <a target="_blank" href="<?php echo PATH_DOCS . 'actividad3_03_formato_secuencia_didactica_primera_entrega.docx'; ?>">secuencia didáctica primera entrega</a>.</li>
-    <li>En caso de que tengas alguna duda sobre el proceso de elaboración de tu secuencia, no dudes en consultar a tus impartidores.</li>
+    <li>En caso de que tengas alguna duda sobre el proceso de elaboración de tu secuencia, consulta a tus impartidores.</li>
     <li>Antes de entregar tu secuencia didáctica, revisa que cumpla con los elementos señalados en la <a target="_blank" href="<?php echo PATH_DOCS . 'actividad3_04_lista_cotejo_primera_entrega.pdf'; ?>">lista de cotejo de secuencia didáctica (primera entrega)</a>.</li>
     <li>Nombra tu archivo de la siguiente manera: <em>Nombre_Apellido_Actividad03M3</em>.</li>
     <li>Adjunta tu archivo para que pueda ser revisado por tus impartidores, en formato Word o PDF con un máximo de 10 MB.</li>
