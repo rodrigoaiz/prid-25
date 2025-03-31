@@ -69,8 +69,17 @@
     },
     "Módulo 4": {
       "url": "/modulo-4",
-      "publicado": false,
-      "target": "_self"
+      "publicado": true,
+      "target": "_self",
+      "nombre": "Módulo 4. Elaboración y presentación en video de un plan de clase",
+      "paginas": [
+        {"nombre": "Módulo 4", "url": "/modulo-4", "id": 22},
+        {"nombre": "Presentación", "url": "/modulo-4/1.php", "id": 23},
+        {"nombre": "Actividad 1 y 2", "url": "/modulo-4/2.php", "id": 24},
+        {"nombre": "Actividad 3, 4 y 5", "url": "/modulo-4/3.php", "id": 25},
+        {"nombre": "Actividad final", "url": "/modulo-4/4.php", "id": 26},
+        {"nombre": "Fuentes de Consulta", "url": "/modulo-4/5.php", "id": 27}
+      ]
     },
     "Cronograma": {
       "url": "/assets/docs/Cuadrodesesiones_M3_PRID2025_2.pdf",
