@@ -36,7 +36,7 @@ module.exports = {
           from: 'src/**/*.php', // Copia todos los archivos PHP
           to: ({ context, absoluteFilename }) => {
             const relativePath = path.relative(context, absoluteFilename);
-            return relativePath.replace('src/', ''); // Elimina 'src/' del path
+            return path.posix.join(...relativePath.split(path.sep)).replace('src/', ''); // Normaliza las rutas
           },
         },
         {
@@ -47,7 +47,7 @@ module.exports = {
           from: 'src/assets/img/**/*.{jpg,jpeg,png,gif,svg,webp}', // Copia todas las imágenes
           to: ({ context, absoluteFilename }) => {
             const relativePath = path.relative(context, absoluteFilename);
-            return relativePath.replace('src/', ''); // Elimina 'src/' del path
+            return path.posix.join(...relativePath.split(path.sep)).replace('src/', ''); // Normaliza las rutas
           },
         },
         {
