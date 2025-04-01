@@ -14,6 +14,7 @@
 ## Corrección de Errores
 
 - [ ] Solucionar errores intermitentes en la carga de datos en el frontend.
+- [ ] Las listas de las fuentes de consulta se cortan.
 
 ## Refactorización
 
