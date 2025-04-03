@@ -12,7 +12,7 @@ ob_start();
   <ol class="ol-number">
     <li>A partir de la lectura del <a target="_blank" href="<?php echo PATH_DOCS . 'Modulo_4_Activida1_Estrategias_aprendizaje_significativo.pdf'; ?>">Capítulo 6. <em>Estrategias para el aprendizaje significativo: fundamentos, adquisición y enseñanza</em></a> de Frida Díaz Barriga Arceo y Gerardo Hernández Rojas (págs. 175-222), elabora un mapa conceptual acerca de las estrategias para promover el aprendizaje significativo.</li>
     <li>Revisa el siguiente <a target="_blank" href="https://www.youtube.com/watch?v=q8fvXaUX5f4">video</a> en el que se explica en qué consiste y cómo se elabora un mapa conceptual.</li>
-    <li>Para la realización de tu producto, considera los elementos señalados en los criterios de evaluación.</li>
+    <li>Para la realización de tu producto, considera los elementos señalados en los <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad_1_rubrica_evaluacion_mapa_conceptual_ajustadas.pdf'; ?>">criterios de evaluación</a>.</li>
     <li>Nombra tu archivo de la siguiente manera: <em>Nombre_Apellido_Actividad01M4</em>.</li>
     <li>Adjunta tu archivo como imagen o formato PDF con un máximo de 10 MB.</li>
   </ol>
@@ -38,14 +38,14 @@ ob_start();
         <li>Elementos del Programa de estudios</li>
         <li>Descripción general</li>
         <li>Descripción de las actividades, organizadas en inicio, desarrollo y cierre.</li>
-        <li>Evidencias de aprendizaje e instrumentos de evaluación</li>
+        <li>Criterios e instrumentos de evaluación</li>
         <li>Materiales y recursos</li>
         <li>Referencias de apoyo</li>
         <li>Anexos</li>
       </ol>
     </li>
-    <li>Para la elaboración de tu plan de clase utiliza el siguiente formato. También es importante que consultes el siguiente ejemplo.</li>
-    <li>Descarga y revisa cuidadosamente los criterios de evaluación de esta actividad.</li>
+    <li>Para la elaboración de tu plan de clase utiliza el siguiente <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad_2_plan_de_clase_primera_entrega.docx'; ?>">formato</a>. También es importante que consultes el siguiente ejemplo.</li>
+    <li>Descarga y revisa cuidadosamente los <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad_2_criterios_evaluacion_PrimeraEntrega.pdf'; ?>">criterios de evaluación</a> de esta actividad.</li>
     <li>Nombra tu archivo de la siguiente manera: Nombre_Apellido_Actividad02M4. Ejemplo: <strong>Victoria_García_Actividad02M4</strong></li>
     <li>Sube tu archivo para que pueda ser revisado y retroalimentado por tus impartidores (en formato PDF o JPG; recuerda que el peso máximo debe ser de 10 MB).</li>
   </ol>

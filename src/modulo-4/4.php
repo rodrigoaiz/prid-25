@@ -10,7 +10,7 @@ ob_start();
 <section>
 
   <?php ob_start(); ?>
-  <p>Redacta un escrito con tu reflexión personal acerca de tu participación en el Programa de Regularización a la Iniciación Docente de la Escuela Nacional Colegio de Ciencias y Humanidades (PRIDENCCH). Desarrolla las siguientes ideas a párrafo corrido y en primera persona (no es un cuestionario), usa conectores en cada párrafo para dar cohesión y coherencia al texto y cuida la ortografía.</p>
+  <p>Redacta un escrito con tu reflexión personal acerca de tu participación en el Programa de Regularización e Iniciación a la Docencia de la Escuela Nacional Colegio de Ciencias y Humanidades (PRIDENCCH). Desarrolla las siguientes ideas a párrafo corrido y en primera persona (no es un cuestionario), usa conectores en cada párrafo para dar cohesión y coherencia al texto y cuida la ortografía.</p>
   <?php
   $imageSrc = ASSET_URL . 'img/modulo-4/b4p4e1.webp';
   renderImageComponent($imageSrc, 'justify-center');
@@ -39,12 +39,12 @@ ob_start();
         <li>Letra Arial 12 puntos, interlineado 1.5, márgenes normales y párrafos proporcionados.</li>
       </ul>
     </li>
-    <li>Descarga y revisa cuidadosamente los <a target="_blank" href="<?php echo PATH_DOCS . 'actfinal_cotejo.pdf'; ?>">criterios de evaluación</a>.</li>
+    <li>Descarga y revisa cuidadosamente los <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad_5_Reflexion.pdf'; ?>">criterios de evaluación</a>.</li>
 
   </ol>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad($ActividadContent, "Actividad final Reflexión escrita sobre mi práctica docente");
+  renderActividad($ActividadContent, "Reflexión escrita sobre mi práctica docente");
   renderActividadIframe('b4act5');
   ?>
 

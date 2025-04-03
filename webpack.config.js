@@ -61,5 +61,4 @@ module.exports = {
       ],
     }),
   ],
-  watch: true, // Activa observación para cambios en los archivos
 };
