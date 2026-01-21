@@ -71,22 +71,21 @@ ob_start();
   <?php ob_start(); ?>
   <ol class="ol-number">
     <li>Realiza la lectura del texto los textos “<a href="https://medium.com/@netza/los-hijos-que-no-tendr%C3%A9-8a546bae7bdf" target="_blank">Los hijos que no tendré</a>” y “<a href="https://iisue.unam.mx/nosotros/historias-y-huellas-en-mi-andar-docente/?fbclid=IwY2xjawF_pTRleHRuA2FlbQIxMAABHe3NZuk2-XcZ2mQUNdN7JcWLCrg32bknSjoXLE1mt5dluX9N3i-0OKSd0g_aem_pOg5E9x9Li6_ndCXRIhLaw" target="_blank">Una experiencia positiva</a>”.</li>
-    <li>A partir de las lecturas, así como de tus propias reflexiones y vivencias, participa durante la sesión sincrónica contestando las siguientes preguntas: ¿Cuáles consideras que son tus principales retos/desafíos como docente del CCH y en qué medida coinciden o no con los presentados en las lecturas?, ¿Con qué alternativas cuentas para afrontar dichas dificultades?</li>
+    <li>
+      <p>A partir de las lecturas, así como de tus propias reflexiones y vivencias, <strong>participa durante la sesión sincrónica</strong> contestando las siguientes preguntas:</p>
+      <ul class="ul-disc">
+        <li>¿Cuáles consideras que son tus principales retos/desafíos como docente del CCH y en qué medida coinciden o no con los presentados en las lecturas?</li>
+        <li>¿Con qué alternativas cuentas para afrontar dichas dificultades?</li>
+      </ul>
+    </li>
   </ol>
 
   <?php
   $ActividadContent = ob_get_clean();
   renderActividad($ActividadContent, "Actividad : Reflexión sobre la práctica docente ");
   ?>
-  <?php ob_start(); ?>
-     <ol class="ol-number">
-        <li>En este espacio las y/o los impartidores registrarán la evaluación de las sesiones sincrónicas del Módulo.</li>
-     </ol>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad($ActividadContent, "Evaluación de sesiones sincrónicas");
-  renderActividadIframe('b1act3');
-  ?>
+  <h2>¡Módulo 1 concluido!</h2>
+  <p>Buen trabajo. No olvides que tu evaluación final dependerá de la suma de tus actividades entregadas y de tu participación activa en las sesiones sincrónicas. ¡Nos vemos en el Módulo 2!</p>
 </section>
 <?php ob_start(); ?>
 <div class="grid  md:grid-cols-3 md:gap-10 items-center">
