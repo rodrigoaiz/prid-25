@@ -12,7 +12,7 @@ ob_start();
   $imageSrc = ASSET_URL . 'img/modulo-1/b1p02i05.webp';
   renderImageComponent($imageSrc, 'justify-center');
   ?>
-  <p>En aquellos años la creación del CCH coincide con la necesidad social de que un mayor número de jóvenes mexicanos, que vivían en el área metropolitana, tuvieran la oportunidad de contar con una educación de nivel medio superior.</p>
+  <p>En aquellos años la creación del CCH coincide con la necesidad social de que un mayor número de jóvenes, que vivían en el área metropolitana, tuvieran la oportunidad de contar con una educación de nivel medio superior.</p>
   <p>Al mismo tiempo, el Colegio surge como una opción educativa con una nueva perspectiva curricular y didáctica, que buscaba atender las dificultades del proceso de enseñanza-aprendizaje identificadas en aquél entonces.</p>
   <div class="my-10 text-center mx-auto text-2xl">
     Para comprender lo que hoy se conoce como CCH, te presentamos algunos de los acontecimientos más relevantes de su historia:
@@ -34,8 +34,9 @@ ob_start();
       <li>En 1998 se instala la Dirección General.</li>
       <li>Entre 2002 y 2004 se realizó una revisión y ajuste de los Programas de Estudio.</li>
       <li>Desde 2009 y hasta 2016, se desarrolló un proceso de actualización de los Programas de Estudio de sus 31 materias curriculares y de Educación Física.</li>
-      <li>Las Opciones Técnicas se convierten en Estudios Técnicos Especializados.</li>
+      <li>El 07 de agosto de 2020, las Opciones Técnicas se convierten en Estudios Técnicos Especializados.</li>
       <li>En el ciclo escolar 2023-2024 nuevamente se llevó a cabo un proceso de revisión y ajuste de los Programas de Estudio de las materias curriculares y Educación Física. Asimismo, el 18 junio de 2024 el Consejo Técnico aprobó la incorporación de la asignatura Igualdad de Género como requisito de egreso de su Plan de Estudios.</li>
+      <li>En 2025, se aprobó la más reciente actualización al Plan de Estudios. En ésta se sistematizan todas las modificaciones curriculares realizadas en el CCH a partir de 1996, incluyendo: las diversas revisiones y ajustes de los programas de estudio, la actualización de los documentos de Orientación y Sentido de las Áreas y el Modelo Educativo, y el establecimiento de la asignatura de Educación Física como requisito de egreso.</li>
     </ul>
   </div>
 </div>

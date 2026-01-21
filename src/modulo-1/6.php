@@ -14,7 +14,10 @@ ob_start();
     <li><strong>Contrato colectivo de trabajo 2023-2025.</strong> Es el convenio que regula las relaciones laborales entre la Universidad y el sindicato de su personal académico (AAPAUNAM). Incluye regulaciones relativas a los salarios, días de descanso y vacaciones, prestaciones, licencias, incapacidades, entre otros.</li>
     <li><strong>Herramientas para una docencia igualitaria, incluyente y libre de violencias.</strong> En esta guía, elaborada por la Coordinación para la Igualdad de Género (CIGU) de la UNAM, se especifican una serie de orientaciones sobre buenas prácticas docentes para construir ambientes educativos igualitarios y libres de violencia por razones de género.</li>
     <li><strong>Cartilla universitaria de buenas prácticas enfocadas a poblaciones LGBTIQ+.</strong> Este documento también fue elaborado por la CIGU con la intención de difundir la existencia de identidades sexogenéricas disidentes y promover cambios culturales encaminados a lograr la igualdad y la inclusión en la UNAM.</li>
+    <p>De igual modo, resulta imprescindible conocer las medidas de seguridad y de actuación ante distintas situaciones de emergencia que pueden presentarse en los planteles del Colegio, las cuales se especifican en el siguiente documento:</p>
+    <li>Prevención y autocuidado del cecehachero. Ciclo 2025-2026. En este Suplemento de Gaceta CCH se describen distintos protocolos de actuación para: casos de violencia de género, urgencia médica, violencia al interior y/o exterior del plantel, incendio, sismo y fuga de gas.</li>
   </ul>
+
   <p class="font-bold text-lg my-10">Por su relevancia y pertinencia para la actividad docente, a continuación, revisaremos algunos artículos incluidos en los documentos previamente citados. </p>
   <ul class="ul-disc mt-10">
     <li><strong>Ley orgánica de la UNAM</strong> <em>Artículo 1o.-</em> La Universidad Nacional Autónoma de México es una corporación pública -organismo descentralizado del Estado- dotada de plena capacidad jurídica y que tiene por fines impartir educación superior para formar profesionistas, investigadores, profesores universitarios y técnicos útiles a la sociedad; organizar y realizar investigaciones principalmente acerca de las condiciones y problemas nacionales, y extender con la mayor amplitud posible los beneficios de la cultura. </li>
@@ -24,8 +27,9 @@ ob_start();
     <li><a target="_blank" href="<?php echo PATH_DOCS . 'codigo-etica-unam.pdf" '; ?>">Código de ética de la UNAM.</a> : documento completo.</li>
     <li><a target="_blank" href="<?php echo PATH_DOCS . 'CIGU-Herramientas-docentes.pdf'; ?>">Herramientas para una docencia igualitaria, incluyente y libre de violencias</a> apartados correspondientes a “1. Buenas prácticas docentes” y “2. Uso de lenguaje incluyente y no sexista”. </li>
     <li><a target="_blank" href="<?php echo PATH_DOCS . 'cartillaLGBTIQ.pdf'; ?>">Cartilla universitaria de buenas prácticas enfocadas a poblaciones LGBTIQ+:</a> páginas 11 a 23, correspondientes a las “Buenas prácticas”.</li>
+    <li><a target="_blank" href="<?php echo PATH_DOCS . 'autocuidado_prev_ago_2025.pdf'; ?>">Prevención y autocuidado del cecehachero. Ciclo escolar 2025-2026: páginas 13-19, 21, 31-44.</a></li>
   </ul>
-  <p>Conocer, reflexionar y actuar conforme a lo establecido en la normatividad es esencial para cualquier profesor. No obstante, es preciso reconocer que la aplicación de las normas y principios no es un proceso mecánico ni lineal, pues existen situaciones que requieren de un análisis y debates exhaustivos.</p>
+  <p>Conocer, reflexionar y actuar conforme a lo establecido en la normatividad es esencial para el profesorado. No obstante, es preciso reconocer que la aplicación de las normas y principios no es un proceso mecánico ni lineal, pues existen situaciones que requieren de un análisis y debates exhaustivos.</p>
 </section>
 <div class="grid sm:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-10 px-5 my-10">
   <img class="mx-auto" src="<?php echo ASSET_URL ?>img/modulo-1/b1p06i01.webp" alt="cita 1">
@@ -66,15 +70,21 @@ ob_start();
   ?>
   <?php ob_start(); ?>
   <ol class="ol-number">
-    <li>Realiza la lectura del texto “<a target="_blank" href="<?php echo PATH_DOCS . 'Pasion_por_ensenar.pdf'; ?>">Pasión por el propio aprendizaje y por el desarrollo profesional (p.119-137)</a>”, y de los textos “<a href="https://medium.com/@netza/los-hijos-que-no-tendr%C3%A9-8a546bae7bdf" target="_blank">Los hijos que no tendré</a>” y “<a href="https://iisue.unam.mx/nosotros/historias-y-huellas-en-mi-andar-docente/?fbclid=IwY2xjawF_pTRleHRuA2FlbQIxMAABHe3NZuk2-XcZ2mQUNdN7JcWLCrg32bknSjoXLE1mt5dluX9N3i-0OKSd0g_aem_pOg5E9x9Li6_ndCXRIhLaw" target="_blank">Una experiencia positiva</a>”.</li>
-    <li>A partir de las lecturas, así como de tus propias reflexiones y vivencias, participa durante la sesión sincrónica en el padlet indicado por tus impartidores contestando las siguientes preguntas: ¿Cuáles consideras que son tus principales retos/desafíos como docente del CCH y en qué medida coinciden o no con los presentados en las lecturas?, ¿Con qué alternativas cuentas para afrontar dichas dificultades?</li>
-    <li>Para conocer sobre el uso de la herramienta Padlet consulta el siguiente <a href="https://www.youtube.com/watch?v=4Kil6gspE9w" target="_blank">video</a>.</li>
-    <li>Descarga los <a target="_blank" href="<?php echo PATH_DOCS . 'actividad-3-criterios-evaluacion.pdf'; ?>">criterios de evaluación</a>.</li>
+    <li>Realiza la lectura del texto los textos “<a href="https://medium.com/@netza/los-hijos-que-no-tendr%C3%A9-8a546bae7bdf" target="_blank">Los hijos que no tendré</a>” y “<a href="https://iisue.unam.mx/nosotros/historias-y-huellas-en-mi-andar-docente/?fbclid=IwY2xjawF_pTRleHRuA2FlbQIxMAABHe3NZuk2-XcZ2mQUNdN7JcWLCrg32bknSjoXLE1mt5dluX9N3i-0OKSd0g_aem_pOg5E9x9Li6_ndCXRIhLaw" target="_blank">Una experiencia positiva</a>”.</li>
+    <li>A partir de las lecturas, así como de tus propias reflexiones y vivencias, participa durante la sesión sincrónica contestando las siguientes preguntas: ¿Cuáles consideras que son tus principales retos/desafíos como docente del CCH y en qué medida coinciden o no con los presentados en las lecturas?, ¿Con qué alternativas cuentas para afrontar dichas dificultades?</li>
   </ol>
 
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad($ActividadContent, "Actividad 3 : Reflexión sobre la práctica docente  ");
+  renderActividad($ActividadContent, "Actividad : Reflexión sobre la práctica docente ");
+  ?>
+  <?php ob_start(); ?>
+     <ol class="ol-number">
+        <li>En este espacio las y/o los impartidores registrarán la evaluación de las sesiones sincrónicas del Módulo.</li>
+     </ol>
+  <?php
+  $ActividadContent = ob_get_clean();
+  renderActividad($ActividadContent, "Evaluación de sesiones sincrónicas");
   renderActividadIframe('b1act3');
   ?>
 </section>
@@ -88,7 +98,7 @@ ob_start();
 <ul class="ul-disc">
   <li><a target="_blank" href="<?php echo PATH_DOCS . 'aapaunam-2023_2025.pdf'; ?>">Contrato colectivo de trabajo 2023-2025.</a>
   </li>
-  <li><a target="_blank" href="http://www.dgoae.unam.mx/ConsejoAsesor/pdf/EPA.pdf">Estatuto del Personal Académico de la UNAM (EPA).</a>
+  <li><a target="_blank" href="https://www.abogadogeneral.unam.mx/sites/default/files/archivos/LegUniv/26-EstatutoPersonalAcademico_UNAM_070425.pdf">Estatuto del Personal Académico de la UNAM (EPA).</a>
   </li>
   <li><a target="_blank" href="<?php echo PATH_DOCS . 'B1MarcoInstitucionalPSM2016.pdf'; ?>">Marco Institucional de Docencia en la UNAM.</a>
   </li>

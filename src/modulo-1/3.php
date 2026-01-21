@@ -17,7 +17,7 @@ ob_start();
       <li>El problema del <strong>contexto</strong>. Esto es, buscar contextos más amplios que permitan explicarnos el comportamiento de determinados fenómenos.</li>
     </ol>
   </div>
-  <p>De estos problemas se deriva la propuesta del Plan de Estudios de 1971, con el cual nació el Colegio: una organización académica por áreas en las que se encuentran los dos lenguajes básicos: las matemáticas y el lenguaje verbal; y los dos métodos básicos utilizados en las áreas histórico-social y de ciencias experimentales. En cuanto al perfil de egreso, se planteó que el el estudiantado fuera autónomo, con capacidad de investigar por su cuenta recurriendo a las fuentes originales:</p>
+  <p>De estos problemas se deriva la propuesta del Plan de Estudios de 1971, con el cual nació el Colegio: una organización académica por áreas en las que se encuentran los dos lenguajes básicos: las matemáticas y el lenguaje verbal; y los dos métodos básicos utilizados en las áreas histórico-social y de ciencias experimentales. En cuanto al perfil de egreso, se planteó que el estudiantado fuera autónomo, con capacidad de investigar por su cuenta recurriendo a las fuentes originales:</p>
   <div class="text-xl pl-3 lg:px-10 mx-auto border-l-4 border-l-greenown max-w-screen-md my-5 lg:my-10">
     …se buscará que al final de su formación sepa aprender, sepa informarse y estudiar sobre materias que aun ignora, recurriendo para ello a los libros, enciclopedias, periódicos, revistas, cursos extraordinarios que siga fuera de programa, sin pretender que la Unidad le dé una cultura enciclopédica, sino los métodos y técnicas necesarios y el hábito de aplicarlos a problemas concretos y de adquirir nuevos conocimientos (Gaceta amarilla, 1971: 4).
   </div>
@@ -39,7 +39,7 @@ ob_start();
     <p>Estos cuatro ejes rectores se concretan en los propósitos educativos que tiene esta institución y las formas pedagógicas para alcanzarlos, lo que implica que las actividades de enseñanza y aprendizaje se deberán organizar conforme al modelo. Para adquirir el conocimiento y la formación de actitudes, el Modelo Educativo del Colegio plantea una metodología en la que el estudiantado tiene un papel activo en el proceso educativo (en el salón de clases y en la realización de trabajos de investigación y prácticas de laboratorio) bajo la guía del profesorado, sin que necesariamente éste pierda su autoridad académica en el salón de clase, ya que cuenta con el respaldo de sus experiencias, habilidades intelectuales y conocimientos.</p>
     <img class="mx-auto" src="<?php echo ASSET_URL ?>img/modulo-1/b1p03i02.webp" alt="Imagen de un grupo de estudiantes">
   </div>
-  <p class="my-10">Así tenemos que las <strong>orientaciones del que hacer educativo</strong> del CCH se sintetizan en las máximas de:</p>
+  <p class="my-10">Así tenemos que los <strong>principios del Modelo Educativo</strong> son:</p>
 </section>
 <div class="w-full grid sm:grid-cols-2 xl:grid-cols-4 gap-5 px-5">
   <div class="p-4 shadow-xl bg-slate-300">
@@ -63,7 +63,7 @@ ob_start();
   <?php ob_start(); ?>
   <ol class="ol-number">
     <li>
-      <p>Desde su fundación hasta la actualidad, se han escrito y publicado una gran cantidad de documentos (reflexiones, ponencias, libros, tesis, entre otros) sobre los antecedentes históricos y los fundamentos del proyecto educativo del CCH. A continuación, te presentamos tres textos institucionales, publicados en distintos momentos históricos, en los cuales se plasman los elementos del Modelo Educativo del CCH. Realiza la lectura de las páginas que se te indican,</p>
+      <p>Desde su fundación hasta la actualidad, se han escrito y publicado una gran cantidad de documentos (reflexiones, ponencias, libros, tesis, entre otros) sobre los antecedentes históricos y los fundamentos del proyecto educativo del CCH. A continuación, te presentamos dos textos institucionales, publicados en distintos momentos históricos, en los cuales se plasman los elementos del Modelo Educativo del CCH. Realiza la lectura de las páginas que se te indican,</p>
       <div class="grid md:grid-cols-3 gap-5 items-center mt-10">
         <?php
         include BASE_PATH . '/include/BloquePDF.php';
@@ -81,8 +81,8 @@ ob_start();
           ],
           [
             'filePath' => PATH_DOCS . 'B2_ELCCH_MODELO_PRACTICAS.pdf',
-            'title' => 'El Colegio de Ciencias y Humanidades: Modelo y Prácticas (Páginas 1-6)',
-            'content' => 'Se trata de un documento elaborado por la entonces Junta de directores del CCH, y publicado en 2001 en el Suplemento Especial de la Gaceta CCH. El texto corresponde a una ponencia presentada en el Coloquio Nacional sobre la Función de la Enseñanza Media Superior en el que se exponen los principios del Modelo Educativo del CCH y su concreción en dos niveles: el plan de estudios, y las políticas y programas para el desarrollo académico.'
+            'title' => 'Modelo Educativo 2025',
+            'content' => 'Este documento es producto del trabajo realizado por el Seminario Institucional del Plan de Estudios, durante los ciclos escolares 2022-2023 y 2023-2024. Asimismo, la comunidad académica del Colegio vertió realizó observaciones y sugerencias al documento en distintos momentos, a través de cursos y foros. El texto integrado por tres apartados: 1) Filosofía educativa, que comprende la misión y valores del Colegio como bachillerato universitario, propedéutico y de cultura básica integral; así como los principios educativos del Colegio. 2) Bases pedagógicas. En esta sección se plantean las concepciones de aprendizaje y enfoques pedagógicos; la concepción del alumnado y del profesorado; las estrategias y evaluación del aprendizaje. Asimismo, se abordan las Tecnologías de la Información y la Comunicación (TIC), las Tecnologías del Aprendizaje y el Conocimiento (TAC) y las Tecnologías del Empoderamiento y la Participación (TEP), acordes con el Modelo del Colegio. 3) Perfil de egreso. En este se definen las expectativas relacionadas con el logro de los aprendizajes que ha de alcanzar el alumnado que egresa de este bachillerato.'
           ]
         ];
 
@@ -93,7 +93,7 @@ ob_start();
         ?>
       </div>
     </li>
-    <li>Elabora una infografía en la que sintetices los aspectos centrales del Modelo Educativo del CCH: a&#41; antecedentes históricos, b&#41; ejes organizativos y c&#41; orientaciones del quehacer educativo.</li>
+    <li>Elabora una infografía en la que sintetices los aspectos centrales del Modelo Educativo del CCH: a&#41; antecedentes históricos, b&#41; ejes organizativos y c&#41; principios educativos.</li>
     <li>Consulta el material “<a target="_blank" href="<?php echo PATH_DOCS . 'infografia-canva.pdf'; ?>">Cómo hacer una infografía en Canva</a>”. </li>
     <li>Guarda tu archivo bajo el siguiente formato: <em>Nombre_Apellido_Actividad1</em>. Ejemplo: <strong>Victoria_García_Actividad1</strong></li>
     <li>

@@ -39,7 +39,7 @@
     },
     "Módulo 2": {
       "url": "/modulo-2",
-      "publicado": true,
+      "publicado": false,
       "target": "_self",
       "nombre": "Módulo 2. La metodología didáctica en las áreas del Colegio",
       "paginas": [
@@ -56,7 +56,7 @@
     },
     "Módulo 3": {
       "url": "/modulo-3",
-      "publicado": true,
+      "publicado": false,
       "target": "_self",
       "nombre": "Módulo 3. Taller de planeación didáctica",
       "paginas": [
@@ -69,7 +69,7 @@
     },
     "Módulo 4": {
       "url": "/modulo-4",
-      "publicado": true,
+      "publicado": false,
       "target": "_self",
       "nombre": "Módulo 4. Elaboración y presentación en video de un plan de clase",
       "paginas": [
@@ -87,7 +87,7 @@
       "target": "_blank"
     },
     "Lineamientos": {
-      "url": "/assets/docs/acreditacion-programa-25.pdf",
+      "url": "/assets/docs/acreditacion-programa.pdf",
       "publicado": true,
       "target": "_blank"
     }
@@ -114,7 +114,7 @@
     "moodle": {
       "nombre": "Moodle",
       "icon": "moodle.svg",
-      "url": "https://moodle.portalacademico.cch.unam.mx/modelo-educativo/course/view.php?id=12&theme=boost"
+      "url": "https://moodle.portalacademico.cch.unam.mx/modelo-educativo/course/view.php?id=13&theme=boost"
     },
     "calificaciones": {
       "nombre": "Calificaciones",
