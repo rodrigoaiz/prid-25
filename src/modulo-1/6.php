@@ -85,7 +85,7 @@ ob_start();
   renderActividad($ActividadContent, "Actividad : Reflexión sobre la práctica docente ");
   ?>
   <h2>¡Módulo 1 concluido!</h2>
-  <p>Buen trabajo. No olvides que tu evaluación final dependerá de la suma de tus actividades entregadas y de tu participación activa en las sesiones sincrónicas. ¡Nos vemos en el Módulo 2!</p>
+  <p>Buen trabajo. No olvides que tu evaluación final dependerá de la suma de tus actividades entregadas y de tu participación activa en las sesiones sincrónicas ¡Nos vemos en el Módulo 2!</p>
 </section>
 <?php ob_start(); ?>
 <div class="grid  md:grid-cols-3 md:gap-10 items-center">

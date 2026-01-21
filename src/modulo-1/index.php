@@ -15,7 +15,7 @@ ob_start();
       <h3 class="text-orangeown">Objetivos</h3>
       <div class="bg-greenown/70 object-center h-full text-darkown p-5 flex items-center">
         <ul class="ul-disc list-inside flex flex-col">
-          <li>Identificar los orígenes históricos del CCH</li>
+          <li>Identificar los orígenes históricos del CCH.</li>
           <li>Comprender los postulados del Modelo Educativo y el concepto de Cultura Básica.</li>
           <li>Determinar la importancia de la ética en el ejercicio de la docencia e identificar los principales derechos y obligaciones del profesorado dentro de la UNAM y el CCH.</li>
           <li>Reflexionar sobre la propia práctica docente con base en los postulados del Modelo Educativo del CCH.</li>
