@@ -80,9 +80,9 @@ ob_start();
             'content' => 'Este documento fue publicado en 1996, una vez concluidos los trabajos iniciados en 1991 para la actualización del Plan y de los Programas de Estudio con los que inició el Colegio en 1971. El documento está compuesto por siete apartados en los que se aborda la fundamentación del proceso de actualización y la metodología seguida; los criterios para la implantación, seguimiento y evaluación del PEA; el mapa curricular y los contenidos de los nuevos programas; el perfil del egresado; y se especifican las características didáctico-pedagógicas y filosóficas del proyecto educativo del Colegio.'
           ],
           [
-            'filePath' => PATH_DOCS . 'B2_ELCCH_MODELO_PRACTICAS.pdf',
-            'title' => 'Modelo Educativo 2025',
-            'content' => 'Este documento es producto del trabajo realizado por el Seminario Institucional del Plan de Estudios, durante los ciclos escolares 2022-2023 y 2023-2024. Asimismo, la comunidad académica del Colegio vertió realizó observaciones y sugerencias al documento en distintos momentos, a través de cursos y foros. El texto integrado por tres apartados: 1) Filosofía educativa, que comprende la misión y valores del Colegio como bachillerato universitario, propedéutico y de cultura básica integral; así como los principios educativos del Colegio. 2) Bases pedagógicas. En esta sección se plantean las concepciones de aprendizaje y enfoques pedagógicos; la concepción del alumnado y del profesorado; las estrategias y evaluación del aprendizaje. Asimismo, se abordan las Tecnologías de la Información y la Comunicación (TIC), las Tecnologías del Aprendizaje y el Conocimiento (TAC) y las Tecnologías del Empoderamiento y la Participación (TEP), acordes con el Modelo del Colegio. 3) Perfil de egreso. En este se definen las expectativas relacionadas con el logro de los aprendizajes que ha de alcanzar el alumnado que egresa de este bachillerato.'
+            'filePath' => PATH_DOCS . 'ModeloEducativo_2025.pdf',
+            'title' => 'Modelo Educativo 2025 (Páginas 13-42)',
+            'content' => 'Este documento es producto del trabajo realizado por el Seminario Institucional del Plan de Estudios, durante los ciclos escolares 2022-2023 y 2023-2024. Asimismo, la comunidad académica del Colegio realizó observaciones y sugerencias al documento en distintos momentos, a través de cursos y foros. El texto integrado por tres apartados: 1) Filosofía educativa, que comprende la misión y valores del Colegio como bachillerato universitario, propedéutico y de cultura básica integral; así como los principios educativos del Colegio. 2) Bases pedagógicas. En esta sección se plantean las concepciones de aprendizaje y enfoques pedagógicos; la concepción del alumnado y del profesorado; las estrategias y evaluación del aprendizaje. Asimismo, se abordan las Tecnologías de la Información y la Comunicación (TIC), las Tecnologías del Aprendizaje y el Conocimiento (TAC) y las Tecnologías del Empoderamiento y la Participación (TEP), acordes con el Modelo del Colegio. 3) Perfil de egreso. En este se definen las expectativas relacionadas con el logro de los aprendizajes que ha de alcanzar el alumnado que egresa de este bachillerato.'
           ]
         ];
 
@@ -109,7 +109,7 @@ ob_start();
   <?php
   $ActividadContent = ob_get_clean();
   include BASE_PATH . '/include/Actividad.php';
-  renderActividad($ActividadContent, "Actividad 1 : Modelo Educativo del CCH");
+  renderActividad($ActividadContent, "Actividad 1 : Infografía");
   ?>
   <?php
   include BASE_PATH . '/include/ActividadIframe.php';

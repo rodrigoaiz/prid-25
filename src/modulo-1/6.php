@@ -15,7 +15,7 @@ ob_start();
     <li><strong>Herramientas para una docencia igualitaria, incluyente y libre de violencias.</strong> En esta guía, elaborada por la Coordinación para la Igualdad de Género (CIGU) de la UNAM, se especifican una serie de orientaciones sobre buenas prácticas docentes para construir ambientes educativos igualitarios y libres de violencia por razones de género.</li>
     <li><strong>Cartilla universitaria de buenas prácticas enfocadas a poblaciones LGBTIQ+.</strong> Este documento también fue elaborado por la CIGU con la intención de difundir la existencia de identidades sexogenéricas disidentes y promover cambios culturales encaminados a lograr la igualdad y la inclusión en la UNAM.</li>
     <p>De igual modo, resulta imprescindible conocer las medidas de seguridad y de actuación ante distintas situaciones de emergencia que pueden presentarse en los planteles del Colegio, las cuales se especifican en el siguiente documento:</p>
-    <li>Prevención y autocuidado del cecehachero. Ciclo 2025-2026. En este Suplemento de Gaceta CCH se describen distintos protocolos de actuación para: casos de violencia de género, urgencia médica, violencia al interior y/o exterior del plantel, incendio, sismo y fuga de gas.</li>
+    <li><strong>Prevención y autocuidado del cecehachero. Ciclo 2025-2026.</strong> En este Suplemento de Gaceta CCH se describen distintos protocolos de actuación para: casos de violencia de género, urgencia médica, violencia al interior y/o exterior del plantel, incendio, sismo y fuga de gas.</li>
   </ul>
 
   <p class="font-bold text-lg my-10">Por su relevancia y pertinencia para la actividad docente, a continuación, revisaremos algunos artículos incluidos en los documentos previamente citados. </p>

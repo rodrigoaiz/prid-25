@@ -23,20 +23,20 @@ ob_start();
     <ul class="ul-disc">
       <li>En el inicio Roger Díaz de Cossío, Coordinador de Ciencias de la UNAM, encabezó a 80 destacados universitarios para elaborar el Plan y los Programas de Estudio.</li>
       <li>Con la participación de los coordinadores de Ciencias y Humanidades de la Universidad, Guillermo Soberón y Rubén Bonifaz Nuño; de los directores de las facultades de Filosofía y Letras, Ciencias, Química y Ciencias Políticas y Sociales, Ricardo Guerra Tejeda, Juan Manuel Lozano, José F. Herrán y Víctor Flores Olea y del director de la Escuela Nacional Preparatoria, Moisés Hurtado G. respectivamente; González Casanova elaboró un plan para crear un sistema innovador que se denominó Colegio de Ciencias y Humanidades.</li>
-      <li>El 12 de abril de 1971, abrieron sus puertas para recibir a las primeras generaciones de estudiantes, los planteles Azcapotzalco, Naucalpan y Vallejo, al siguiente año iniciaron actividades Oriente y Sur.</li>
-      <li>En 1992 se crea el Consejo Técnico, máximo órgano rector del Colegio.</li>
-      <li>En 1996 se actualiza el Plan de Estudios, con el objetivo de responder a las nuevas necesidades de adquisición de conocimientos y el desarrollo de habilidades acordes a los tiempos que se vivían.</li>
+      <li>El <strong>12 de abril de 1971</strong>, abrieron sus puertas para recibir a las primeras generaciones de estudiantes, los planteles <strong>Azcapotzalco</strong>, <strong>Naucalpan</strong> y <strong>Vallejo</strong>, al siguiente año iniciaron actividades Oriente y Sur.</li>
+      <li>En <strong>1992</strong> se crea el <strong>Consejo Técnico</strong>, máximo órgano rector del Colegio.</li>
+      <li>En <strong>1996</strong> se actualiza el <strong>Plan de Estudios</strong>, con el objetivo de responder a las nuevas necesidades de adquisición de conocimientos y el desarrollo de habilidades acordes a los tiempos que se vivían.</li>
     </ul>
   </div>
   <div class="bg-slate-200 shadow-lg p-2 md:p-6">
     <ul class="ul-disc">
-      <li>En 1997 obtiene el rango de Escuela Nacional.</li>
-      <li>En 1998 se instala la Dirección General.</li>
-      <li>Entre 2002 y 2004 se realizó una revisión y ajuste de los Programas de Estudio.</li>
-      <li>Desde 2009 y hasta 2016, se desarrolló un proceso de actualización de los Programas de Estudio de sus 31 materias curriculares y de Educación Física.</li>
-      <li>El 07 de agosto de 2020, las Opciones Técnicas se convierten en Estudios Técnicos Especializados.</li>
-      <li>En el ciclo escolar 2023-2024 nuevamente se llevó a cabo un proceso de revisión y ajuste de los Programas de Estudio de las materias curriculares y Educación Física. Asimismo, el 18 junio de 2024 el Consejo Técnico aprobó la incorporación de la asignatura Igualdad de Género como requisito de egreso de su Plan de Estudios.</li>
-      <li>En 2025, se aprobó la más reciente actualización al Plan de Estudios. En ésta se sistematizan todas las modificaciones curriculares realizadas en el CCH a partir de 1996, incluyendo: las diversas revisiones y ajustes de los programas de estudio, la actualización de los documentos de Orientación y Sentido de las Áreas y el Modelo Educativo, y el establecimiento de la asignatura de Educación Física como requisito de egreso.</li>
+      <li>En <strong>1997</strong> obtiene el rango de <strong>Escuela Nacional</strong>.</li>
+      <li>En <strong>1998</strong> se instala la <strong>Dirección General</strong>.</li>
+      <li>Entre <strong>2002 y 2004</strong> se realizó una <strong>revisión y ajuste de los Programas de Estudio</strong>.</li>
+      <li>Desde <strong>2009 y hasta 2016</strong>, se desarrolló un proceso de <strong>actualización de los Programas de Estudio de sus 31 materias curriculares y de Educación Física</strong>.</li>
+      <li>El <strong>07 de agosto de 2020</strong>, las <strong>Opciones Técnicas se convierten en Estudios Técnicos Especializados</strong>.</li>
+      <li>En el ciclo escolar <strong>2023-2024</strong> nuevamente se llevó a cabo un proceso de <strong>revisión y ajuste de los Programas de Estudio de las materias curriculares y Educación Física</strong>. Asimismo, el 18 junio de 2024 el Consejo Técnico<strong> aprobó la incorporación de la asignatura Igualdad de Género</strong> como requisito de egreso de su Plan de Estudios.</li>
+      <li>En <strong>2025, se aprobó la más reciente actualización al Plan de Estudios</strong>. En ésta se sistematizan todas las modificaciones curriculares realizadas en el CCH a partir de 1996, incluyendo: <strong>las diversas revisiones y ajustes de los programas de estudio, la actualización de los documentos de Orientación y Sentido de las Áreas y el Modelo Educativo, y el establecimiento de la asignatura de Educación Física como requisito de egreso</strong>.</li>
     </ul>
   </div>
 </div>
