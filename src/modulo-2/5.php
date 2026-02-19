@@ -12,16 +12,54 @@ ob_start();
   $imageSrc = ASSET_URL . 'img/modulo-2/b4p05i02.webp';
   renderImageComponent($imageSrc, 'justify-center');
   ?>
-  <p>Como parte de los trabajos de esta Revisión y Ajuste también se reestructuró el formato de la carta descriptiva, el cual tomó como eje fundamental a los aprendizajes (que sustituyeron a los objetivos de aprendizaje) con el propósito de que el profesorado y estudiantado pudieran ubicar los logros esperados en cada una de las asignaturas y evitaran centrarse en abordar todos los temas y subtemas que contienen los programas.</p>
-  <p>Como parte de los trabajos de esta Revisión y Ajuste también se reestructuró el formato de la <a class="tooltip-multiline tooltip-bottom-left" data-tooltip="Las cartas descriptivas son una guía para orientar los cursos de una manera planeada, aunque flexible, hacia un rumbo determinado y con un método definido (Haro, 1994).">carta descriptiva</a><span class="sm:hidden">(Las cartas descriptivas son una guía para orientar los cursos de una manera planeada, aunque flexible, hacia un rumbo determinado y con un método definido (Haro, 1994).)</span>, el cual tomó como eje fundamental a los <strong>aprendizajes</strong> (que sustituyeron a los objetivos de aprendizaje) con el propósito de que el profesorado y estudiantado pudieran ubicar <strong>los logros esperados en cada una de las asignaturas</strong> y evitaran centrarse en abordar todos los temas y subtemas que contienen los programas.</p>
-  <p class="text-lg my-5 font-bold">Así, el eje organizador de la unidad gira en torno a los aprendizajes que se busca que desarrolle el estudiantado y no en los contenidos temáticos, a diferencia de los modelos tradicionales de enseñanza.</p>
-  <p>Un aprendizaje persigue propósitos de carácter declarativo, procedimental y actitudinal; “aprendizaje es lo que el alumno logra hacer (entiende, aplica, relaciona) con el contenido temático” (García, 2004: 12). Esto implica que los temas solamente son un punto de referencia y únicamente deben incluirse los estrictamente necesarios para sostener los aprendizajes propuestos. Aunque claro, tampoco se trata de prescindir de los temas, finalmente son parte de los aprendizajes</p>
-  <p>A manera de ejemplo presentamos un extracto de los aprendizajes propuestos para la Unidad 1 de la asignatura Taller de Lectura y Redacción e Iniciación a la Investigación Documental I (CCH, 2016, pp. 19-22):</p>
-  <div class="mx-auto max-w-screen-sm ">
-    <img class="cursor-zoom-in" onclick="window.dialog1.showModal();" src="<?php echo ASSET_URL; ?>img/modulo-2/b4p05i01.webp" alt="Unidades TLRIID" />
-    <p class="text-sm mt-3 text-center">Haz clic para agrandar la imagen 👆.</p>
+  <p>Posteriormente, entre 2009 y 2016 se llevó a cabo un proceso de Actualización de los Programas de Estudio. Finalmente, en el ciclo escolar 2023-2024 se realizó el último proceso de Revisión y Ajuste de los Programas de Estudio</p>
+  <p>Una de las características distintivas de los Programas del Colegio es que su <a class="tooltip-multiline tooltip-bottom-left" data-tooltip="Las cartas descriptivas son una guía para orientar los cursos de una manera planeada, aunque flexible, hacia un rumbo determinado y con un método definido (Haro, 1994).">carta descriptiva</a><span class="sm:hidden">(Las cartas descriptivas son una guía para orientar los cursos de una manera planeada, aunque flexible, hacia un rumbo determinado y con un método definido (Haro, 1994).)</span>, toma como eje fundamental a los aprendizajes (que sustituyen a los objetivos de aprendizaje) con el propósito de que el profesorado y el estudiantado ubiquen los logros esperados en cada una de las asignaturas y eviten centrarse en abordar todos los temas y subtemas que contienen los programas.</p>
+  <p>Así, el eje organizador de la unidad gira en torno a los aprendizajes que se busca que desarrolle el estudiantado y no en los contenidos temáticos, a diferencia de los modelos tradicionales de enseñanza. </p>
+  <p>Un aprendizaje persigue propósitos de carácter declarativo, procedimental y actitudinal; “aprendizaje es lo que el alumno logra hacer (entiende, aplica, relaciona) con el contenido temático” (García, 2004: 12). Esto implica que los temas solamente son un punto de referencia y únicamente deben incluirse los estrictamente necesarios para sostener los aprendizajes propuestos. Aunque claro, tampoco se trata de prescindir de los temas, finalmente son parte de los aprendizajes. </p>
+  <p>A manera de ejemplo presentamos un extracto de los aprendizajes propuestos para la Unidad 1 de la asignatura Taller de Lectura y Redacción e Iniciación a la Investigación Documental I (CCH, 2024, pp. 22):</p>
+
+
+  <div class="overflow-x-auto my-8">
+    <table class="w-full border-collapse border border-gray-400">
+      <thead>
+        <tr class="bg-gray-500 text-white">
+          <th class="border border-gray-400 p-3 text-left font-bold">Aprendizajes</th>
+          <th class="border border-gray-400 p-3 text-left font-bold">Temática</th>
+          <th class="border border-gray-400 p-3 text-left font-bold">Estrategias sugeridas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border border-gray-400 p-4 bg-gray-100 align-top">
+            <p class="font-bold mb-3">El alumnado:</p>
+            <p><strong>1.</strong> Identifica los elementos integrantes de la situación comunicativa a partir de la lectura de diversos textos orales y escritos y de la comprensión del propósito comunicativo.</p>
+          </td>
+          <td class="border border-gray-400 p-4 bg-gray-200 align-top">
+            <p class="font-bold mb-2">Situación comunicativa</p>
+            <p class="mb-3">(texto, enunciador, enunciatario, referente, propósito y contexto)</p>
+            
+            <p class="font-bold mb-2">Oralidad y escritura:</p>
+            <ul class="list-disc pl-5 space-y-1">
+              <li>Características de la expresión oral.</li>
+              <li>Características de la expresión escrita.</li>
+            </ul>
+          </td>
+          <td class="border border-gray-400 p-4 bg-gray-100 align-top">
+            <p class="font-bold mb-3">Actividades para el alumnado:</p>
+            <ul class="list-disc pl-5 space-y-3">
+              <li>Con la guía del profesorado, lee diversos textos autorreferenciados.</li>
+              <li>Identifica, con la orientación del profesorado, los elementos de la situación comunicativa de diversos textos leídos, para determinar la relevancia e interacción de cada uno de dichos elementos.</li>
+              <li>Muestra productos audiovisuales acerca de un tema de su interés o presentándose ante sus pares, para la práctica de su expresión oral y la escucha activa.</li>
+              <li>Redacta un párrafo o comentario breve que considere la situación comunicativa de su texto acerca de sus impresiones al recibir los resultados de admisión al bachillerato. Después, organizado en equipos, lee los textos de sus pares, y comenta reflexivamente acerca del sentido de pertenencia a la Universidad.</li>
+              <li>Elabora, en plenaria y junto al profesorado, un cuadro de comparación y contraste entre la expresión oral y la expresión escrita.</li>
+              <li>Formula, oralmente o por escrito en un organizador gráfico, las conclusiones sobre la relevancia y lo indispensables que son los componentes de la situación comunicativa.</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-  <p class="my-10">Por otro lado, en el último proceso de revisión y ajuste de los programas de estudio que concluyó en 2024, la estructura de los mismos quedó conformada por los siguientes apartados:</p>
+  <p class="my-10">En el último proceso de revisión y ajuste de los programas de estudio que concluyó en 2024, la estructura de los mismos quedó conformada por los siguientes apartados:</p>
 </section>
 <div class="w-full my-4 relative z-0">
   <div class="w-full bg-greenown min-h-20 absolute translate-y-full origin-center z-0">
@@ -57,8 +95,8 @@ ob_start();
 <section>
   <?php ob_start(); ?>
   <ol class="ol-number">
-    <li>Descarga el documento <a href="https://www.cch.unam.mx/sites/default/files/planestudios/S_O_Areas_y_Deptos_2006.pdf" target="_blank">Orientación y Sentido de las Áreas del Plan de Estudios Actualizado</a> y lee el apartado referente al área a la que corresponde la materia que inscribiste.</li>
-    <li>Lee el <a href="https://www.cch.unam.mx/programasestudio2024" target="_blank">Programa de Estudios</a> de la materia que inscribiste.</li>
+    <li>Descarga el documento <a href="https://www.cch.unam.mx/sites/default/files/OrientacionSentidoAreas_2025.pdf" target="_blank">Orientación y Sentido de las Áreas 2025</a> y lee el apartado referente al área a la que corresponde la materia que inscribiste.</li>
+    <li>Lee el <a href="https://www.cch.unam.mx/programasestudio" target="_blank">Programa de Estudios 2024</a> de la materia que inscribiste.</li>
     <li>A partir de tus lecturas, completa el siguiente Cuadro Comparativo. Descarga el <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad1_formato_2025.docx'; ?>">formato</a> en el que deberás realizar tu actividad.</li>
     <li>Guarda tu archivo (.doc o .pdf) bajo el siguiente formato: Nombre_Apellido_Actividad01. Ejemplo: <strong>Victoria_García_Actividad01</strong></li>
     <li>
@@ -81,11 +119,6 @@ ob_start();
   renderActividadIframe('b2act1');
   ?>
 </section>
-<!-- Modales aca abajo -->
-<dialog class="max-w-screen-lg mx-auto" id="dialog1">
-  <img class="px-10 mx-auto" src="<?php echo ASSET_URL; ?>img/modulo-2/b4p05i01.webp" alt="Unidades TLRIID" />
-  <button onclick="window.dialog1.close();" aria-label="close" class="x">❌</button>
-</dialog>
 <?php
 $content = ob_get_clean();
 include BASE_PATH . '/include/templateContent.php';

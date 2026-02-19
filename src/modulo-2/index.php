@@ -17,9 +17,9 @@ ob_start();
       <h3 class="text-orangeown">Objetivos</h3>
       <div class="bg-greenown/70 object-center h-full text-darkown p-5 flex items-center">
         <ul class="ul-disc list-inside flex flex-col">
-          <li>Conocer el documento Orientación y Sentido de las Áreas, el enfoque didáctico y disciplinario de su Área.</li>
+          <li>Conocer el documento Orientación y Sentido de las Áreas 2025, el enfoque didáctico y disciplinario de su Área.</li>
           <li>Comprender los fundamentos del enfoque constructivista en la educación y su concordancia con el Modelo Educativo del Colegio.</li>
-          <li>Analizar los elementos del Programa Indicativo para diseñar la propuesta de una unidad del Programa Operativo acorde a su materia o asignatura.</li>
+          <li>Analizar los elementos del Programa Indicativo 2024 para diseñar la propuesta de una unidad del Programa Operativo acorde a su materia o asignatura.</li>
         </ul>
       </div>
     </article>
@@ -28,7 +28,7 @@ ob_start();
       <div class="bg-greenown/70 h-full text-darkown p-5 flex items-center">
         <ul class="ul-disc list-inside flex flex-col">
           <li>
-            <p>La Orientación y Sentido del Área y su vínculo con el Plan de Estudios.</p>
+            <p>La Orientación y Sentido del Área 2025 y su vínculo con el Plan de Estudios 2025.</p>
             <ul>
               <li>Enfoque disciplinario y didáctico del área.</li>
               <li>Enfoque disciplinario y didáctico de la materia.</li>

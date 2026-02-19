@@ -9,18 +9,24 @@ ob_start();
 <div class="w-full my-4 relative z-0">
   <div class="w-full bg-greenown min-h-20 absolute translate-y-full origin-center z-0">
   </div>
-  <div class="max-w-screen-xl grid grid-cols-3 gap-5 relative z-10 mx-auto">
+  <div class="max-w-screen-xl grid grid-cols-1 md:grid-cols-2 gap-5 relative z-10 mx-auto px-4 lg:px-0">
     <div class="bg-greenown brightness-125  shadow-lg text-slate-900 p-5 hover:scale-105 group ease-in-out transition-all">
       <h3 class="uppercase text-xl">Departamento de Difusión Cultural</h3>
       <p>Proporciona a las y los alumnos formación cultural por medio de dos vías: la participación en talleres y/o la asistencia a eventos de distintas manifestaciones artísticas (música, danza, teatro, entre otras). </p>
     </div>
     <div class="bg-greenown brightness-125	 shadow-lg text-slate-900 p-5 hover:scale-105 group ease-in-out transition-all">
-      <h3 class="uppercase text-xl">Departamento de Educación Física</h3>
-      <p>Tiene como objetivo promover entre la comunidad educativa en general, y el alumnado en particular, estilos de vida saludable. Para ello, se ofrece la clase de Educación Física cuatro horas a la semana, durante un semestre, al estudiantado del primer año. Además, quienes así lo decidan, tienen la posibilidad de practicar, a lo largo de su estancia en el Colegio, distintas disciplinas deportivas (fútbol, baloncesto, voleibol, entre otras). De igual modo, las personas de la comunidad pueden participar en alguna de las actividades complementarias ofrecidas (carreras, concursos, acondicionamiento físico integral, entre otras).</p>
-    </div>
-    <div class="bg-greenown brightness-125	 shadow-lg text-slate-900 p-5 hover:scale-105 group ease-in-out transition-all">
       <h3 class="uppercase text-xl">Departamento de Opciones Técnicas</h3>
       <p>Su objetivo es ofrecer al estudiantado que así lo desee, una capacitación y formación específica para el trabajo. Actualmente se cuenta con una oferta de 20 programas de Estudios Técnicos Especializados (ETE). </p>
+    </div>
+    <div class="md:col-span-2 bg-greenown brightness-125	 shadow-lg text-slate-900 p-5 hover:scale-105 group ease-in-out transition-all">
+      <h3 class="uppercase text-xl">Departamento de Educación Física</h3>
+      <p>Posee un enfoque global de formación integral y tiene como objetivo promover entre la comunidad educativa en general, y específicamente en el alumnado, estilos de vida saludable, visión que se basa en el buen uso del organismo de manera autónoma. </p>
+      <p>Orienta su labor docente en tres líneas de acción:</p>
+      <ol class="ol-alpha">
+        <li>Para el estudiantado de primer año la clase de Educación Física (requisito de egreso) cuatro horas a la semana, durante un semestre;</li>
+        <li>Para todos los semestres, atención a las disciplinas deportivas (fútbol, baloncesto, voleibol, entre otras);</li>
+        <li>Actividades complementarias para toda la comunidad (carreras, concursos, acondicionamiento físico integral, entre otras).</li>
+      </ol>
     </div>
   </div>
 </div>
@@ -30,7 +36,7 @@ ob_start();
   </div>
   <h2>Mapa curricular </h2>
   <p>Es el conjunto de materias agrupadas por líneas de formación o áreas de estudio, en orden al perfil de egreso y distribuidas en el tiempo o duración del plan de estudios (Gil, 2007). Las características que distinguen al mapa curricular del Colegio son las siguientes (CCH 1996): </p>
-  <p>Puedes consultar en línea el <a href="https://www.cch.unam.mx/programasestudio2024" target="_blank">mapa curricular</a> del Colegio.</p>
+  <p>Puedes consultar en línea el <a href="https://www.cch.unam.mx/programasestudio" target="_blank">mapa curricular</a> del Colegio.</p>
 </section>
 <div class="w-full my-4 relative z-0">
   <div class="w-full bg-orangeown min-h-20 absolute translate-y-full origin-center z-0">
