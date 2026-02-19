@@ -8,7 +8,6 @@ ob_start();
   <div class=" w-full">
     <img class="max-w-screen-sm mx-auto" src="<?php echo ASSET_URL; ?>img/modulo-2/b2p2e1.webp" alt="Profesores CCH" />
   </div>
-  <p>Posteriormente, entre 2001 y 2004 se llevó a cabo una Revisión y Ajuste de los Programas de Estudio. Dos años después, en 2006, fue publicado el documento “Orientación y sentido de las áreas del Plan de Estudios Actualizado”, el cual describe ampliamente la orientación disciplinaria de las áreas y su sentido educativo.</p>
   <p class="font-bold text-greenown mt-5">En la historia del Colegio han existido tres Planes de Estudios:</p>
   <ol class="ol-alpha my-5">
     <li>El primero, correspondiente al año 1971, con el que nace el CCH y que se describe en el documento conocido como Gaceta Amarilla, revisado en el módulo anterior.</li>
