@@ -59,7 +59,7 @@ ob_start();
       </tbody>
     </table>
   </div>
-  <p class="my-10">En el último proceso de revisión y ajuste de los programas de estudio que concluyó en 2024, la estructura de los mismos quedó conformada por los siguientes apartados:</p>
+  <p class="my-10">Por otro lado, en el último proceso de revisión y ajuste de los programas de estudio que concluyó en 2024, la estructura de los mismos quedó conformada por los siguientes apartados:</p>
 </section>
 <div class="w-full my-4 relative z-0">
   <div class="w-full bg-greenown min-h-20 absolute translate-y-full origin-center z-0">

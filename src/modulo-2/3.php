@@ -18,7 +18,7 @@ ob_start();
   </ol>
   <p>El Plan de Estudios del CCH estructura las asignaturas en cuatro áreas de conocimiento: <strong>Ciencias Experimentales</strong>, <strong>Histórico-Social</strong>, <strong>Talleres de Lenguaje y Comunicación</strong> y <strong>Matemáticas</strong>. Las primeras corresponden a los dos tipos de acercamiento a la realidad que rodea al ser humano: el de las ciencias naturales y el de las ciencias sociales. Por otro lado, se encuentran los dos tipos de lenguajes que se manifiestan a través de sistemas de signos variados y numerosos: la lengua y las matemáticas.</p>
   <!--   <button class="primary" onclick="window.dialog1.showModal();">Open Dialog</button> -->
-  <p class="text-2xl leading-relaxed">Cada Área agrupa un conjunto de materias que comparten aspectos epistemológicos, enfoques y métodos, con implicaciones en su abordaje didáctico (CCH, 1996). <strong>Haz clic para conocerlas mejor</strong>: 👇</p>
+  <p class="text-2xl leading-relaxed">Cada Área agrupa un conjunto de materias que comparten aspectos epistemológicos, enfoques y métodos, con implicaciones en su abordaje didáctico. <strong>Haz clic para conocerlas mejor</strong>: 👇</p>
 </section>
 <div class="w-full bg-greenown/30 py-6 my-5">
   <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 max-w-screen-md mx-auto text-center">

@@ -8,9 +8,7 @@ ob_start();
   <div class=" w-full">
     <img class="max-w-screen-sm mx-auto" src="<?php echo ASSET_URL; ?>img/modulo-2/b2p2e1.webp" alt="Profesores CCH" />
   </div>
-  <p>En la historia del Colegio han existido dos Planes de Estudios: el del año 1971, con el que nace el CCH; y el vigente, aprobado en 1996. Éste último es el producto del trabajo desarrollado por la comunidad docente y la institución durante cinco años (de 1991 a 1996). A pesar de las modificaciones realizadas, el Plan de Estudios de 1996 conserva los rasgos esenciales del proyecto educativo original del Colegio (CCH, 1996).</p>
   <p>Posteriormente, entre 2001 y 2004 se llevó a cabo una Revisión y Ajuste de los Programas de Estudio. Dos años después, en 2006, fue publicado el documento “Orientación y sentido de las áreas del Plan de Estudios Actualizado”, el cual describe ampliamente la orientación disciplinaria de las áreas y su sentido educativo.</p>
-  <p>En el año 2009, el CCH inició un proceso de Actualización de los Programas de Estudio que concluyó en noviembre de 2016. Más recientemente, en el ciclo escolar 2023-2024 se realizó el último proceso de Revisión y Ajuste de los Programas de Estudio.</p>
   <p class="font-bold text-greenown mt-5">En la historia del Colegio han existido tres Planes de Estudios:</p>
   <ol class="ol-alpha my-5">
     <li>El primero, correspondiente al año 1971, con el que nace el CCH y que se describe en el documento conocido como Gaceta Amarilla, revisado en el módulo anterior.</li>
