@@ -35,7 +35,7 @@
     },
     "Módulo 2": {
       "url": "/modulo-2",
-      "publicado": false,
+      "publicado": true,
       "target": "_self",
       "nombre": "Módulo 2. La metodología didáctica en las áreas del Colegio",
       "paginas": [
