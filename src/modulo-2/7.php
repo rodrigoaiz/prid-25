@@ -13,7 +13,7 @@ ob_start();
   <p>En forma conjunta, la información de <strong>la planeación didáctica conforma un plan de acción integral, que permite dar claridad a los fundamentos educativos que orientarán el proceso de enseñanza aprendizaje</strong>. La manera en la que las y los docentes estructuran la enseñanza, la distribución del tiempo, las actividades que asignan al estudiantado para el trabajo en el aula, los recursos educativos, las estrategias, los mecanismos de evaluación y sus propias expectativas de la clase son algunas de las perspectivas que hoy en día se consideran como parte de una enseñanza eficaz (Murillo, Martínez y Hernández, 2011). A esto se suma el andamiaje necesario para que el alumnado construya los conocimientos conceptuales, procedimentales y actitudinales; la práctica para aplicarlos y emplearlos en diversas situaciones; lo que debe ser reflejado dentro y fuera del aula mediante la planeación docente de su asignatura (Ascencio, 2016).</p>
   <p><strong>La planeación también debe considerar el análisis de varios componentes</strong> como el tamaño del grupo, las características del estudiantado (edad, intereses, conocimientos previos) y las condiciones de infraestructura escolar, entre otros aspectos. En la planeación didáctica se refleja la metodología más adecuada para el logro de los aprendizajes, así como el sistema de evaluación que permita tomar decisiones encaminadas a mejorar los aprendizajes del estudiantado y que reflejen su desempeño a lo largo de la asignatura.</p>
   <p>Entre las ventajas que se derivan de la elaboración y uso de la planeación didáctica de un curso están el facilitar al profesorado la realización de sus funciones a partir de una adecuada organización y optimización del tiempo para el logro de los propósitos establecidos, generar una visión del curso completo, así como establecer condiciones para que las y los jóvenes adquieran una formación homogénea (Haro del Real, 1994); además es la base para el inicio de la práctica docente reflexiva.</p>
-  <h2 class="my-10 leading-relaxed">La planeación en la práctica: Del programa institucional o indicativo y el programa operativo</h2>
+  <h2 class="my-10 leading-relaxed">Del programa institucional o indicativo al programa operativo</h2>
   <p>El <strong>programa institucional o indicativo es la guía que debe atender y respetar el profesorado</strong>, pero “corresponde a este hacer culminar desde su situación personal el ejercicio de la libertad de enseñanza, especificando contenidos, seleccionando las actividades más adecuadas contribuyendo a evaluar los programas a partir de los resultados de su práctica, compartiendo con los demás profesores sus cuestionamientos y propuestas” (Robles y Bazán, 1994; p.4). Así, en el ámbito de la libertad de cátedra, le corresponde al profesorado enriquecer su docencia con sus ideas propias, experiencias y valores.</p>
   <img class="w-2/3 mx-auto" src="<?php echo ASSET_URL; ?>img/modulo-2/b5p04i03.webp" alt="Alumnos CCH" />
   <p>Este proceso culmina con la elaboración escrita de un <strong>programa operativo, con base en el institucional, en el cual se detallan con mayor precisión los contenidos temáticos, las estrategias, las actividades, las formas de trabajo y los criterios de evaluación; así como la bibliografía</strong>.</p>
@@ -31,7 +31,7 @@ ob_start();
 <section>
   <?php ob_start(); ?>
   <ol class="ol-number">
-    <li>Realiza la planeación didáctica general de una Unidad de tu Programa de Estudio de la materia que inscribiste; para ello, descarga el <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad4_formato_2025.docx'; ?>">formato</a> en el que deberás realizar tu actividad y consulta el ejemplo que se te proporciona.</li>
+    <li>Realiza la planeación didáctica general de una Unidad de tu Programa de Estudio de la materia que inscribiste; para ello, descarga el <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad4_formato_2026.docx'; ?>">formato</a> en el que deberás realizar tu actividad y consulta el ejemplo que se te proporciona.</li>
     <li>Guarda tu archivo (.doc o .pdf) bajo el siguiente formato: Nombre_Apellido_Actividad01. Ejemplo: <strong>Victoria_García_Actividad04</strong></li>
     <li>
       <p>Sube tu archivo para que pueda ser revisado por tu impartidor (en formato PDF o JPG; recuerda que el peso máximo debe ser de 10 MB).</p>
@@ -41,7 +41,7 @@ ob_start();
         <li>Si quieres hacer cambios da clic en <strong>Editar envío</strong> y después en <strong>Guardar cambios</strong>.</li>
       </ul>
     </li>
-    <li>Consulta los <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad4_Rubrica.pdf'; ?>">criterios de evaluación</a> de la actividad.</li>
+    <li>Consulta los <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad4_Rubrica26.pdf'; ?>">criterios de evaluación</a> de la actividad.</li>
   </ol>
   <?php
   $ActividadContent = ob_get_clean();

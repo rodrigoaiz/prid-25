@@ -96,8 +96,8 @@ ob_start();
   <?php ob_start(); ?>
   <ol class="ol-number">
     <li>Descarga el documento <a href="https://www.cch.unam.mx/sites/default/files/OrientacionSentidoAreas_2025.pdf" target="_blank">Orientación y Sentido de las Áreas 2025</a> y lee el apartado referente al área a la que corresponde la materia que inscribiste.</li>
-    <li>Lee el <a href="https://www.cch.unam.mx/programasestudio" target="_blank">Programa de Estudios 2024</a> de la materia que inscribiste.</li>
-    <li>A partir de tus lecturas, completa el siguiente Cuadro Comparativo. Descarga el <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad1_formato_2025.docx'; ?>">formato</a> en el que deberás realizar tu actividad.</li>
+    <li>Lee el <a href="https://www.cch.unam.mx/programasestudio" target="_blank">Programa de Estudios vigente</a> de la materia que inscribiste.</li>
+    <li>A partir de tus lecturas, completa el siguiente Cuadro Comparativo. Descarga el <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad1_formato_2026.docx'; ?>">formato</a> en el que deberás realizar tu actividad.</li>
     <li>Guarda tu archivo (.doc o .pdf) bajo el siguiente formato: Nombre_Apellido_Actividad01. Ejemplo: <strong>Victoria_García_Actividad01</strong></li>
     <li>
       <p>Sube tu archivo para que pueda ser revisado por tu impartidor (en formato PDF o JPG; recuerda que el peso máximo debe ser de 10 MB).</p>
@@ -107,7 +107,7 @@ ob_start();
         <li>Si quieres hacer cambios da clic en <strong>Editar envío</strong> y después en <strong>Guardar cambios</strong>.</li>
       </ul>
     </li>
-    <li>Consulta los <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad1_Rubrica.pdf'; ?>">criterios de evaluación</a> de la actividad.</li>
+    <li>Consulta los <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad1_Rubrica26.pdf'; ?>">criterios de evaluación</a> de la actividad.</li>
   </ol>
   <?php
   $ActividadContent = ob_get_clean();

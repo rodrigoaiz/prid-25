@@ -4,12 +4,16 @@ $currentPageId = 9;
 ob_start();
 ?>
 <section>
+  <!--
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 my-5 items-center">
     <article>
       Para que el proyecto curricular de cualquier sistema o institución educativa se materialice, es preciso que sea plasmado en distintos niveles, que van de lo macro a lo micro, y son conocidos como niveles de concreción curricular. En el caso del Colegio, el primer nivel de concreción está constituido por el Modelo Educativo, el cual fue descrito en el primer módulo. En el segundo nivel de concreción se ubican el Plan y los Programas de Estudio; y en el tercero, la planeación de clase que el profesorado realiza para llevar a cabo con el estudiantado (programación de aula).
     </article>
+
     <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/ICFZHRgaxHg?si=1Em0cCOfRa5r-fCq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+    </div>
+  -->
+  <p>Para que el proyecto curricular de cualquier sistema o institución educativa se materialice, es preciso que sea plasmado en distintos niveles, que van de lo macro a lo micro, y son conocidos como niveles de concreción curricular. En el caso del Colegio, el primer nivel de concreción está constituido por el Modelo Educativo, el cual fue descrito en el primer módulo. En el segundo nivel de concreción se ubican el Plan y los Programas de Estudio; y en el tercero, la planeación de clase que el profesorado realiza para llevar a cabo con el estudiantado (programación de aula).</p>
   <p>El Plan de Estudios establece la organización y secuenciación de las materias obligatorias y optativas que el estudiantado debe cursar para acreditar el bachillerato.</p>
   <p>Por su parte, los Programas de Estudio especifican los propósitos, los aprendizajes, los contenidos temáticos y la metodología de trabajo a seguir en cada materia, por lo que constituyen una guía imprescindible para la planeación, desarrollo y evaluación de los cursos.</p>
   <div class="max-w-screen-md mx-auto my-5">
