@@ -10,59 +10,6 @@ ob_start();
   $imageSrc = ASSET_URL . 'img/modulo-3/b3p3e1.webp';
   renderImageComponent($imageSrc, 'justify-start');
   ?>
-  <?php ob_start(); ?>
-  <ol class="ol-number">
-    <li>
-      <p>Consulta el siguiente material y realiza la lectura del <a target="_blank" href="<?php echo PATH_DOCS . 'actividad3_01_constructivismo_evaluacion_educativa.pdf'; ?>">Capítulo 8. Constructivismo y evaluación educativa</a> de Frida Díaz-Barriga Arceo y Gerardo Hernández Rojas (pp. 305-373).</p>
-      <p class="text-sm">*Lectura optativa: <a target="_blank" href="<?php echo PATH_DOCS . 'actividad3_02_la_evaluacion.pdf'; ?>">Capítulo 8. Evaluación</a> de Antoni Zabala Vidiella (pp. 203-230).</p>
-    </li>
-    <li>Con base en la información consultada de los materiales elabora un mapa mental; considera en su diseño los elementos señalados en la siguiente <a target="_blank" href="<?php echo PATH_DOCS . 'actividad4_01_rubrica_Mapa_ConstructivyEvaluac.pdf'; ?>">rúbrica de evaluación</a>.</li>
-    <li>Para conocer en qué consiste y cómo se elabora un mapa mental, revisa el siguiente <a href="https://www.youtube.com/watch?v=L5LLjFnjXco" target="_blank">video</a>. </li>
-    <li>Nombra tu archivo de la siguiente manera: <em>Nombre_Apellido_Actividad04M3</em>.</li>
-    <li>Adjunta tu archivo para que pueda ser revisado por tu asesor, como imagen o PDF conun máximo de 10 MB.</li>
-    <li>No olvides dar clic en el botón de “entregar” o “guardar” para que lo pueda visualizar el impartidor.</li>
-  </ol>
-  <p><strong>NOTA:</strong> Lectura optativa: <a target="_blank" href="<?php echo PATH_DOCS . 'actividad2_03_practica_educativa.pdf'; ?>">Capítulo 3. Las secuencias didácticas y las secuencias de contenido</a> de Antoni Zavala Vidiella (pp. 53-89).</p>
-  <?php
-  $ActividadContent = ob_get_clean();
-  include BASE_PATH . '/include/Actividad.php';
-  renderActividad($ActividadContent, "Actividad 4 : Mapa mental sobre Constructivismo y evaluación");
-  ?>
-  <?php
-  include BASE_PATH . '/include/ActividadIframe.php';
-  renderActividadIframe('b3act4');
-  ?>
-  <div class="my-5">
-    <img class="mx-auto block" src="<?php echo ASSET_URL; ?>img/modulo-3/b3p3e2.webp" alt="comunidad cch" />
-  </div>
-  <?php ob_start(); ?>
-  <ol class="ol-number">
-    <li>Con base en la retroalimentación que recibiste en tu primera entrega, revisa, corrige y termina el diseño de tu secuencia didáctica. En esta ocasión, es necesario que incluyas los instrumentos de evaluación y todos los anexos, así como que realices una reflexión al final.</li>
-    <li>
-      <p>La secuencia debe incluir:</p>
-      <ol class="ol-alpha">
-        <li>Datos generales (Título de la Secuencia didáctica, Profesor(a), Asignatura, Semestre escolar, Plantel, número de sesiones, número de alumnos y fecha de elaboración).</li>
-        <li>Programa (Unidad, propósito(s), aprendizajes, contenidos temáticos).</li>
-        <li>Actividades de enseñanza-aprendizaje (inicio, desarrollo y síntesis).</li>
-        <li>Instrumentos de evaluación (listas de cotejo, rúbricas, portafolios, etcétera).</li>
-        <li>Referencias de apoyo (bibliografía de consulta para los alumnos y bibliografía de consulta para el profesor).</li>
-        <li>Anexos</li>
-        <li>Reflexión sobre la forma en la que se aplican los principios del Constructivismo y el Modelo Educativo en la secuencia didáctica planteada (mínimo tres párrafos y máximo una cuartilla).</li>
-      </ol>
-    </li>
-    <li>Para la elaboración de tu trabajo utiliza el siguiente <a target="_blank" href="<?php echo PATH_DOCS . 'actividad5_02_formato_secuencia_didactica.docx'; ?>">formato de secuencia didáctica(versión final)</a>.</li>
-    <li>En el diseño de tu secuencia considera los elementos señalados en la <a target="_blank" href="<?php echo PATH_DOCS . 'actividad5_01_lista_cotejo_secuencia_didactica_EntregaFinal.pdf'; ?>">lista de cotejo</a> de secuencia didáctica (versión final).</li>
-    <li>Si tienes alguna duda, consulta a tus impartidores.</li>
-    <li>Nombra tu archivo de la siguiente manera: <em>Nombre_Apellido_Actividad05M3</em>.</li>
-    <li>Adjunta tu archivo para que pueda ser revisado por tu asesor, como imagen o PDF con un máximo de 10 MB.</li>
-    <li>No olvides dar clic en el botón de “entregar” o “guardar” para que lo pueda visualizar el impartidor.</li>
-  </ol>
-  <?php
-  $ActividadContent = ob_get_clean();
-  renderActividad($ActividadContent, "Actividad 5 : Diseño de una secuencia didáctica (versión final)");
-  renderActividadIframe('b3act5');
-  ?>
-  <h2 class="mt-10">Lecturas de apoyo</h2>
   <p>De acuerdo con la naturaleza de la materia que inscribiste al PRID, se realizarán lecturas disciplinarias indicadas por tus impartidores, así como las actividades que se deriven de ellas.</p>
 </section>
 <div class="w-full my-4 relative z-0">

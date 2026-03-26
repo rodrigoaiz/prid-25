@@ -59,7 +59,7 @@
         {"nombre": "Módulo 3", "url": "/modulo-3", "id": 17},
         {"nombre": "Introducción", "url": "/modulo-3/1.php", "id": 18},
         {"nombre": "Actividad 1, 2 y 3", "url": "/modulo-3/2.php", "id": 19},
-        {"nombre": "Actividad 4 y 5", "url": "/modulo-3/3.php", "id": 20},
+        {"nombre": "Lecturas de apoyo", "url": "/modulo-3/3.php", "id": 20},
         {"nombre": "Fuentes de Consulta", "url": "/modulo-3/4.php", "id": 21}
       ]
     },
@@ -78,7 +78,7 @@
       ]
     },
     "Cronograma": {
-      "url": "/assets/docs/Modulo2_Cronograma.pdf",
+      "url": "/assets/docs/m3-cronograma-26.pdf",
       "publicado": true,
       "target": "_blank"
     },
