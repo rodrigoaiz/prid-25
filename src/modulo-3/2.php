@@ -12,7 +12,7 @@ ob_start();
   ?>
   <?php ob_start(); ?>
   <ol class="ol-number">
-    <li>Consulta el siguiente material y realiza la lectura del texto <a target="_blank" href="<?php echo PATH_DOCS . 'm3a1-lectura-practica-educativa-como-ensenar.pdf'; ?>">"Las secuencias didácticas y las secuencias de contenido"</a> ecuencias de contenido” de Antoni Zavala Vidiella (pp. 53-89).  </li>
+    <li>Consulta el siguiente material y realiza la lectura del texto <a target="_blank" href="<?php echo PATH_DOCS . 'm3a1-lectura-practica-educativa-como-ensenar.pdf'; ?>">"Las secuencias didácticas y las secuencias de contenido"</a> de Antoni Zavala Vidiella (pp. 53-89).  </li>
     <li>Con base en el texto, <strong>elabora un mapa conceptual sobre estrategias de enseñanza</strong>. Revisa el siguiente <a href="https://www.youtube.com/watch?v=q8fvXaUX5f4" target="_blank">video</a> en el que se explica en qué consiste y cómo se elabora un mapa conceptual.</li>
     <li>Para la realización de tu producto, considera los elementos señalados en la <a target="_blank" href="<?php echo PATH_DOCS . 'm3-act-1-rubrica-evaluacion.pdf'; ?>">rúbrica de evaluación</a>.</li>
     <li>Nombra tu archivo de la siguiente manera: <em>Nombre_Apellido_Actividad01M3</em>.</li>
