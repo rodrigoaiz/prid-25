@@ -52,7 +52,7 @@
     },
     "Módulo 3": {
       "url": "/modulo-3",
-      "publicado": false,
+      "publicado": true,
       "target": "_self",
       "nombre": "Módulo 3. Taller de planeación didáctica",
       "paginas": [
