@@ -29,7 +29,7 @@ ob_start();
       </ol>
     </li>
     <li>También es indispensable que revises cuidadosamente los <a target="_blank" href="<?php echo PATH_DOCS . 'act3-rubrica-26.pdf'; ?>">criterios de evaluación</a> de la actividad.</li>
-    <li>Sube tu video a una carpeta compartida digital (OneDrive o Google Drive) y comparte la liga para que pueda ser revisado por tus impartidores (en formato MP4). Nombra tu archivo de la siguiente manera: Nombre_Apellido_Actividad04.Ejemplo: <strong>Victoria_García_Actividad04</strong></li>
+    <li>Sube tu video a una carpeta compartida digital (OneDrive o Google Drive) y comparte la liga para que pueda ser revisado por tus impartidores (en formato MP4). Nombra tu archivo de la siguiente manera: Nombre_Apellido_Actividad03.Ejemplo: <strong>Victoria_García_Actividad03</strong></li>
     <li class="font-bold">
       <p>No olvides verificar que hayas dado los accesos y permisos para que tus impartidoras (es) puedan revisar el video.</p>
       <!--<p><strong>NOTA</strong>: para conocer cómo subir y compartir el video desde una carpeta digital consulta el siguiente <a href="https://n9.cl/g4eju" target="_blank">material</a>. </p>-->
