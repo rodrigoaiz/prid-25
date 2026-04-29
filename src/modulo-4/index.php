@@ -16,7 +16,7 @@ ob_start();
     <article>
       <h3 class="text-orangeown">Objetivo</h3>
       <div class="bg-greenown/70 object-center h-full text-darkown p-5 flex items-center">
-        <p class="text-2xl leading-relaxed">Diseñar, presentar y evaluar la planeación de una clase (a partir de la secuencia didáctica elaborada en el módulo anterior) para detectar sus alcances y limitaciones, con la finalidad de mejorar los procesos de enseñanza y aprendizaje en la materia o asignatura inscrita al PRID.</p>
+        <p class="text-2xl leading-relaxed">Diseñar, presentar y evaluar la planeación de una clase para detectar sus alcances y limitaciones, con la finalidad de mejorar los procesos de enseñanza y aprendizaje en la materia o asignatura inscrita al PRID.</p>
       </div>
     </article>
     <article>

@@ -39,13 +39,13 @@ ob_start();
         <li>Letra Arial 12 puntos, interlineado 1.5, márgenes normales y párrafos proporcionados.</li>
       </ul>
     </li>
-    <li>Descarga y revisa cuidadosamente los <a target="_blank" href="<?php echo PATH_DOCS . 'Actividad_5_Reflexion.pdf'; ?>">criterios de evaluación</a>.</li>
+    <li>Descarga y revisa cuidadosamente los <a target="_blank" href="<?php echo PATH_DOCS . 'act4-cotejo-26.pdf'; ?>">criterios de evaluación</a>.</li>
 
   </ol>
   <?php
   $ActividadContent = ob_get_clean();
   renderActividad($ActividadContent, "Reflexión escrita sobre mi práctica docente");
-  renderActividadIframe('b4act5');
+  renderActividadIframe('b4act4');
   ?>
 
 </section>
