@@ -44,7 +44,7 @@ ob_start();
   </ol>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad($ActividadContent, "Reflexión escrita sobre mi práctica docente");
+  renderActividad($ActividadContent, "Actividad 4 - Reflexión final sobre la práctica docente");
   renderActividadIframe('b4act4');
   ?>
 

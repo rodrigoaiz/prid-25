@@ -25,7 +25,7 @@ ob_start();
   </div>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad($ActividadContent, "Actividad 1 : Reflexión sobre la planeación de clases");
+  renderActividad($ActividadContent, "Actividad 1 : Reflexión sobre la planeación de clases (Lecturas)");
   renderActividadIframe('b4act1');
   ?>
 
@@ -63,7 +63,7 @@ ob_start();
   </ol>
   <?php
   $ActividadContent = ob_get_clean();
-  renderActividad($ActividadContent, "Actividad 2. Plan de clase (primera entrega)");
+  renderActividad($ActividadContent, "Actividad 2. Plan de clase");
   renderActividadIframe('b4act2');
   ?>
 
