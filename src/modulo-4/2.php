@@ -37,7 +37,7 @@ ob_start();
   <?php ob_start(); ?>
   <ol class="ol-number">
     <li>
-      <p>Elabora un plan de clase de <strong>dos horas de la temática asignada por tus impartidores (as)</strong>, considerando todo lo aprendido en los módulos previos La planeación debe contener: </p>
+      <p>Elabora un plan de clase de <strong>90 minutos de la temática asignada por tus impartidores (as)</strong>, considerando todo lo aprendido en los módulos previos. La planeación debe contener: </p>
       <ol class="ol-alpha">
         <li>Datos generales</li>
         <li>Elementos del Programa de estudios</li>
@@ -56,7 +56,7 @@ ob_start();
         <li>¿De qué forma se concretan en tu planeación de clase los principios del Modelo Educativo del CCH? </li>
       </ol>
     </li>
-    <li>Para la elaboración de tu plan de clase utiliza el siguiente <a target="_blank" href="<?php echo PATH_DOCS . 'act2-plan-clase-primera-entrega.docx'; ?>">formato</a>. También es importante que consultes el siguiente ejemplo.</li>
+    <li>Para la elaboración de tu plan de clase utiliza el siguiente <a target="_blank" href="<?php echo PATH_DOCS . 'm4-act2-criterios.docx'; ?>">formato</a>.</li>
     <li>Descarga y revisa cuidadosamente los <a target="_blank" href="<?php echo PATH_DOCS . 'act2-rubrica-26.pdf'; ?>">criterios de evaluación</a> de esta actividad.</li>
     <li>Nombra tu archivo de la siguiente manera: Nombre_Apellido_Actividad02M4. Ejemplo: <strong>Victoria_García_Actividad02M4</strong></li>
     <li>Sube tu archivo para que pueda ser revisado y retroalimentado por tus impartidores (en formato PDF o JPG; recuerda que el peso máximo debe ser de 10 MB).</li>
