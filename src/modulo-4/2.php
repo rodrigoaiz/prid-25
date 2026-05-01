@@ -56,7 +56,7 @@ ob_start();
         <li>¿De qué forma se concretan en tu planeación de clase los principios del Modelo Educativo del CCH? </li>
       </ol>
     </li>
-    <li>Para la elaboración de tu plan de clase utiliza el siguiente <a target="_blank" href="<?php echo PATH_DOCS . 'm4-act2-criterios.docx'; ?>">formato</a>.</li>
+    <li>Para la elaboración de tu plan de clase utiliza el siguiente <a target="_blank" href="<?php echo PATH_DOCS . 'm4-act2-criterios.pdf'; ?>">formato</a>.</li>
     <li>Descarga y revisa cuidadosamente los <a target="_blank" href="<?php echo PATH_DOCS . 'act2-rubrica-26.pdf'; ?>">criterios de evaluación</a> de esta actividad.</li>
     <li>Nombra tu archivo de la siguiente manera: Nombre_Apellido_Actividad02M4. Ejemplo: <strong>Victoria_García_Actividad02M4</strong></li>
     <li>Sube tu archivo para que pueda ser revisado y retroalimentado por tus impartidores (en formato PDF o JPG; recuerda que el peso máximo debe ser de 10 MB).</li>
